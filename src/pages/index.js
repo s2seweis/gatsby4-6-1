@@ -1,12 +1,14 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Layout from "../components/layout"
-import ArticlesGrid from "../components/articles-grid"
-import Seo from "../components/seo"
-import Headings from "../components/headings"
+import React from 'react';
+import {useStaticQuery, graphql} from 'gatsby';
+import Layout from '../components/layout';
+import ArticlesGrid from '../components/articles-grid';
+import Seo from '../components/seo';
+import Headings from '../components/headings';
+
+import infoText from '../components/info';
 
 const IndexPage = () => {
-  const { allStrapiArticle, strapiGlobal } = useStaticQuery(graphql`
+  const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
     query {
       allStrapiArticle {
         nodes {
@@ -18,11 +20,11 @@ const IndexPage = () => {
         siteDescription
       }
     }
-  `)
+  `);
 
   return (
     <Layout>
-      <Seo seo={{ metaTitle: "Home" }} />
+      <Seo seo={{metaTitle: 'Home'}} />
       <Headings
         title={strapiGlobal.siteName}
         description={strapiGlobal.siteDescription}
@@ -30,8 +32,11 @@ const IndexPage = () => {
       <main>
         <ArticlesGrid articles={allStrapiArticle.nodes} />
       </main>
-    </Layout>
-  )
-}
 
-export default IndexPage
+
+
+    </Layout>
+  );
+};
+
+export default IndexPage;
