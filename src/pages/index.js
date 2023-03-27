@@ -5,7 +5,6 @@ import ArticlesGrid from '../components/articles-grid';
 import Seo from '../components/seo';
 import Headings from '../components/headings';
 
-import infoText from '../components/info';
 
 const IndexPage = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
