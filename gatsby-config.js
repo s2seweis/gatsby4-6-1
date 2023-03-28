@@ -11,7 +11,7 @@ module.exports = {
       options: {
 
         // local
-        apiURL:  "http://localhost:1337",
+        // apiURL:  "http://localhost:1337",
 
 
         // deployed
