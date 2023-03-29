@@ -8,15 +8,27 @@ const ArticleCard = ({ article }) => {
       to={`/article/${article.slug}`}
       className="overflow-hidden rounded-lg bg-white shadow-sm transition-shadow hover:shadow-md"
     >
+
+
+
       <GatsbyImage
         image={getImage(article.cover?.localFile)}
         alt={article.cover?.alternativeText}
       />
+
+
+
       <div className="px-4 py-4">
         <h3 className="font-bold text-neutral-700">{article.title}</h3>
+
+        <h3>Test</h3>
+
         <p className="line-clamp-2 mt-2 text-neutral-500">
           {article.description}
         </p>
+
+
+
       </div>
     </Link>
   )
