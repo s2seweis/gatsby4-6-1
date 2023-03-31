@@ -69,7 +69,9 @@ module.exports = {
           },
 
 
-          'info'
+          'info',
+
+          'me'
 
           
         ],
