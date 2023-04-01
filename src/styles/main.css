@@ -952,6 +952,8 @@ Contact Page
   text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
+
+
 .submit-btn {
   display: block;
   width: 100%;
@@ -960,4 +962,9 @@ Contact Page
   border-bottom-right-radius: var(--radius);
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+}
+
+
+.test100 {
+  background-color: red;
 }
