@@ -71,7 +71,9 @@ module.exports = {
 
           'info',
 
-          'me'
+          'me',
+
+          'aboutnew'
 
           
         ],
