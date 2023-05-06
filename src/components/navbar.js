@@ -13,13 +13,7 @@ const Navbar = () => {
           Info
         </Link>
 
-        <Link to="/me" className="text-xl font-medium">
-          Me
-        </Link>
-
-        <Link to="/aboutnew" className="text-xl font-medium">
-          AboutNew
-        </Link>
+        
 
         <div className="flex flex-row items-baseline justify-end">
           <Link className="font-medium" to="/about">

@@ -11,18 +11,20 @@ module.exports = {
       options: {
 
         // local
-          apiURL: "http://127.0.0.1:1337",
+          // apiURL: "http://127.0.0.1:1337",
 
 
 
         // deployed
-        // apiURL: 'https://strapi4-8-2.herokuapp.com',
+        apiURL: 'https://strapi4-8-2.herokuapp.com',
 
         //delpoyed
-        // accessToken: '9a09cc791f40d7aaed5a6e4536b2c7fac9dc6b04521a59fb34b342ef7c1bc8d38664d64b888e78db09fea3ccd46c1eebd984d27929a7ef1ae1f3de03b83789c64e4cfd26bcff79375e6c32a4445ce0ae1f024b5c03f0c1826111c888b7fd734405f6c46a2a617fd522e44583b744f8b7bc9bdd4aa3dfd7a969144c23023d1ddb',
+        accessToken: '9a09cc791f40d7aaed5a6e4536b2c7fac9dc6b04521a59fb34b342ef7c1bc8d38664d64b888e78db09fea3ccd46c1eebd984d27929a7ef1ae1f3de03b83789c64e4cfd26bcff79375e6c32a4445ce0ae1f024b5c03f0c1826111c888b7fd734405f6c46a2a617fd522e44583b744f8b7bc9bdd4aa3dfd7a969144c23023d1ddb',
 
         //local
-        accessToken: "17b048a03fd80741931d6a4ef6f6877b808d90b5fe095303a96338ca429bcbe3e0ac5fc1a19700420e2b3c38fdccd3e4b03f54f3df305eecade9b8cac13434e0c9314040f0ad83c0e180bb3fe2ea984351f409d85e4e8ee58ee2d28232b15015a390bc8a54e18824506e17c3a1c6cac4320b39895aa808a3012252ae2da06929",
+        // accessToken: "17b048a03fd80741931d6a4ef6f6877b808d90b5fe095303a96338ca429bcbe3e0ac5fc1a19700420e2b3c38fdccd3e4b03f54f3df305eecade9b8cac13434e0c9314040f0ad83c0e180bb3fe2ea984351f409d85e4e8ee58ee2d28232b15015a390bc8a54e18824506e17c3a1c6cac4320b39895aa808a3012252ae2da06929",
+        
+        
         collectionTypes: [
           {
             singularName: 'article',
@@ -71,9 +73,7 @@ module.exports = {
 
           'info',
 
-          'me',
-
-          'aboutnew'
+          'me'
 
           
         ],
