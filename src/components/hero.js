@@ -4,6 +4,8 @@ import {StaticImage} from 'gatsby-plugin-image';
 
 import group from '../assets/images/group.png'
 
+import {main} from '../components/main.css'
+
 const Hero = () => {
   return (
     <header className="hero" style={{height:"100vh"}} >
@@ -11,10 +13,10 @@ const Hero = () => {
         <article className="hero-info">
           <div>
 
-            <h1 style={{textAlign: 'center'}}>i'm sebastian</h1>
+            {/* <h1 style={{textAlign: 'center'}}>i'm sebastian</h1>
             <h4 style={{textAlign: 'center', color: 'white'}}>
               freelance web and mobile UI/UX Designer
-            </h4>
+            </h4> */}
             <div style={{margin: 'auto'}} className="underline" />
 
             <div
@@ -22,9 +24,9 @@ const Hero = () => {
               style={{display: 'flex', justifyContent: 'center'}}
             >
 
-              <Link style={{background: 'white'}} to="/infopage" className="btn">
+              {/* <Link style={{background: 'white'}} to="/infopage" className="btn">
                 contact me
-              </Link>
+              </Link> */}
 
             </div>
 
@@ -53,13 +55,26 @@ const Hero = () => {
           </div>
         </article>
 
-        <StaticImage
-        style={{width:"65%", margin:"auto"}}
-          src="../assets/images/group.png"
+
+
+<div className='hero1'
+// style={{height:"100vh", display:"grid", gridTemplateColumns:"repeat(12,1fr)"}}
+>
+<div
+style={{gridColumn:"3/span 8", gridRow:"1/1", marginTop:"40%"}}
+ className='article'>Water</div>
+<div
+style={{gridColumn:"7/-1", gridRow:"1/1", marginTop:"40%"}}
+
+ className='image-wrapper1'>Fire</div>
+</div>
+
+        {/* <StaticImage
+        style={{width:"100%", margin:"auto", height:"91vh"}}
+          src="../assets/images/img-hero.png"
           alt="portfolio"
           className="hero-img"
-        //   placeholder="blurred"
-        />
+        /> */}
 
         {/* <img src={heroImg} alt="portfolio" className="hero-img-svg" /> */}
       </section>
