@@ -6,6 +6,11 @@ import Seo from '../components/seo';
 import Headings from '../components/headings';
 
 
+import Hero from '../components/hero';
+
+
+
+
 const IndexPage = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
     query {
@@ -24,6 +29,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo seo={{metaTitle: 'Home'}} />
+      <Hero 
+      />
       <Headings
         title={strapiGlobal.siteName}
         description={strapiGlobal.siteDescription}
