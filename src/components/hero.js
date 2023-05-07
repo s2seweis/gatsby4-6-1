@@ -2,13 +2,13 @@ import React from 'react';
 import {Link} from 'gatsby';
 import {StaticImage} from 'gatsby-plugin-image';
 
-import group from '../assets/images/group.png'
+import group from '../assets/images/group.png';
 
-import {main} from '../components/main.css'
+import {main} from '../components/main.css';
 
 const Hero = () => {
   return (
-    <header className="hero" style={{height:"100vh"}} >
+    <header className="hero" style={{}}>
       <section className="section-center hero-center">
         <article className="hero-info">
           <div>
@@ -40,7 +40,6 @@ const Hero = () => {
                 );
               })} */}
 
-
             </div>
 
             {/* <a
@@ -55,23 +54,24 @@ const Hero = () => {
           </div>
         </article>
 
+        <div className="hero1">
 
+          {/* <div className="mobile-margin"> */}
 
-<div className='hero1'
-// style={{height:"100vh", display:"grid", gridTemplateColumns:"repeat(12,1fr)"}}
->
-<div
-style={{gridColumn:"3/span 8", gridRow:"1/1", marginTop:"40%"}}
- className='article'>Water</div>
-<div
-style={{gridColumn:"7/-1", gridRow:"1/1", marginTop:"40%"}}
+            <div className="article1">
+              Water
+            </div>
+            <div className="image-wrapper1">
+              Fire
+            </div>
 
- className='image-wrapper1'>Fire</div>
-</div>
+          {/* </div> */}
+
+        </div>
 
         {/* <StaticImage
         style={{width:"100%", margin:"auto", height:"91vh"}}
-          src="../assets/images/img-hero.png"
+          src="../assets/images/group.png"
           alt="portfolio"
           className="hero-img"
         /> */}

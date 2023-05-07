@@ -3,6 +3,67 @@
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(12,1fr);
-    background: rgb(227, 222, 222);
+    /* background: grey; */
+    background-image: linear-gradient(rgb(91, 190, 99), rgb(148, 148, 70));
+    /* margin-top: -8rem; */
 
 }
+
+@media screen and (max-width: 760px) {
+    .hero1 {
+      /* display: block; */
+      /* align-items: center; */
+      grid-template-columns: repeat(6,1fr);
+
+    }
+  }
+
+.article1 {
+
+grid-column: 2/span 4;
+margin: 100px auto 0px auto;
+/* margin: auto; */
+
+width: 250px;
+height: 250px;
+background: green;
+grid-row: 1/1;
+
+}
+
+@media screen and (min-width: 760px) {
+    .article1{
+      margin: 200px auto;
+      width: 300px;
+      height: 300px;
+      /* margin: 100px auto 20px auto; */
+    }
+  }
+
+.image-wrapper1 {
+    margin: 10% auto;
+    width: 250px;
+    height: 250px;
+    background: red;
+    grid-row: 2/2;
+    grid-column: 1/span3;
+
+
+
+}
+
+@media screen and (min-width: 760px) {
+    .image-wrapper1{
+      margin: -300px auto;
+      grid-column: 6/span3;
+      grid-row: 1/2;
+      margin-top: 200px;
+    }
+  }
+
+
+  .mobile-margin {
+
+    margin-top: 100px;
+
+  }
