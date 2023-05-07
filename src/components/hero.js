@@ -6,13 +6,24 @@ import {StaticImage} from 'gatsby-plugin-image';
 
 import {main} from '../components/main.css';
 
-import group from '../assets/images/group.png'
+import image1 from '../assets/images/image1.jpg'
 
 // import {main} from '../styles/main.css';
 
 const Hero = () => {
   return (
-    <header className="hero" style={{}}>
+    <header 
+    
+    
+    
+    
+    
+    className="hero" style={{}}>
+
+
+
+
+      
       <section className="section-center hero-center">
         <article className="hero-info">
           <div>
@@ -60,6 +71,8 @@ const Hero = () => {
 
         <div className="hero1">
 
+          
+
           <div className="article1">
 
             <h1 className='title-h1' style={{textAlign: 'center'}}>
@@ -70,9 +83,9 @@ const Hero = () => {
 
           <div className="image-wrapper1">
 
-            <div class="ui card" style={{width:"auto", marginTop:"-100px"}}>
+            <div class="ui card" style={{width:"auto"}}>
               <div class="image">
-                <img src={group} />
+                <img src={image1} />
               </div>
               <div class="content">
                 <div class="header">Matthew</div>
@@ -86,12 +99,7 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* <StaticImage
-              style={{marginTop: '40px'}}
-              src="../assets/images/group.png"
-              alt="portfolio"
-              className="hero-img"
-            /> */}
+           
 
           </div>
 
