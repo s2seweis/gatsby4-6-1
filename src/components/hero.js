@@ -62,9 +62,9 @@ const Hero = () => {
 
           {/* <div className="mobile-margin"> */}
 
-          {/* <div className="title1">
+          <div className="title2">
             Ice
-          </div> */}
+          </div>
 
           <div className="article1">
             Water
