@@ -54,23 +54,40 @@ const Hero = () => {
           </div>
         </article>
 
+        <div style={{marginTop:"100px", position:"absolute"}} className="title1">
+            Ice
+          </div>
+
         <div className="hero1">
 
           {/* <div className="mobile-margin"> */}
 
-            <div className="article1">
-              Water
-            </div>
-            <div className="image-wrapper1">
-              Fire
-            </div>
+          {/* <div className="title1">
+            Ice
+          </div> */}
+
+          <div className="article1">
+            Water
+          </div>
+
+          <div className="image-wrapper1">
+
+
+            <StaticImage
+              style={{marginTop:"40px"}}
+              src="../assets/images/group.png"
+              alt="portfolio"
+              className="hero-img"
+            />
+            {/* Fire */}
+          </div>
 
           {/* </div> */}
 
         </div>
 
         {/* <StaticImage
-        style={{width:"100%", margin:"auto", height:"91vh"}}
+          style={{width: '100%', margin: 'auto', height: '91vh'}}
           src="../assets/images/group.png"
           alt="portfolio"
           className="hero-img"

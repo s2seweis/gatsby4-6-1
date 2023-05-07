@@ -6,6 +6,7 @@
     /* background: grey; */
     background-image: linear-gradient(rgb(91, 190, 99), rgb(148, 148, 70));
     /* margin-top: -8rem; */
+    align-items: center;
 
 }
 
@@ -54,10 +55,12 @@ grid-row: 1/1;
 
 @media screen and (min-width: 760px) {
     .image-wrapper1{
-      margin: -300px auto;
+      /* margin: -300px auto; */
       grid-column: 6/span3;
       grid-row: 1/2;
-      margin-top: 200px;
+      width: 300px;
+      height: 300px;
+      /* margin-top: 200px; */
     }
   }
 
@@ -65,5 +68,18 @@ grid-row: 1/1;
   .mobile-margin {
 
     margin-top: 100px;
+
+  }
+
+
+  .title1 {
+
+    width: 60%;
+    height: 50px;
+    background: blue;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: none;
+    
 
   }
