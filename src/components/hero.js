@@ -2,9 +2,13 @@ import React from 'react';
 import {Link} from 'gatsby';
 import {StaticImage} from 'gatsby-plugin-image';
 
-import group from '../assets/images/group.png';
+// import group from '../assets/images/group.png';
 
 import {main} from '../components/main.css';
+
+import group from '../assets/images/group.png'
+
+// import {main} from '../styles/main.css';
 
 const Hero = () => {
   return (
@@ -54,35 +58,42 @@ const Hero = () => {
           </div>
         </article>
 
-        <div style={{marginTop:"100px", position:"absolute"}} className="title1">
-            Ice
-          </div>
-
         <div className="hero1">
 
-          {/* <div className="mobile-margin"> */}
-
-          <div className="title2">
-            Ice
-          </div>
-
           <div className="article1">
-            Water
+
+            <h1 className='title-h1' style={{textAlign: 'center'}}>
+              Bringing the flavors of the world to your kitchen.
+            </h1>
+
           </div>
 
           <div className="image-wrapper1">
 
+            <div class="ui card" style={{width:"auto", marginTop:"-100px"}}>
+              <div class="image">
+                <img src={group} />
+              </div>
+              <div class="content">
+                <div class="header">Matthew</div>
+                <div class="meta"><span class="date">Joined in 2015</span></div>
+                <div class="description">
+                  Matthew is a musician living in Nashville.
+                </div>
+              </div>
+              <div class="extra content">
+                <a><i aria-hidden="true" class="user icon" />22 Friends</a>
+              </div>
+            </div>
 
-            <StaticImage
-              style={{marginTop:"40px"}}
+            {/* <StaticImage
+              style={{marginTop: '40px'}}
               src="../assets/images/group.png"
               alt="portfolio"
               className="hero-img"
-            />
-            {/* Fire */}
-          </div>
+            /> */}
 
-          {/* </div> */}
+          </div>
 
         </div>
 

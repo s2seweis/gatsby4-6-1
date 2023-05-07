@@ -4,7 +4,8 @@
     height: 100vh;
     grid-template-columns: repeat(12,1fr);
     /* background: grey; */
-    background-image: linear-gradient(rgb(91, 190, 99), rgb(148, 148, 70));
+    background: white;
+
     /* margin-top: -8rem; */
     align-items: center;
 
@@ -22,30 +23,31 @@
 .article1 {
 
 grid-column: 2/span 4;
-margin: 100px auto 0px auto;
+margin: 30px auto 0px auto;
 /* margin: auto; */
 
 width: 250px;
+/* height: 250px; */
 height: auto;
-background: green;
+/* background: green; */
 grid-row: 1/1;
 
 }
 
 @media screen and (min-width: 760px) {
     .article1{
-      margin: 100px auto;
-      width: 300px;
-      height: 300px;
+      margin: auto;
+      width: auto;
+      /* height: 400px; */
       /* margin: 100px auto 20px auto; */
     }
   }
 
 .image-wrapper1 {
     margin: 10% auto;
-    width: 250px;
+    /* width: 250px; */
     height: 250px;
-    background: red;
+    /* background: red; */
     grid-row: 2/2;
     grid-column: 1/span3;
 
@@ -58,8 +60,8 @@ grid-row: 1/1;
       /* margin: -300px auto; */
       grid-column: 6/span3;
       grid-row: 1/2;
-      width: 300px;
-      height: 300px;
+      width: 80%;
+      /* height: 400px; */
       /* margin-top: 200px; */
     }
   }
@@ -75,7 +77,7 @@ grid-row: 1/1;
   .title1 {
 
     width: 60%;
-    height: 50px;
+    height: 200px;
     background: blue;
     margin-left: 20%;
     margin-right: 20%;
@@ -105,3 +107,68 @@ grid-row: 1/1;
       /* margin-top: 200px; */
     }
   }
+
+
+  h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-3);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+.title-h1 {
+
+
+  font-size: 3rem;
+
+
+}
+
+@media screen and (min-width: 760px) {
+  .title-h1{
+    font-size: 3rem;
+  }
+}

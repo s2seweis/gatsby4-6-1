@@ -8,6 +8,8 @@ import Headings from '../components/headings';
 
 import Hero from '../components/hero';
 
+import 'semantic-ui-css/semantic.min.css'
+
 
 
 
