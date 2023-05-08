@@ -199,3 +199,14 @@ p {
 .ui {
   margin-top: -100px;
 }
+
+.menu-landing {
+
+height: 100vh;
+
+}
+
+
+.ui.card:last-child {
+  margin-bottom: auto;
+}

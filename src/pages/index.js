@@ -10,6 +10,8 @@ import Hero from '../components/hero';
 
 import 'semantic-ui-css/semantic.min.css'
 
+import Overview from '../components/overview'
+
 
 
 
@@ -33,6 +35,7 @@ const IndexPage = () => {
       <Seo seo={{metaTitle: 'Home'}} />
       <Hero 
       />
+      <Overview/>
       <Headings
         title={strapiGlobal.siteName}
         description={strapiGlobal.siteDescription}
