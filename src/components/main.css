@@ -13,7 +13,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(12,1fr);
-    background: rgb(173,216,230);
+    background: rgb(232, 244, 248);
     
 
     background-image: url(../assets/images/image3.png);
@@ -186,7 +186,7 @@ p {
 
 @media screen and (min-width: 760px) {
   .title-h1{
-    font-size: 5rem;
+    font-size: 7rem;
   }
 }
 

@@ -80,7 +80,7 @@ const Hero = () => {
             </h1> */}
 
             <h1 className='title-h1' style={{textAlign: 'center'}}>
-              Solace Life
+              The Solace Life
             </h1>
 
             <h4 className='title-h1' style={{textAlign: 'center', fontSize:"1rem"}}>
