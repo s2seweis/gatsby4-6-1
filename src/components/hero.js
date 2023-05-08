@@ -75,9 +75,17 @@ const Hero = () => {
 
           <div className="article1">
 
-            <h1 className='title-h1' style={{textAlign: 'center'}}>
+            {/* <h1 className='title-h1' style={{textAlign: 'center'}}>
               Bringing the flavors of the world to your kitchen.
+            </h1> */}
+
+            <h1 className='title-h1' style={{textAlign: 'center'}}>
+              Solace Life
             </h1>
+
+            <h4 className='title-h1' style={{textAlign: 'center', fontSize:"1rem"}}>
+              Eat Healthy - Stay Happy
+            </h4>
 
           </div>
 
@@ -88,14 +96,14 @@ const Hero = () => {
                 <img src={image1} />
               </div>
               <div class="content">
-                <div class="header">Matthew</div>
-                <div class="meta"><span class="date">Joined in 2015</span></div>
+                <div class="header">Mitzi F.</div>
+                <div class="meta"><span class="date"> Unleash the possibilities!</span></div>
                 <div class="description">
-                  Matthew is a musician living in Nashville.
+                Bringing the flavors of the world to your kitchen.
                 </div>
               </div>
               <div class="extra content">
-                <a><i aria-hidden="true" class="user icon" />22 Friends</a>
+                <a><i aria-hidden="true" class="user icon" />5022 Friends</a>
               </div>
             </div>
 
