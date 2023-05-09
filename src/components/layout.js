@@ -1,19 +1,29 @@
-import React from "react"
-import Footer from "./footer"
-import Navbar from "./navbar"
+import React, { useState } from "react"
+import Footer from './footer';
+import Navbar from './navbar';
+import Navbar1 from './navbar-v2';
 
-const Layout = ({ children }) => {
+import Sidebar from './sidebar';
+
+const Layout = ({children}) => {
+  const [isOpen, setIsOpen] = useState (false);
+
+  const toggleSidebar = () => {
+    setIsOpen (!isOpen);
+  };
+
   return (
     <div className="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
       <div>
-        <Navbar />
+        <Navbar1 toggleSidebar={toggleSidebar} />
+        {/* <Navbar /> */}
+
+        <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
         {children}
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Layout
-
-
+export default Layout;

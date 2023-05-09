@@ -11,7 +11,7 @@ import Hero from '../components/hero';
 
 import Grid from '../components/grid';
 
-import 'semantic-ui-css/semantic.min.css'
+// import 'semantic-ui-css/semantic.min.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -46,7 +46,7 @@ const IndexPage = () => {
         title={strapiGlobal.siteName}
         description={strapiGlobal.siteDescription}
       />
-      
+
       <Overview/>
 
       <Grid/>
