@@ -51,9 +51,9 @@ const IndexPage = () => {
         description={strapiGlobal.siteDescription}
       />
 
-      <main>
+      {/* <main>
         <ArticlesGrid articles={allStrapiArticle.nodes} />
-      </main>
+      </main> */}
 
 
     </Layout>

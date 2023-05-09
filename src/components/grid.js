@@ -29,7 +29,6 @@ import {useStaticQuery, graphql} from 'gatsby';
 
 import ArticlesGrid from '../components/articles-grid';
 
-
 // ###
 
 const Grid = () => {
@@ -49,75 +48,55 @@ const Grid = () => {
 
   const [state, setState] = useState ({activeItem: 'bio'});
 
-  console.log ('line:1', state);
-  console.log ('line:1.1', state.activeItem);
-
-  const shit = state.activeItem;
-  console.log ('line:1.2', shit);
-
-  console.log ('line:2', setState);
-
-  const handleItemClick = (e, {name}) => setState ({activeItem: name});
-  console.log ('line:3', handleItemClick);
+  const [key, setKey] = useState ('home');
 
   return (
     <header className="menu-landing" style={{}}>
 
-      {/* ### */}
-
-      {/* <div className="menu-row"> //   style={{display: 'flex', marginTop: '20px'}}
-
-        <div>
-          <Menu attached="top" tabular>
-            <Menu.Item
-              name="bio"
-              active={shit === 'bio'}
-              onClick={handleItemClick}
-            />
-            <Menu.Item
-              name="photos"
-              active={shit === 'photos'}
-              onClick={handleItemClick}
-            />
-            <Menu.Menu position="right">
-              <Menu.Item>
-                <Input
-                  transparent
-                  icon={{name: 'search', link: true}}
-                  placeholder="Search users..."
-                />
-              </Menu.Item>
-            </Menu.Menu>
-          </Menu>
-
-          <Segment attached="bottom">
-            <img src={image1} />
-          </Segment>
-        </div>
-
-      </div> */}
-
       <Tabs
-        defaultActiveKey="profile"
-        id="uncontrolled-tab-example"
+        id="controlled-tab-example"
+        activeKey={key}
+        onSelect={k => setKey (k)}
         className="mb-3"
       >
-        <Tab eventKey="home" title="Home">
-          {/* <Sonnet /> */}
-          <h1>Test1</h1>
+        <Tab eventKey="home" title="Breakfast">
+          <h2 style={{textAlign: 'center'}}>Test1</h2>
           <main>
             <ArticlesGrid articles={allStrapiArticle.nodes} />
           </main>
-        </Tab>
-        <Tab eventKey="profile" title="Profile">
           {/* <Sonnet /> */}
+        </Tab>
+        <Tab eventKey="profile" title="Lunch">
           <h2>Test2</h2>
-        </Tab>
-        <Tab eventKey="contact" title="Contact">
           {/* <Sonnet /> */}
-          <h3>Test3</h3>
+        </Tab>
+        <Tab
+          eventKey="contact"
+          title="Dinner"
+          // disabled
+        >
+          <h2>Test3</h2>
+          {/* <Sonnet /> */}
+        </Tab>
+        <Tab
+          eventKey="fiesta"
+          title="Fiesta"
+          // disabled
+        >
+          <h2>Test4</h2>
+          {/* <Sonnet /> */}
+        </Tab>
+        <Tab
+          eventKey="beverage"
+          title="Beverage"
+          // disabled
+        >
+          <h2>Test4</h2>
+          {/* <Sonnet /> */}
         </Tab>
       </Tabs>
+
+      {/* ### */}
 
       {/* ### */}
 
