@@ -8,7 +8,12 @@ import Headings from '../components/headings';
 
 import Hero from '../components/hero';
 
+
+import Grid from '../components/grid';
+
 import 'semantic-ui-css/semantic.min.css'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Overview from '../components/overview'
 
@@ -32,18 +37,23 @@ const IndexPage = () => {
 
   return (
     <Layout>
+
       <Seo seo={{metaTitle: 'Home'}} />
-      <Hero 
-      />
+
+      <Hero />
+
       <Overview/>
+
+      <Grid/>
+
       <Headings
         title={strapiGlobal.siteName}
         description={strapiGlobal.siteDescription}
       />
+
       <main>
         <ArticlesGrid articles={allStrapiArticle.nodes} />
       </main>
-
 
 
     </Layout>

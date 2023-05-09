@@ -4,7 +4,7 @@ import {StaticImage} from 'gatsby-plugin-image';
 
 // import group from '../assets/images/group.png';
 
-import {main} from '../components/main.css';
+import {use} from '../styles/main-use.css';
 
 import image1 from '../assets/images/image1.jpg'
 
@@ -91,19 +91,19 @@ const Hero = () => {
 
           <div className="image-wrapper1">
 
-            <div class="ui card" style={{width:"auto"}}>
-              <div class="image">
+            <div className="ui card" style={{width:"auto"}}>
+              <div className="image">
                 <img src={image1} />
               </div>
-              <div class="content">
-                <div class="header">Mitzi F.</div>
-                <div class="meta"><span class="date"> Unleash the possibilities!</span></div>
-                <div class="description">
+              <div className="content">
+                <div className="header">Mitzi F.</div>
+                <div className="meta"><span className="date"> Unleash the possibilities!</span></div>
+                <div className="description">
                 Bringing the flavors of the world to your kitchen.
                 </div>
               </div>
-              <div class="extra content">
-                <a><i aria-hidden="true" class="user icon" />5022 Friends</a>
+              <div className="extra content">
+                <a><i aria-hidden="true" className="user icon" />5022 Friends</a>
               </div>
             </div>
 
