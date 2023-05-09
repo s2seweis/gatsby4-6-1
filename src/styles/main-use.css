@@ -201,7 +201,9 @@ p {
 
 .menu-landing {
 
-height: 100vh;
+/* height: 100vh; */
+height: auto;
+margin-bottom: 100px;
 
 }
 

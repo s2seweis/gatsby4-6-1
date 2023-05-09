@@ -42,14 +42,15 @@ const IndexPage = () => {
 
       <Hero />
 
-      <Overview/>
-
-      <Grid/>
-
       <Headings
         title={strapiGlobal.siteName}
         description={strapiGlobal.siteDescription}
       />
+      
+      <Overview/>
+
+      <Grid/>
+
 
       {/* <main>
         <ArticlesGrid articles={allStrapiArticle.nodes} />

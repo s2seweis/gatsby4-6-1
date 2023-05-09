@@ -86,7 +86,8 @@ const Hero = () => {
               <iframe
                 src="https://www.youtube.com/embed/YIsEYluQaLk"
                 title="YouTube video"
-                allowfullscreen
+                // allowfullscreen
+                allowFullScreen
               />
             </div>
 

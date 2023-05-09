@@ -5,7 +5,9 @@ const Footer = () => {
 
   return (
     <footer className="mt-16 bg-neutral-100 py-8 text-neutral-700">
-      <div className="container">
+      <div style={{display:"flex", gap:"20%", justifyContent:"center"}} className="container">
+        <p>Copyright {currentYear}</p>
+        <p>Copyright {currentYear}</p>
         <p>Copyright {currentYear}</p>
       </div>
     </footer>
