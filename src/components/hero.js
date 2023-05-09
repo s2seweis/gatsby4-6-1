@@ -6,24 +6,14 @@ import {StaticImage} from 'gatsby-plugin-image';
 
 import {use} from '../styles/main-use.css';
 
-import image1 from '../assets/images/image1.jpg'
+import image1 from '../assets/images/image1.jpg';
 
 // import {main} from '../styles/main.css';
 
 const Hero = () => {
   return (
-    <header 
-    
-    
-    
-    
-    
-    className="hero" style={{}}>
+    <header className="hero" style={{}}>
 
-
-
-
-      
       <section className="section-center hero-center">
         <article className="hero-info">
           <div>
@@ -71,19 +61,20 @@ const Hero = () => {
 
         <div className="hero1">
 
-          
-
           <div className="article1">
 
             {/* <h1 className='title-h1' style={{textAlign: 'center'}}>
               Bringing the flavors of the world to your kitchen.
             </h1> */}
 
-            <h1 className='title-h1' style={{textAlign: 'center'}}>
+            <h1 className="title-h1" style={{textAlign: 'center'}}>
               The Solace Life
             </h1>
 
-            <h4 className='title-h1' style={{textAlign: 'center', fontSize:"1rem"}}>
+            <h4
+              className="title-h1"
+              style={{textAlign: 'center', fontSize: '1rem'}}
+            >
               Eat Healthy - Stay Happy
             </h4>
 
@@ -91,7 +82,25 @@ const Hero = () => {
 
           <div className="image-wrapper1">
 
-            <div className="ui card" style={{width:"auto"}}>
+            <div style={{height:"-webkit-fill-available"}} class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/YIsEYluQaLk"
+                title="YouTube video"
+                allowfullscreen
+              />
+            </div>
+
+            {/* <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/YIsEYluQaLk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            /> */}
+
+            {/* <div className="ui card" style={{width:"auto"}}>
               <div className="image">
                 <img src={image1} />
               </div>
@@ -105,9 +114,7 @@ const Hero = () => {
               <div className="extra content">
                 <a><i aria-hidden="true" className="user icon" />5022 Friends</a>
               </div>
-            </div>
-
-           
+            </div> */}
 
           </div>
 
