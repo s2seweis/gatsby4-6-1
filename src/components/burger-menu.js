@@ -58,7 +58,6 @@ const MenuBurger = () => {
 
 
       <a className="menu-item" href="/"
-        active={window.location.pathname === "/"}
 
       >
         Home
