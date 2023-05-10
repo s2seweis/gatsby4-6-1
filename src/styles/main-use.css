@@ -240,17 +240,14 @@ Navbar
   background: darkolivegreen;
 }
 .nav-center {
-  width: 90vw;
   width: 100%;
   max-width: 1170px;
   /* margin: 0 auto; */
   /* margin: 30px; */
-  display: flex;
-  justify-content: flex-end;
 }
 .nav-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin-right: 10px;
 }
@@ -271,7 +268,7 @@ Navbar
 .nav-links {
   display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 868px) {
   .toggle-btn {
     display: none;
   }
