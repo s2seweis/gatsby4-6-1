@@ -17,7 +17,7 @@ const Overview = () => {
 
       <h1 style={{textAlign: 'center', marginTop: '20px', display:"flex", justifyContent:"center", marginTop:"20px"}}> Overview </h1>
 
-      <div class="ui breadcrumb">
+      <div class="ui breadcrumb" style={{display:"flex", justifyContent:"center", marginBottom:"50px"}}>
         <a class="section" href="/web-development">Breakfast</a>
         {/* <div class="active section " href="/adobe">Stack</div> */}
 

@@ -115,14 +115,7 @@ const Grid = () => {
           <h2>Test4</h2>
           {/* <Sonnet /> */}
         </Tab>
-        <Tab
-          eventKey="beverage"
-          title="Beverage"
-          // disabled
-        >
-          <h2>Test4</h2>
-          {/* <Sonnet /> */}
-        </Tab>
+      
       </Tabs>
 
       {/* ### */}

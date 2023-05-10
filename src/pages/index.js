@@ -16,6 +16,7 @@ import 'semantic-ui-css/semantic.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Overview from '../components/overview'
+import Seperate from '../components/seperate';
 
 
 
@@ -41,6 +42,7 @@ const IndexPage = () => {
       <Seo seo={{metaTitle: 'Home'}} />
 
       <Hero />
+      <Seperate/>
 
       {/* <Headings
         title={strapiGlobal.siteName}
