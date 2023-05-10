@@ -17,6 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Overview from '../components/overview'
 import Seperate from '../components/seperate';
+import Content3 from '../components/content3';
 
 
 
@@ -50,6 +51,8 @@ const IndexPage = () => {
       /> */}
 
       <Overview/>
+
+      <Content3/>
 
       <Grid/>
 

@@ -206,7 +206,7 @@ p {
 
 /* height: 100vh; */
 height: auto;
-margin-bottom: 100px;
+margin-bottom: 25px;
 
 }
 
@@ -429,4 +429,22 @@ Sidebar Animation
 
 .sidebar-links {
   padding-left: 0;
+}
+
+
+.menu-row {
+
+  display: block;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+
+@media screen and (min-width: 640px) {
+  .menu-row{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
 }

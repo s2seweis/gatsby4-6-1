@@ -64,19 +64,31 @@ const MenuBurger = () => {
       </a>
 
       <a className="menu-item" href="/signin">
-        Sign-In
+        Breakfast
       </a>
 
       <a className="menu-item" href="/">
-        Contact
+        Lunch
       </a>
 
       <a className="menu-item" href="/shop">
-        Shop
+        Dinner
       </a>
 
       <a className="menu-item" href="/post">
-        Posts
+        Desserts
+      </a>
+
+      <a className="menu-item" href="/post">
+        Fiesta
+      </a>
+
+      <a className="menu-item" href="/post">
+        Beverage
+      </a>
+
+      <a className="menu-item" href="/post">
+        Contact
       </a>
     </Menu>
 

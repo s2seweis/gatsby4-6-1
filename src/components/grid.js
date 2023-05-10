@@ -82,6 +82,19 @@ const Grid = () => {
         </Accordion.Item>
       </Accordion> */}
 
+      <h1
+        style={{
+          textAlign: 'center',
+          marginTop: '20px',
+          display: 'flex',
+          justifyContent: 'center',
+          marginTop: '20px',
+          marginBottom: '20px',
+        }}
+      >
+        {' '}News{' '}
+      </h1>
+
       <Tabs
         id="controlled-tab-example"
         activeKey={key}
@@ -115,7 +128,7 @@ const Grid = () => {
           <h2>Test4</h2>
           {/* <Sonnet /> */}
         </Tab>
-      
+
       </Tabs>
 
       {/* ### */}
