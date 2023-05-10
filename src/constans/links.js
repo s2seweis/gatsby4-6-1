@@ -14,6 +14,12 @@ const data = [
       text: "projects",
       url: "/about/",
     },
+
+    {
+      id: 4,
+      text: "contact",
+      url: "/contact/",
+    },
     // {
     //   id: 4,
     //   text: "Stack",

@@ -5,6 +5,8 @@ import Navbar1 from './navbar-v2';
 
 import Sidebar from './sidebar';
 
+import MenuBurger from "./burger-menu";
+
 const Layout = ({children}) => {
   const [isOpen, setIsOpen] = useState (false);
 
@@ -18,7 +20,11 @@ const Layout = ({children}) => {
         <Navbar1 toggleSidebar={toggleSidebar} />
         {/* <Navbar /> */}
 
-        <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
+
+        {/* <MenuBurger/> */}
+
+
+        {/* <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} /> */}
         {children}
       </div>
       <Footer />

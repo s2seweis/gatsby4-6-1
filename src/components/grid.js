@@ -55,7 +55,7 @@ const Grid = () => {
   return (
     <header className="menu-landing" style={{}}>
 
-      <Accordion defaultActiveKey="0">
+      {/* <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Accordion Item #1</Accordion.Header>
           <Accordion.Body>
@@ -80,7 +80,7 @@ const Grid = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </Accordion.Body>
         </Accordion.Item>
-      </Accordion>
+      </Accordion> */}
 
       <Tabs
         id="controlled-tab-example"

@@ -10,6 +10,15 @@ import pageLinks from '../constans/links';
 import {Link} from 'gatsby';
 
 
+// ###
+import MenuBurger from './burger-menu';
+
+import '../styles/burger.css'
+// ###
+
+
+
+
 
 const Navbar1 = ({toggleSidebar}) => {
   return (
@@ -22,9 +31,11 @@ const Navbar1 = ({toggleSidebar}) => {
             <img style={{marginLeft:"20px", height:"50px"}} src={logo5} alt="web dev" />
           </a>
 
-          <button type="button" className="toggle-btn" onClick={toggleSidebar}>
+          {/* <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight />
-          </button>
+          </button> */}
+
+
         </div>
         <div className="nav-links">
           {pageLinks.map (link => {
@@ -35,6 +46,9 @@ const Navbar1 = ({toggleSidebar}) => {
             );
           })}
         </div>
+
+        <MenuBurger/>
+
       </div>
     </nav>
   );

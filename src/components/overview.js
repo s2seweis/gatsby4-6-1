@@ -13,46 +13,91 @@ const Overview = () => {
   return (
     <header className="menu-landing" style={{}}>
 
-
-   
-
       {/* ### */}
 
-      <h1 style={{textAlign:"center", marginTop:"20px"}}> Overview </h1>
+      <h1 style={{textAlign: 'center', marginTop: '20px', display:"flex", justifyContent:"center", marginTop:"20px"}}> Overview </h1>
 
-    
+      <div class="ui breadcrumb">
+        <a class="section" href="/web-development">Breakfast</a>
+        {/* <div class="active section " href="/adobe">Stack</div> */}
 
-      <div style={{display: 'flex', marginTop: '20px'}} className="menu-row">
+        <div class="divider">/</div>
+        <a class="section" href="/web-design">Lunch</a>
+        {/* <div class="active section " href="/adobe">Webdesign</div> */}
 
-        <div className="ui card" style={{margin: 'auto'}}>
-          <div className="image"><img src={image1} /></div>
-          <div className="content">
-            <div className="header">Matthew</div>
-            <div className="meta"><span className="date">Joined in 2015</span></div>
-            <div className="description">
-              Matthew is a musician living in Nashville.
-            </div>
-          </div>
-          <div className="extra content">
-            <a><i aria-hidden="true" className="user icon" />22 Friends</a>
-          </div>
-        </div>
+        <div class="divider">/</div>
+        {/* <a class="section" href="/adobe">Adobe</a> */}
+        <div class="active section " href="/adobe">Dinner</div>
 
-        <div className="ui card" style={{margin: 'auto'}}>
-          <div className="image"><img src={image1} /></div>
-          <div className="content">
-            <div className="header">Matthew</div>
-            <div className="meta"><span className="date">Joined in 2015</span></div>
-            <div className="description">
-              Matthew is a musician living in Nashville.
-            </div>
-          </div>
-          <div className="extra content">
-            <a><i aria-hidden="true" className="user icon" />22 Friends</a>
-          </div>
-        </div>
+        <div class="divider">/</div>
+        {/* <a class="section" href="/adobe">Adobe</a> */}
+        <div class="active section " href="/adobe">Dessert</div>
+
+        <div class="divider">/</div>
+        {/* <a class="section" href="/adobe">Adobe</a> */}
+        <div class="active section " href="/adobe">Fiesta</div>
+
+        <div class="divider">/</div>
+        {/* <a class="section" href="/adobe">Adobe</a> */}
+        <div class="active section " href="/adobe">Dinner</div>
 
       </div>
+
+
+
+
+      <div className='menu-box-top' style={{}}>
+
+
+          
+        <div style={{width:"200px", height:"200px", backgroundColor:"green", margin:"15px auto"}} className='menu-box-middle'>
+        Test:1
+        </div>
+
+        <div style={{width:"200px", height:"200px", backgroundColor:"green", margin:"15px auto"}} className='menu-box-middle'>
+        Test:2
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+      {/* <div style={{display: 'flex', marginTop: '20px'}} className="menu-row">
+
+        <div className="ui card" style={{margin: 'auto'}}>
+          <div className="image"><img src={image1} /></div>
+          <div className="content">
+            <div className="header">Matthew</div>
+            <div className="meta"><span className="date">Joined in 2015</span></div>
+            <div className="description">
+              Matthew is a musician living in Nashville.
+            </div>
+          </div>
+          <div className="extra content">
+            <a><i aria-hidden="true" className="user icon" />22 Friends</a>
+          </div>
+        </div>
+
+        <div className="ui card" style={{margin: 'auto'}}>
+          <div className="image"><img src={image1} /></div>
+          <div className="content">
+            <div className="header">Matthew</div>
+            <div className="meta"><span className="date">Joined in 2015</span></div>
+            <div className="description">
+              Matthew is a musician living in Nashville.
+            </div>
+          </div>
+          <div className="extra content">
+            <a><i aria-hidden="true" className="user icon" />22 Friends</a>
+          </div>
+        </div>
+
+      </div> */}
 
       {/* ### */}
       {/* <div style={{height:"100vh"}}>
