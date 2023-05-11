@@ -7,7 +7,12 @@ import {StaticImage} from 'gatsby-plugin-image';
 import {use} from '../styles/main-use.css';
 
 // import {main} from '../styles/main.css';
-import image1 from '../assets/images/image1.jpg';
+import image20 from '../assets/images/20.jpg';
+import image21 from '../assets/images/21.jpg';
+import image22 from '../assets/images/22.jpg';
+import image23 from '../assets/images/23.jpg';
+import image24 from '../assets/images/24.jpg';
+import image25 from '../assets/images/25.jpg';
 
 const Overview = () => {
   return (
@@ -22,13 +27,15 @@ const Overview = () => {
           display: 'flex',
           justifyContent: 'center',
           marginTop: '20px',
-          marginBottom:"20px"
+          marginBottom:"20px",
+          fontFamily:"Lobster",
+          fontSize:"3rem"
         }}
       >
         {' '}Overview{' '}
       </h1>
 
-      <div
+      {/* <div
         class="ui breadcrumb"
         style={{
           display: 'flex',
@@ -37,59 +44,25 @@ const Overview = () => {
         }}
       >
         <a class="section" href="/web-development">Breakfast</a>
-        {/* <div class="active section " href="/adobe">Stack</div> */}
 
         <div class="divider">/</div>
         <a class="section" href="/web-design">Lunch</a>
-        {/* <div class="active section " href="/adobe">Webdesign</div> */}
 
         <div class="divider">/</div>
-        {/* <a class="section" href="/adobe">Adobe</a> */}
         <div class="active section " href="/adobe">Dinner</div>
 
         <div class="divider">/</div>
-        {/* <a class="section" href="/adobe">Adobe</a> */}
         <div class="active section " href="/adobe">Dessert</div>
 
         <div class="divider">/</div>
-        {/* <a class="section" href="/adobe">Adobe</a> */}
         <div class="active section " href="/adobe">Fiesta</div>
 
         <div class="divider">/</div>
-        {/* <a class="section" href="/adobe">Adobe</a> */}
         <div class="active section " href="/adobe">Dinner</div>
-
-      </div>
-
-      {/* <div className="menu-box-top" style={{}}>
-
-        <div
-          style={{
-            width: '200px',
-            height: '200px',
-            backgroundColor: 'green',
-            margin: '15px auto',
-          }}
-          className="menu-box-middle"
-        >
-          Test:1
-        </div>
-
-        <div
-          style={{
-            width: '200px',
-            height: '200px',
-            backgroundColor: 'green',
-            margin: '15px auto',
-          }}
-          className="menu-box-middle"
-        >
-          Test:2
-        </div>
 
       </div> */}
 
-      {/* ###--- */}
+  
 
 
       
@@ -102,8 +75,8 @@ const Overview = () => {
           className="ui card"
           style={{margin: '20px 20px 20px 20px', width: 'auto'}}
         >
-          <div className="image"><img src={image1} /></div>
-          <div className="content">
+          <div className="image"><img src={image20} /></div>
+          <div style={{}} className="content">
             <div style={{textAlign: 'center'}} className="header">
               Breakfast
             </div>
@@ -114,7 +87,7 @@ const Overview = () => {
           className="ui card"
           style={{margin: '20px 20px 20px 20px', width: 'auto'}}
         >
-          <div className="image"><img src={image1} /></div>
+          <div className="image"><img src={image21} /></div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header">
               Lunch
@@ -126,7 +99,7 @@ const Overview = () => {
           className="ui card"
           style={{margin: '20px 20px 20px 20px', width: 'auto'}}
         >
-          <div className="image"><img src={image1} /></div>
+          <div className="image"><img src={image22} /></div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header">
               Dinner
@@ -143,7 +116,7 @@ const Overview = () => {
           className="ui card"
           style={{margin: '20px 20px 20px 20px', width: 'auto'}}
         >
-          <div className="image"><img src={image1} /></div>
+          <div className="image"><img src={image23} /></div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header">
               Desserts
@@ -155,7 +128,7 @@ const Overview = () => {
           className="ui card"
           style={{margin: '20px 20px 20px 20px', width: 'auto'}}
         >
-          <div className="image"><img src={image1} /></div>
+          <div className="image"><img src={image24} /></div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header">
               Fiesta
@@ -167,7 +140,7 @@ const Overview = () => {
           className="ui card"
           style={{margin: '20px 20px 20px 20px', width: 'auto'}}
         >
-          <div className="image"><img src={image1} /></div>
+          <div className="image"><img src={image25} /></div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header">
               Beverage
@@ -176,30 +149,7 @@ const Overview = () => {
         </div>
       </div>
 
-      {/* ###--- */}
-
-      {/* ### */}
-      {/* <div style={{height:"100vh"}}>
-        <div className="ui top attached tabular menu">
-          <a className="active item">Bio</a>
-          <a className="item">Photos</a>
-          <div className="right menu">
-            <div className="item">
-              <div className="ui transparent icon input">
-                <input type="text" placeholder="Search users..." />
-                <i aria-hidden="true" className="search link icon" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="ui bottom attached segment">
-          <img src={image1} />
-        </div>
-      </div> */}
-
-      {/* ### */}
-
-      {/* ## */}
+    
 
       <section className="section-center hero-center">
         <article className="menu-info">

@@ -36,7 +36,7 @@ F.navigation
 
 
 .menu-item {
-  border-top: 1px solid ;
+  /* border-top: 1px solid ; */
  
 
 }
@@ -71,7 +71,7 @@ F.navigation
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: #f2b263;
 }
 
 /* Position and sizing of clickable cross button */
@@ -82,14 +82,16 @@ F.navigation
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: #f2b263;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background: #f7f9fa;
+  /* background: #f7f9fa; */
+  background: #f2f4f2;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  font-family: "Lobster";
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -100,6 +102,9 @@ F.navigation
 /* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
+  text-align: center;
+  margin-top: -20px;
+  font-size: larger;
 }
 
 /* Styling of overlay */
@@ -107,5 +112,15 @@ F.navigation
   background: rgba(0, 0, 0, 0.3);
 }
 
+.bm-menu-wrap{
+
+  position: fixed;
+  right: inherit;
+  z-index: 1100;
+  width: 65%;
+  height: 100%;
+  transition: all 0.5s ease 0s;
+
+}
 
 

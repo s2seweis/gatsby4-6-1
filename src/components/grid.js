@@ -90,50 +90,71 @@ const Grid = () => {
           justifyContent: 'center',
           marginTop: '20px',
           marginBottom: '20px',
+          fontFamily: 'Lobster',
+          fontSize:"3rem"
         }}
       >
-        {' '}News{' '}
+        {' '}Our Best Recipes:{' '}
       </h1>
 
-      <Tabs
+      {/* <Tabs
         id="controlled-tab-example"
         activeKey={key}
         onSelect={k => setKey (k)}
         className="mb-3"
       >
         <Tab eventKey="home" title="Breakfast">
-          <h2 style={{textAlign: 'center'}}>Test1</h2>
           <main>
             <ArticlesGrid articles={allStrapiArticle.nodes} />
           </main>
-          {/* <Sonnet /> */}
         </Tab>
         <Tab eventKey="profile" title="Lunch">
           <h2>Test2</h2>
-          {/* <Sonnet /> */}
         </Tab>
         <Tab
           eventKey="contact"
           title="Dinner"
-          // disabled
         >
           <h2>Test3</h2>
-          {/* <Sonnet /> */}
         </Tab>
         <Tab
           eventKey="fiesta"
           title="Fiesta"
-          // disabled
         >
           <h2>Test4</h2>
-          {/* <Sonnet /> */}
         </Tab>
 
-      </Tabs>
+      </Tabs> */}
 
-      {/* ### */}
+      <ArticlesGrid articles={allStrapiArticle.nodes} />
 
-      {/* ### */}
+      <div
+        class="ui breadcrumb"
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          // marginBottom: '50px',
+          marginTop: "50px"
+        }}
+      >
+        <a class="section" href="/web-development">News</a>
+
+        <div class="divider">/</div>
+        <a class="section" href="/web-design">About</a>
+
+        <div class="divider">/</div>
+        <div class="active section " href="/adobe">Contact</div>
+
+        {/* <div class="divider">/</div>
+        <div class="active section " href="/adobe">Dessert</div>
+
+        <div class="divider">/</div>
+        <div class="active section " href="/adobe">Fiesta</div>
+
+        <div class="divider">/</div>
+        <div class="active section " href="/adobe">Dinner</div> */}
+
+      </div>
 
       <section className="section-center hero-center">
         <article className="menu-info">

@@ -37,7 +37,7 @@ const Navbar1 = ({toggleSidebar}) => {
 
 
         </div>
-        <div className="nav-links">
+        <div className="nav-links" style={{fontSize:"x-large", color:"f2b263"}}>
           {pageLinks.map (link => {
             return (
               <Link key={link.id} to={link.url}>

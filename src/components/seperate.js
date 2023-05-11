@@ -11,7 +11,7 @@ import image1 from '../assets/images/image1.jpg';
 
 const Seperate = () => {
   return (
-    <div className="seperate-line" style={{height:"50px", width:"100%", backgroundColor:"darkolivegreen"}}>
+    <div className="seperate-line" style={{height:"20px", width:"100%", backgroundColor:"darkolivegreen"}}>
 
       
     </div>

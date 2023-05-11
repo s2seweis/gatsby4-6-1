@@ -19,9 +19,9 @@ const ArticleCard = ({ article }) => {
 
 
       <div className="px-4 py-4">
-        <h3 className="font-bold text-neutral-700">{article.title}</h3>
+        <h3 className="font-bold text-neutral-700" style={{textAlign:"center"}}>{article.title}</h3>
 
-        <h3>Test</h3>
+        {/* <h3>Test</h3> */}
 
         <p className="line-clamp-2 mt-2 text-neutral-500">
           {article.description}

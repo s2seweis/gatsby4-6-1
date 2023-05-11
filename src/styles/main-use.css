@@ -23,6 +23,7 @@
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: -60px;
 
 }
 
@@ -45,8 +46,9 @@ margin: 70px auto 0px auto;
 /* width: 250px; */
 /* height: 250px; */
 height: auto;
-/* background: green; */
+background: #f2b263;
 grid-row: 1/1;
+border-radius: 15px 50px;
 
 }
 
@@ -179,7 +181,7 @@ p {
 .title-h1 {
 
 
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   /* font-family: "Open Sans"; */
   font-family: "Lobster";
 
@@ -275,6 +277,9 @@ Navbar
   .nav-links {
     display: flex;
     justify-content: flex-end;
+    color: #f2b263;
+    font-size: large;
+    font-family: "Lobster";
   }
 
   .nav-links a {
@@ -285,6 +290,7 @@ Navbar
     letter-spacing: var(--spacing);
     transition: var(--transition);
     padding: 0.5rem 0;
+    text-decoration: auto;
   }
   .nav-links a:hover {
     color: var(--clr-primary-5);
@@ -435,8 +441,8 @@ Sidebar Animation
 .menu-row {
 
   display: block;
-  margin-left: 40px;
-  margin-right: 40px;
+  /* margin-left: 40px; */
+  /* margin-right: 40px; */
 
 }
 
@@ -446,5 +452,37 @@ Sidebar Animation
     display: flex;
     margin-left: 80px;
     margin-right: 80px;
+  }
+}
+
+.content1{
+
+  background: rgb(121, 152, 68);
+  width: 150px;
+  margin: 5px auto;
+  padding: 1em;
+  font-size: 1em;
+
+}
+
+
+.content3-level2{
+  height: 700px;
+  padding: 25px;
+}
+
+@media screen and (min-width: 640px) {
+  .content3-level2{
+    height: 300px;
+    padding: 25px;
+  }
+}
+
+.content3-level3{
+  padding: 25px;
+}
+
+@media screen and (min-width: 640px) {
+  .content3-level3{
   }
 }

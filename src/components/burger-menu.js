@@ -29,7 +29,7 @@ const MenuBurger = () => {
 
 
 
-    <Menu width={'50%'} {...MenuBurger}>
+    <Menu width={'30%'} {...MenuBurger}>
 
       <div className="logo">
 
