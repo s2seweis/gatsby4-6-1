@@ -262,6 +262,7 @@ Navbar
   .nav-header {
     display: grid;
     grid-column: 1/span 2;
+    margin-left: 20px;
   }
 }
 
@@ -554,3 +555,137 @@ Sidebar Animation
 font-size: xx-large;
 
 }
+
+/* ### */
+
+.hero2{
+
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12,1fr);
+  background: rgb(232, 244, 248);
+  
+
+  /* background-image: url(../assets/images/image3.png); */
+  
+  background-size: contain;
+
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 760px) {
+  .hero2{
+    
+    grid-template-columns: repeat(6,1fr);
+
+  }
+}
+
+/* ### */
+
+.article2 {
+
+  grid-column: 2/span 4;
+  margin: 70px auto 0px auto;
+  /* margin: auto; */
+  
+  /* width: 250px; */
+  /* height: 250px; */
+  height: auto;
+  background: #f2b263;
+  grid-row: 1/1;
+  border-radius: 15px 50px;
+  
+  }
+  
+  @media screen and (min-width: 760px) {
+      .article2{
+        margin: auto;
+        width: auto;
+        /* height: 400px; */
+        /* margin: 100px auto 20px auto; */
+      }
+    }
+  
+  .image-wrapper2 {
+      /* margin: 10% auto; */
+      
+      grid-row: 2/2;
+      grid-column: 1/span3;
+      height: -webkit-fill-available;
+      /* height: 350px; */
+      margin: 10px
+  
+  
+  }
+  
+  @media screen and (min-width: 760px) {
+      .image-wrapper2{
+        /* margin: -300px auto; */
+        grid-column: 7/span4;
+        grid-row: 1/2;
+        width: 80%;
+        height: auto;
+        /* height: 400px; */
+        /* margin-top: 200px; */
+      }
+    }
+
+
+/* ### - Footer */
+
+  .container-footer{
+
+    grid-template-columns: repeat(6,1fr);
+    display: grid;
+
+  }
+
+  @media screen and (min-width: 760px) {
+    .container-footer{
+      grid-template-columns: repeat(12,1fr);
+    }
+  }
+
+  .footer-e1 {
+    
+    grid-column: 1 /span 2;
+    justify-content: center;
+    display: flex;
+  }
+
+  @media screen and (min-width: 760px) {
+    .footer-e1{
+      grid-column: 2 /span 2;
+    }
+  }
+
+
+  .footer-e2 {
+    
+    grid-column: 3 /span 2;
+    justify-content: center;
+    display: flex;
+  }
+
+  @media screen and (min-width: 760px) {
+    .footer-e2{
+      
+      grid-column: 6 /span 2;
+    }
+  }
+
+  .footer-e3 {
+    grid-column: 5 /span 2;
+    justify-content: center;
+    display: flex;
+  }
+
+  @media screen and (min-width: 760px) {
+    .footer-e3{
+      grid-column: 10 /span 2;
+    }
+  }

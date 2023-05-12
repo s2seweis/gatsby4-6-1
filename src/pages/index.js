@@ -7,6 +7,7 @@ import Headings from '../components/headings';
 
 
 import Hero from '../components/hero';
+import Hero1 from '../components/hero1';
 
 
 import Grid from '../components/grid';
@@ -42,7 +43,9 @@ const IndexPage = () => {
 
       <Seo seo={{metaTitle: 'Home'}} />
 
-      <Hero />
+      <Hero/>
+      <Seperate/>
+      <Hero1/>
       <Seperate/>
 
       {/* <Headings

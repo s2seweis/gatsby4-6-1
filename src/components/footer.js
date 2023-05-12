@@ -8,14 +8,26 @@ const Footer = () => {
       style={{background: 'darkolivegreen', color: 'white'}}
       className="mt-16 bg-neutral-100 py-8 text-neutral-700"
     >
-      <div
-        // style={{display: 'flex', gap: '20%', justifyContent: 'center'}}
-        className="container"
-      >
-        <p>
-          Camiguin | Agoho
-        </p>
-        <p>Mitzi Falmarin</p>
+      <div className="container-footer">
+
+        <div className="footer-e1">
+
+          <p>
+            Copyright SWT
+          </p>
+         
+
+
+        </div>
+
+        <div className="footer-e2">
+          <p>About</p>
+        </div>
+
+        <div className="footer-e3">
+          <p>Contact</p>
+        </div>
+
       </div>
     </footer>
   );
