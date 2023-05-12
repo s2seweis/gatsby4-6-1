@@ -1,5 +1,5 @@
 import React from "react"
-import links from "../constans/links"
+import links from "../constans/links-sidemenu"
 // import socialLinks from "../constants/social_links"
 import { Link } from "gatsby"
 
@@ -16,7 +16,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       <button className="close-btn" type="button" onClick={toggleSidebar}>
         <FaTimes />
       </button>
-      <div className="side-container">
+      <div className="side-container" style={{marginTop:"-200px"}}>
 
 
       {/* <img src="../assets/images/hero.svg"  className="about-img-svg" /> */}

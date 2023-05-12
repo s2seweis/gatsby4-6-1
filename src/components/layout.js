@@ -17,6 +17,9 @@ const Layout = ({children}) => {
   return (
     <div className="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
       <div>
+
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
+      
         <Navbar1 toggleSidebar={toggleSidebar} />
         {/* <Navbar /> */}
 
@@ -24,7 +27,7 @@ const Layout = ({children}) => {
         {/* <MenuBurger/> */}
 
 
-        {/* <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} /> */}
+        
         {children}
       </div>
       <Footer />

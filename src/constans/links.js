@@ -9,43 +9,54 @@ const data = [
       text: "about",
       url: "/infopage/",
     },
-    {
-      id: 3,
-      text: "projects",
-      url: "/about/",
-    },
 
     {
+      id: 3,
+      text: "breakfast",
+      url: "/breakfast/",
+    },
+    {
       id: 4,
-      text: "contact",
-      url: "/contact/",
+      text: "lunch",
+      url: "/lunch",
     },
     // {
-    //   id: 4,
-    //   text: "Stack",
-    //   url: "/web-development/",
-    // },
-    // {
     //   id: 5,
-    //   text: "Webdesign",
-    //   url: "/web-design/",
+    //   text: "dinner",
+    //   url: "/dinner/",
     // },
+
     // {
     //   id: 6,
-    //   text: "Adobe",
-    //   url: "/adobe/",
+    //   text: "Dessert",
+    //   url: "/dessert/",
     // },
     // {
     //   id: 7,
+    //   text: "Fiesta",
+    //   url: "/fiesta",
+    // },
+    // {
+    //   id: 8,
+    //   text: "beverage",
+    //   url: "/infopage/",
+    // },
+
+    // {
+    //   id: 9,
+    //   text: "index",
+    //   url: "/index",
+    // },
+
+    // {
+    //   id: 10,
     //   text: "contact",
     //   url: "/contact/",
     // },
   
-    // {
-    //   id: 6,
-    //   text: "webdevelopment",
-    //   url: "/webdevelopment/",
-    // },
+
+
+   
   
   ]
   

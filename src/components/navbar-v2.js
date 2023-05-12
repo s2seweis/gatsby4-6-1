@@ -6,10 +6,13 @@ import logo5 from '../assets/images/logo5.png';
 import {FaAlignRight} from 'react-icons/fa';
 
 import pageLinks from '../constans/links';
+// import pageLinks from '../constans/links-sidemenu';
 import {Link} from 'gatsby';
 
 // ###
 import MenuBurger from './burger-menu';
+
+import Sidebar from '../components/sidebar';
 
 import '../styles/burger.css';
 // ###
@@ -18,15 +21,12 @@ const Navbar1 = ({toggleSidebar}) => {
   return (
     <nav style={{position: 'sticky'}} className="navbar">
       <div className="nav-center">
+
         <div className="nav-header">
 
           {/* <img src={logo} alt="web dev" /> */}
           <a href="/">
-            <img
-              
-              src={logo5}
-              alt="web dev"
-            />
+            <img src={logo5} alt="web dev" />
           </a>
 
           {/* <button type="button" className="toggle-btn" onClick={toggleSidebar}>
@@ -35,12 +35,35 @@ const Navbar1 = ({toggleSidebar}) => {
 
         </div>
 
-        <div className='nav-title'><h2 className='h2-nav-title' style={{display:"flex", justifyContent:"center", fontFamily:"Lobster"}} >The Solace Life</h2></div>
 
-        <div
-          className="nav-links"
+
+
+        <div className="nav-title">
+
+
+        <button style={{marginLeft:"15px"}} type="button" className="toggle-btn" onClick={toggleSidebar}>
+            <FaAlignRight />
+          </button>
+
+
+          <h2
+            className="h2-nav-title"
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              fontFamily: 'Lobster',
+              width:"100%"
+            }}
+          >
+            The Solace Life
+          </h2>
+        </div>
+
+        
           
-        >
+        
+
+        <div className="nav-links">
           {pageLinks.map (link => {
             return (
               <Link key={link.id} to={link.url}>
@@ -50,7 +73,9 @@ const Navbar1 = ({toggleSidebar}) => {
           })}
         </div>
 
-        <MenuBurger />
+        <Sidebar />
+
+        {/* <MenuBurger /> */}
 
       </div>
     </nav>
