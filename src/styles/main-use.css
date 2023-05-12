@@ -242,20 +242,36 @@ Navbar
   background: darkolivegreen;
 }
 .nav-center {
-  width: 100%;
-  max-width: 1170px;
-  /* margin: 0 auto; */
-  /* margin: 30px; */
-}
-.nav-header {
+
+  /* grid-template-columns: repeat(6, 1fr);
+  display: grid; */
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 10px;
+  justify-content: center;
+  width: 100%;
+
 }
+
+
+.nav-header {
+  display: none;
+
+}
+
+@media screen and (min-width: 772px) {
+  .nav-header {
+    display: grid;
+    grid-column: 1/span 2;
+  }
+}
+
+
 .nav-header img {
   margin-bottom: 0.375rem;
+  height: 50px;
 }
+
+
+
 .toggle-btn {
   font-size: 2rem;
   background: transparent;
@@ -267,10 +283,14 @@ Navbar
 .toggle-btn:hover {
   color: grey;
 }
+
+
 .nav-links {
   display: none;
 }
-@media screen and (min-width: 868px) {
+
+
+@media screen and (min-width: 772px) {
   .toggle-btn {
     display: none;
   }
@@ -278,8 +298,10 @@ Navbar
     display: flex;
     justify-content: flex-end;
     color: #f2b263;
-    font-size: large;
+    font-size: x-large;
     font-family: "Lobster";
+    grid-column: 11/span 1;
+    
   }
 
   .nav-links a {
@@ -297,9 +319,9 @@ Navbar
     box-shadow: 0px 2px var(--clr-primary-5);
   }
   .nav-center {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   align-items: center;
   }
 }
 
@@ -485,4 +507,29 @@ Sidebar Animation
 @media screen and (min-width: 640px) {
   .content3-level3{
   }
+}
+
+
+.nav-title {
+  display: grid;
+  align-items: center;
+  grid-column: 4/span 3;
+
+
+
+}
+
+@media screen and (min-width: 640px) {
+  .nav-title{
+    display: grid;
+
+    grid-column: 4/span 5;
+
+  }
+}
+
+.h2-nav-title{
+
+font-size: xx-large;
+
 }
