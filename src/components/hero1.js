@@ -30,7 +30,7 @@ const Hero1 = () => {
                   opacity: '0.8',
                 }}
               >
-                How to make Pok Adobe?
+                Best Pork Adobe Recipe!
               </span>
             </div>
 
@@ -47,7 +47,7 @@ const Hero1 = () => {
                   opacity: '0.8',
                 }}
               >
-                How to make Pok Adobe?
+                Delicious Veggie Bowl.
               </span>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Hero1 = () => {
                   opacity: '0.8',
                 }}
               >
-                How to make Pok Adobe?
+                Tiktok - Halo Halo.
               </span>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Hero1 = () => {
                   opacity: '0.8',
                 }}
               >
-                How to make Pok Adobe?
+                Mouth Watering Fiesta.
               </span>
             </div>
           </div>

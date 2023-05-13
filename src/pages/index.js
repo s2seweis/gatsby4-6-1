@@ -42,7 +42,7 @@ const IndexPage = () => {
       <Hero />
       {/* <Seperate /> */}
       <Hero1 />
-      <Seperate />
+      {/* <Seperate /> */}
       <E2 />
 
       {/* <Headings

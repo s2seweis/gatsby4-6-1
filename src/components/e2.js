@@ -10,6 +10,11 @@ import image1 from '../assets/images/image1.jpg';
 
 // import {main} from '../styles/main.css';
 
+import {FaFacebookSquare} from 'react-icons/fa';
+import {FaInstagram} from 'react-icons/fa';
+import {FaTiktok} from 'react-icons/fa';
+import {FaYoutube} from 'react-icons/fa';
+
 const E2 = () => {
   return (
     <header className="e2" style={{}}>
@@ -24,16 +29,18 @@ const E2 = () => {
             {' '}
             <div
               style={{
-                marginTop: '100%',
+                marginTop: '110%',
                 textAlign: 'center',
                 display: 'flex',
-                justifyContent: 'center',
+                justifyContent: 'space-between',
+                fontSize: '2rem',
               }}
               className="<e2-box-social-links>"
             >
-              <div>Box:1</div>
-              <div>Box:2</div>
-              <div>Box:3</div>
+              <span><FaFacebookSquare /></span>
+              <span><FaInstagram /></span>
+              <span><FaTiktok /></span>
+              <span><FaYoutube /></span>
 
             </div>
             {' '}
@@ -86,13 +93,16 @@ const E2 = () => {
                 display: 'flex',
                 justifyContent: 'center',
                 width: '100%',
+                justifyContent: 'space-between',
+                fontSize: '2rem',
               }}
               className="e2-box1-flex-social-links"
             >
 
-              <div>Box:1</div>
-              <div>Box:2</div>
-              <div>Box:3</div>
+              <span><FaFacebookSquare /></span>
+              <span><FaInstagram /></span>
+              <span><FaTiktok /></span>
+              <span><FaYoutube /></span>
 
             </div>
 
@@ -100,17 +110,34 @@ const E2 = () => {
 
           <div style={{marginTop: '40px'}} className="e2-box2-flex">
 
-            <div style={{margin: "0px 15px 0px 15px", background:"antiquewhite"}} className="e2-box2-flex-text">
+            <div
+              style={{margin: '0px 15px 0px 15px', background: 'antiquewhite'}}
+              className="e2-box2-flex-text"
+            >
 
-              <div style={{textAlign:"center", padding:"20px 20px 20px 20px", fontSize:"2rem", fontFamily:"Lobster" }} >Welcome to my food blog</div>
+              <div
+                style={{
+                  textAlign: 'center',
+                  padding: '20px 20px 20px 20px',
+                  fontSize: '2rem',
+                  fontFamily: 'Lobster',
+                }}
+              >
+                Welcome to my food blog
+              </div>
 
-              <div style={{textAlign:"center", padding:"20px 20px 20px 20px", fontSize:"1.5rem", fontFamily:"Lobster"}}>
+              <div
+                style={{
+                  textAlign: 'center',
+                  padding: '20px 20px 20px 20px',
+                  fontSize: '1.5rem',
+                  fontFamily: 'Lobster',
+                }}
+              >
                 where I share my divassion for cooking and all things food-related! My name is Mitzi, and I'm thrilled to have you here.
               </div>
 
             </div>
-
-            
 
           </div>
 

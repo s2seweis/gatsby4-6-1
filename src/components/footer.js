@@ -1,5 +1,10 @@
 import React from 'react';
 
+import {FaFacebookSquare} from 'react-icons/fa';
+import {FaInstagram} from 'react-icons/fa';
+import {FaTiktok} from 'react-icons/fa';
+import {FaYoutube} from 'react-icons/fa';
+
 const Footer = () => {
   const currentYear = new Date ().getFullYear ();
 
@@ -15,8 +20,6 @@ const Footer = () => {
           <p>
             Copyright SWT
           </p>
-         
-
 
         </div>
 
@@ -26,6 +29,19 @@ const Footer = () => {
 
         <div className="footer-e3">
           <p>Contact</p>
+        </div>
+
+      </div>
+
+      <div className="container-footer-row2">
+
+        <div className="footer-e1-row2">
+
+          <span><FaFacebookSquare /></span>
+          <span><FaInstagram /></span>
+          <span><FaTiktok /></span>
+          <span><FaYoutube /></span>
+
         </div>
 
       </div>
