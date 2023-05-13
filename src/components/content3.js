@@ -11,43 +11,137 @@ import image1 from '../assets/images/image1.jpg';
 
 const Content3 = () => {
   return (
-    <div className="content3" style={{}}>
+    <div className="content3">
 
-      <div
-        className="content3-level2"
+      <h3
         style={{
-          backgroundColor: 'white',
-          width: '100%',
-          // height: '350px',
-          backgroundColor: 'darkolivegreen',
-          position: 'relative',
+          textAlign: 'center',
+          padding: ',20px',
+          fontSize: '3rem',
+          fontFamily: 'Lobster',
         }}
       >
+        You looking for something special?
+      </h3>
+      <div className="content3-grid">
 
+        {/* ### */}
 
+        <div className="content3-box1" style={{}}>
+          <div style={{marginTop: '20%', marginLeft: '20%'}}>
+            <span
+              style={{
+                padding: '5px',
+                background: 'white',
+                fontFamily: 'Lobster',
+                fontSize: '1.5rem',
+                opacity: '0.8',
+              }}
+            >
+              Veggies???
+            </span>
+          </div>
 
-        <div
-          className="content3-level3"
-          style={{
-            background: 'white',
-            width: '90%',
-            height: '90%',
-            position: 'absolute',
-            top: '5%',
-            left: '5%',
-            margin: '0px 0px 0px 0px',
-          }}
-        ><h5>
-        Welcome to my food blog, where I share my passion for cooking and all things food-related! My name is [your name], and I'm thrilled to have you here. I started this blog as a way to document my culinary adventures and share my favorite recipes with others who love to cook, eat, and explore new flavors.
+          {/* ### */}
 
-        Whether you're a seasoned chef or a beginner in the kitchen, my goal is to inspire you with delicious and easy-to-follow recipes that will satisfy your taste buds and impress your guests. From quick weeknight dinners to elaborate weekend brunches, I've got you covered with a wide range of recipes that are sure to please.
+        </div>
+        <div className="content3-box2">
+          <div style={{marginTop: '40%', marginLeft: '20%'}}>
+            <span
+              style={{
+                padding: '5px',
+                background: 'white',
+                fontFamily: 'Lobster',
+                fontSize: '1.5rem',
+                opacity: '0.8',
+              }}
+            >
+              Craving for something spicy?
+            </span>
+          </div>
+        </div>
 
-        But this blog is more than just recipes. I also share tips and tricks for cooking and baking, as well as insights into the latest food trends and ingredients. So come along with me on this culinary journey, and let's explore the wonderful world of food together!
-      </h5></div>
+        {/* ### */}
 
+        <div className="content3-box3">
+          <div style={{marginTop: '70%', marginLeft: '20%'}}>
+            <span
+              style={{
+                padding: '5px',
+                background: 'white',
+                fontFamily: 'Lobster',
+                fontSize: '1.5rem',
+                opacity: '0.8',
+              }}
+            >
+              Did you drink too much again?
+            </span>
+          </div>
+        </div>
 
-        <h5></h5>
+        {/* ### */}
+
       </div>
+
+      <div className="content3-flex">
+
+      {/* ###-Start */}
+
+      <div className="content3-box1-flex" style={{}}>
+        <div style={{marginTop: '10%', marginLeft: '10%', height:"fit-content"}}>
+          <span
+            style={{
+              padding: '5px',
+              background: 'white',
+              fontFamily: 'Lobster',
+              fontSize: '1.5rem',
+              opacity: '0.8',
+            }}
+          >
+            Veggies???
+          </span>
+        </div>
+      </div>
+
+      {/* ### */}
+
+      <div className="content3-box2-flex">
+        <div style={{marginTop: '40%', marginLeft: '10%', height:"fit-content"}}>
+          <span
+            style={{
+              padding: '5px',
+              background: 'white',
+              fontFamily: 'Lobster',
+              fontSize: '1.5rem',
+              opacity: '0.8',
+            }}
+          >
+            Craving for something spicy?
+          </span>
+        </div>
+      </div>
+
+      {/* ### */}
+
+      <div className="content3-box3-flex">
+        <div style={{marginTop: '50%', marginLeft: '10%'}}>
+          <span
+            style={{
+              padding: '5px',
+              background: 'white',
+              fontFamily: 'Lobster',
+              fontSize: '1.5rem',
+              opacity: '0.8',
+            }}
+          >
+            Did you drink too much again?
+          </span>
+        </div>
+      </div>
+
+      </div>
+
+      {/* ###-end */}
 
     </div>
   );

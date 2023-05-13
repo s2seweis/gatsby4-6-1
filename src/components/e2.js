@@ -23,13 +23,18 @@ const E2 = () => {
           <div className="e2-box1">
             {' '}
             <div
-              style={{marginTop: '100%', textAlign: 'center', display:"flex", justifyContent:"center"}}
-              className="e2-box-social-links"
+              style={{
+                marginTop: '100%',
+                textAlign: 'center',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+              className="<e2-box-social-links>"
             >
-                <div>Box:1</div>
-                <div>Box:2</div>
-                <div>Box:3</div>
-              
+              <div>Box:1</div>
+              <div>Box:2</div>
+              <div>Box:3</div>
+
             </div>
             {' '}
           </div>
@@ -73,8 +78,41 @@ const E2 = () => {
 
           {/* <h1>E2</h1> */}
 
-          <div className="e2-box1-flex">Box:1</div>
-          <div className="e2-box2-flex">Box:1</div>
+          <div className="e2-box1-flex">
+
+            <div
+              style={{
+                marginTop: '100%',
+                display: 'flex',
+                justifyContent: 'center',
+                width: '100%',
+              }}
+              className="e2-box1-flex-social-links"
+            >
+
+              <div>Box:1</div>
+              <div>Box:2</div>
+              <div>Box:3</div>
+
+            </div>
+
+          </div>
+
+          <div style={{marginTop: '40px'}} className="e2-box2-flex">
+
+            <div style={{margin: "0px 15px 0px 15px", background:"antiquewhite"}} className="e2-box2-flex-text">
+
+              <div style={{textAlign:"center", padding:"20px 20px 20px 20px", fontSize:"2rem", fontFamily:"Lobster" }} >Welcome to my food blog</div>
+
+              <div style={{textAlign:"center", padding:"20px 20px 20px 20px", fontSize:"1.5rem", fontFamily:"Lobster"}}>
+                where I share my divassion for cooking and all things food-related! My name is Mitzi, and I'm thrilled to have you here.
+              </div>
+
+            </div>
+
+            
+
+          </div>
 
         </div>
 
