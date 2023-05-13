@@ -24,7 +24,7 @@ const Hero1 = () => {
         <div className="hero5">
 
         
-        <div  className='h-box4'>Box1</div>
+        <div  className='h-box4'> <div style={{marginTop:"20%", marginLeft:"20%"}}><span style={{padding:"5px", background:"white", fontFamily:"Lobster", fontSize:"1.5rem", opacity:"0.8"}}>How to make Pok Adobe?</span></div> </div>
         {/* <div  className='box5'>Box2</div> */}
         <div  className='h-box6'>Box3</div>
         

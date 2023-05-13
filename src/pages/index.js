@@ -40,9 +40,9 @@ const IndexPage = () => {
       <Seo seo={{metaTitle: 'Home'}} />
 
       <Hero />
-      <Seperate />
+      {/* <Seperate /> */}
       <Hero1 />
-      <Seperate />
+      {/* <Seperate /> */}
       <E2 />
 
       {/* <Headings
