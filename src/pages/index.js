@@ -5,23 +5,19 @@ import ArticlesGrid from '../components/articles-grid';
 import Seo from '../components/seo';
 import Headings from '../components/headings';
 
-
 import Hero from '../components/hero';
 import Hero1 from '../components/hero1';
 
-
 import Grid from '../components/grid';
 
-import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Overview from '../components/overview'
+import Overview from '../components/overview';
 import Seperate from '../components/seperate';
 import Content3 from '../components/content3';
-
-
-
+import E2 from '../components/e2';
 
 const IndexPage = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
@@ -43,27 +39,26 @@ const IndexPage = () => {
 
       <Seo seo={{metaTitle: 'Home'}} />
 
-      <Hero/>
-      <Seperate/>
-      <Hero1/>
-      <Seperate/>
+      <Hero />
+      <Seperate />
+      <Hero1 />
+      <Seperate />
+      <E2 />
 
       {/* <Headings
         title={strapiGlobal.siteName}
         description={strapiGlobal.siteDescription}
       /> */}
 
-      <Overview/>
+      <Overview />
 
-      <Content3/>
+      <Content3 />
 
-      <Grid/>
-
+      <Grid />
 
       {/* <main>
         <ArticlesGrid articles={allStrapiArticle.nodes} />
       </main> */}
-
 
     </Layout>
   );

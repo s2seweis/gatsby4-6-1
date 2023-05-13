@@ -10,7 +10,7 @@
 
 .hero1 {
 
-    display: grid;
+    display: none;
     height: 100vh;
     grid-template-columns: repeat(12,1fr);
     background: rgb(232, 244, 248);
@@ -33,6 +33,7 @@
       /* align-items: center; */
       grid-template-columns: repeat(6,1fr);
       /* background: white; */
+      display: grid;
 
     }
   }
@@ -689,3 +690,248 @@ font-size: xx-large;
       grid-column: 10 /span 2;
     }
   }
+
+
+  
+
+
+
+
+ 
+
+  /* ### - hero1 - Component */
+
+  .hero-level1 {
+
+    display: none;
+    
+    }
+    
+    
+    
+    @media screen and (min-width: 760px) {
+      .hero-level1{
+        display: block;
+      }
+    }
+
+  .hero5{
+
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(12,1fr);
+    background: lightblue;
+    
+  
+    /* background-image: url(../assets/images/image3.png); */
+    
+    background-size: contain;
+  
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 90px 20px 90px;
+  
+  }
+
+
+  .h-box4 {
+
+    width: auto;
+    height: 400px;
+    /* height: auto; */
+    background-color: orange;
+    grid-column: 1/span 8;
+    /* grid-row: 1 /span 2; */
+    margin-right: 20px;
+    background-image: url(../assets/images/21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    }
+    
+    
+    .h-box6 {
+    
+    width: auto;
+    height: 400px;
+    background-color: rebeccapurple;
+    grid-column: 9/span 4;
+    background-image: url(../assets/images/22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    }
+
+
+  .hero6{
+
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(12,1fr);
+    background: lightblue;
+    
+  
+    /* background-image: url(../assets/images/image3.png); */
+    
+    background-size: contain;
+  
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 90px 20px 90px;
+  
+  }
+
+
+      .h-box7 {
+
+      width: auto;
+      height: 400px;
+      /* height: auto; */
+      background-color: rebeccapurple;
+      grid-column: 1/span 4;
+      /* grid-row: 1 /span 2; */
+      margin-right: 20px;
+      background-image: url(../assets/images/23.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      }
+
+
+      .h-box9 {
+
+      width: auto;
+      height: 400px;
+      background-color: orange;
+      grid-column: 5/span 8;
+      background-image: url(../assets/images/24.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+
+      }
+
+
+
+
+
+
+
+
+/* ### - e2 - Component */
+
+
+
+    .e2{
+
+    display: block;
+
+    }
+
+
+    .e-level1 {
+
+        display: none;
+        
+        }
+    
+    
+    
+    @media screen and (min-width: 760px) {
+      .e-level1{
+        display: block;
+      }
+    }
+
+.e2-grid{
+
+  display: none;
+
+}
+
+@media screen and (min-width: 760px) {
+  .e2-grid{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(12,1fr);
+    background: lightblue;
+    
+  
+    /* background-image: url(../assets/images/image3.png); */
+    
+    background-size: contain;
+  
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 90px 20px 90px;
+  }
+}
+
+
+.e2-box1 {
+
+  width: 250px;
+  height: 250px;
+  background-color: purple;
+  grid-column: 2/span 4;
+  margin: 20px 20px 20px 20px;
+  border-radius: 50%;
+  background-image: url(../assets/images/20.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  
+}
+
+.e2-box2 {
+
+  width: auto;
+  height: 300px;
+  background-color: orange;
+  grid-column: 6/span 6;
+
+}
+
+
+.e2-flex {
+
+  display: table;
+  margin: auto;
+  margin-top: 20px;
+
+
+}
+
+
+@media screen and (min-width: 760px) {
+  .e2-flex{
+    display: none;
+  }
+}
+
+
+.e2-box1-flex{
+
+width: 300px;
+height: 300px;
+background-color: aquamarine;
+  
+}
+
+.e2-box2-flex{
+
+width: 300px;
+height: 300px;
+background-color: cadetblue;
+
+
+}

@@ -14,28 +14,30 @@ const Hero1 = () => {
   return (
     <header className="hero" style={{}}>
 
-      <section className="section-center hero-center">
-        <article className="hero-info">
-          <div>
+      <section className="hero-level1">
+      
 
-           
+    
 
-          </div>
-        </article>
+      
 
-        <div className="hero2">
+        <div className="hero5">
 
-          <div className="article2">
+        
+        <div  className='h-box4'>Box1</div>
+        {/* <div  className='box5'>Box2</div> */}
+        <div  className='h-box6'>Box3</div>
+        
 
-           
+        </div>
 
-          </div>
+        <div className="hero6">
 
-          <div className="image-wrapper2">
-
-           
-
-          </div>
+        
+        <div  className='h-box7'>Box1</div>
+        {/* <div  className='box8'>Box2</div> */}
+        <div  className='h-box9'>Box3</div>
+        
 
         </div>
 
