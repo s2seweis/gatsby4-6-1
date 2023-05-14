@@ -72,32 +72,32 @@ const Overview = () => {
         
 
         <div
-          className="ui card"
-          style={{margin: '20px 20px 20px 20px', width: 'auto'}}
+          className="ui-card"
+          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
         >
-          <div className="image"><img src={image20} /></div>
+          <div className='container-img' ><img className='image-overview' src={image20} /></div>
           <div style={{}} className="content">
-            <div style={{textAlign: 'center'}} className="header">
+            <div style={{textAlign: 'center'}} className="header-overview">
               Breakfast
             </div>
           </div>
         </div>
 
         <div
-          className="ui card"
-          style={{margin: '20px 20px 20px 20px', width: 'auto'}}
+          className="ui-card"
+          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
         >
           <div className="image"><img src={image21} /></div>
           <div className="content">
-            <div style={{textAlign: 'center'}} className="header">
+            <div style={{textAlign: 'center' }} className="header-overview">
               Lunch
             </div>
           </div>
         </div>
 
         <div
-          className="ui card"
-          style={{margin: '20px 20px 20px 20px', width: 'auto'}}
+          className="ui-card"
+          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
         >
           <div className="image"><img src={image22} /></div>
           <div className="content">
@@ -113,8 +113,8 @@ const Overview = () => {
       <div style={{marginTop: '25px'}} className="menu-row">
 
         <div
-          className="ui card"
-          style={{margin: '20px 20px 20px 20px', width: 'auto'}}
+          className="ui-card"
+          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
         >
           <div className="image"><img src={image23} /></div>
           <div className="content">
@@ -125,8 +125,8 @@ const Overview = () => {
         </div>
 
         <div
-          className="ui card"
-          style={{margin: '20px 20px 20px 20px', width: 'auto'}}
+          className="ui-card"
+          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
         >
           <div className="image"><img src={image24} /></div>
           <div className="content">
@@ -137,8 +137,8 @@ const Overview = () => {
         </div>
 
         <div
-          className="ui card"
-          style={{margin: '20px 20px 20px 20px', width: 'auto'}}
+          className="ui-card"
+          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
         >
           <div className="image"><img src={image25} /></div>
           <div className="content">

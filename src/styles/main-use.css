@@ -201,6 +201,8 @@ p {
 
 .card {
   margin-top: -100px;
+
+
 }
 
 .ui {
@@ -1037,6 +1039,10 @@ color: #fafafa;
 }
 
 
+
+
+
+
 @media screen and (min-width: 760px) {
   .e2-flex{
     display: none;
@@ -1216,12 +1222,12 @@ margin: 20px 20px 20px 20px;
 .content3-box1-flex {
 
   background-color: #fafafa;
-  margin: 15px auto 15px auto;
+  margin: 15px 15px 15px 15px;
   background-image: url(../assets/images/28.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 90%;
+  /* width: 90%; */
   height: 300px;
   display: flex;
   
@@ -1230,12 +1236,12 @@ margin: 20px 20px 20px 20px;
   
   background-color: #fafafa;
   /* margin: 20px 20px 20px 20px; */
-  margin: 15px auto 15px auto;
+  margin: 15px 15px 15px 15px;
   background-image: url(../assets/images/27.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 90%;
+  /* width: 90%; */
   height: 300px;
   display: flex;
   
@@ -1245,12 +1251,12 @@ margin: 20px 20px 20px 20px;
   
   background-color: #fafafa;
   /* margin: 20px 20px 20px 20px; */
-  margin: 15px auto 15px auto;
+  margin: 15px 15px 15px 15px;
   background-image: url(../assets/images/29.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 90%;
+  /* width: 90%; */
   height: 300px;
   display: flex;
   
@@ -1313,8 +1319,68 @@ margin: 20px 20px 20px 20px;
   .hero-youtube{
 
   grid-column: 1/span 6;
-  margin: 50px 10px 0px 10px;
+  margin: 50px 15px 0px 15px;
   /* height: 400px; */
   height: 300px;
 
   }
+
+  .card:hover {
+    background: #add8e6;
+}
+
+.e2-level1 {
+  display: block;
+
+}
+
+/* .e2-level1:hover {
+  background: #add8e6;
+} */
+
+
+/* ### - Header Overview */
+
+.header-overview:hover {
+
+background: red;
+
+}
+
+
+
+
+.header-overview{
+
+  background: antiquewhite;
+  padding: 10px;
+  font-size: 1.5rem;
+
+
+
+}
+
+.image-overview{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.image-overview:hover{
+
+background: blue;
+
+}
+
+.container-img{
+  position: relative;
+  width: 100%;
+}
+
+.container-img:hover .image-overview {
+  opacity: 0.3;
+}
