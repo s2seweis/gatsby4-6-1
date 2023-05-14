@@ -19,6 +19,18 @@ module.exports = {
         "2xl": "6rem",
       },
     },
+
+    screens: {
+
+      sm: '480px',
+      md: '568px',
+      lg: '976px',
+      xl: '1440px'
+
+    },
+
+
+    
   },
   plugins: [
     require("@tailwindcss/line-clamp"),

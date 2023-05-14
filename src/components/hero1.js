@@ -35,7 +35,6 @@ const Hero1 = () => {
             </div>
 
           </div>
-          {/* <div  className='box5'>Box2</div> */}
           <div className="h-box6">
             <div style={{marginTop: '20%', marginLeft: '20%'}}>
               <span
