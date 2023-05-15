@@ -53,6 +53,13 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
 
           <span><FaFacebookSquare /></span>
           <span><FaInstagram /></span>
+          
+
+        </div>
+
+        <div className="sidebar-social-links">
+
+          
           <span><FaTiktok /></span>
           <span><FaYoutube /></span>
 

@@ -91,10 +91,11 @@ const Grid = () => {
           marginTop: '20px',
           marginBottom: '20px',
           fontFamily: 'Lobster',
-          fontSize:"3rem"
+          fontSize:"3rem",
+          background:"antiquewhite"
         }}
       >
-        {' '}Our Best Recipes:{' '}
+        {' '}Our Best Recipes{' '}
       </h1>
 
       {/* <Tabs
@@ -143,7 +144,7 @@ const Grid = () => {
         <a class="section" href="/web-design">About</a>
 
         <div class="divider">/</div>
-        <div class="active section " href="/adobe">Contact</div>
+        <div class="active section " href="/adobe">Index</div>
 
         {/* <div class="divider">/</div>
         <div class="active section " href="/adobe">Dessert</div>

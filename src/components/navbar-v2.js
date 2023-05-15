@@ -4,6 +4,7 @@ import logo5 from '../assets/images/logo5.png';
 
 // ###open
 import {FaAlignRight} from 'react-icons/fa';
+import {HiMenuAlt2} from 'react-icons/hi';
 
 import pageLinks from '../constans/links';
 // import pageLinks from '../constans/links-sidemenu';
@@ -42,7 +43,7 @@ const Navbar1 = ({toggleSidebar}) => {
 
 
         <button style={{marginLeft:"15px"}} type="button" className="toggle-btn" onClick={toggleSidebar}>
-            <FaAlignRight />
+            <HiMenuAlt2 />
           </button>
 
 
@@ -55,7 +56,8 @@ const Navbar1 = ({toggleSidebar}) => {
               width:"100%"
             }}
           >
-            The Solace Life
+            {/* The Solace Life */}
+            Trust in Food
           </h2>
         </div>
 

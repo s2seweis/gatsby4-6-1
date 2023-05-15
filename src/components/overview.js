@@ -27,9 +27,10 @@ const Overview = () => {
           display: 'flex',
           justifyContent: 'center',
           marginTop: '20px',
-          marginBottom:"20px",
-          fontFamily:"Lobster",
-          fontSize:"3rem"
+          marginBottom: '20px',
+          fontFamily: 'Lobster',
+          fontSize: '3rem',
+          background: 'antiquewhite',
         }}
       >
         {' '}Overview{' '}
@@ -62,94 +63,109 @@ const Overview = () => {
 
       </div> */}
 
-  
-
-
-      
-
       <div style={{marginTop: '25px'}} className="menu-row">
 
-        
+        <a style={{margin: '15px', color:"black"}} href="/breakfast">
 
+          <div className="ui-card" style={{width: 'auto'}} href="/breakfast">
+            <div className="container-img">
+              <img className="image-overview" src={image20} />
+            </div>
+            <div style={{}} className="content">
+              <div style={{textAlign: 'center'}} className="header-overview">
+                Breakfast
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a style={{margin: '15px', color:"black"}} href="/breakfast">
+          <div className="ui-card" style={{width: 'auto'}}>
+            <div className="container-img">
+              <img className="image-overview" src={image21} />
+            </div>
+            <div className="content">
+              <div style={{textAlign: 'center'}} className="header-overview">
+                Lunch
+              </div>
+            </div>
+          </div>
+        </a>
+
+
+        <a style={{margin: '15px', color:"black"}} href="/breakfast">
         <div
           className="ui-card"
-          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
+          style={{ width: 'auto'}}
         >
-          <div className='container-img' ><img className='image-overview' src={image20} /></div>
-          <div style={{}} className="content">
+          <div className="container-img">
+            <img className="image-overview" src={image22} />
+          </div>
+          <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
-              Breakfast
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="ui-card"
-          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
-        >
-          <div className="image"><img src={image21} /></div>
-          <div className="content">
-            <div style={{textAlign: 'center' }} className="header-overview">
-              Lunch
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="ui-card"
-          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
-        >
-          <div className="image"><img src={image22} /></div>
-          <div className="content">
-            <div style={{textAlign: 'center'}} className="header">
               Dinner
             </div>
           </div>
         </div>
+        </a>
+
+
       </div>
+      
 
       {/* ###--- */}
 
       <div style={{marginTop: '25px'}} className="menu-row">
 
+
+      <a style={{margin: '15px', color:"black"}} href="/breakfast">
         <div
           className="ui-card"
-          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
+          style={{ width: 'auto'}}
         >
-          <div className="image"><img src={image23} /></div>
+          <div className="container-img">
+            <img className="image-overview" src={image23} />
+          </div>
           <div className="content">
-            <div style={{textAlign: 'center'}} className="header">
+            <div style={{textAlign: 'center'}} className="header-overview">
               Desserts
             </div>
           </div>
         </div>
+        </a>
 
+        <a style={{margin: '15px', color:"black"}} href="/breakfast">
         <div
           className="ui-card"
-          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
+          style={{ width: 'auto'}}
         >
-          <div className="image"><img src={image24} /></div>
+          <div className="container-img">
+            <img className="image-overview" src={image24} />
+          </div>
           <div className="content">
-            <div style={{textAlign: 'center'}} className="header">
+            <div style={{textAlign: 'center'}} className="header-overview">
               Fiesta
             </div>
           </div>
         </div>
+        </a>
 
+        <a style={{margin: '15px', color:"black"}} href="/breakfast">
         <div
           className="ui-card"
-          style={{margin: '15px 15px 15px 15px', width: 'auto'}}
+          style={{ width: 'auto'}}
         >
-          <div className="image"><img src={image25} /></div>
+          <div className="container-img">
+            <img className="image-overview" src={image25} />
+          </div>
           <div className="content">
-            <div style={{textAlign: 'center'}} className="header">
+            <div style={{textAlign: 'center'}} className="header-overview">
               Beverage
             </div>
           </div>
         </div>
+        </a>
       </div>
-
-    
 
       <section className="section-center hero-center">
         <article className="menu-info">

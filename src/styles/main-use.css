@@ -245,7 +245,7 @@ Navbar
   display: flex;
   align-items: center;
   z-index: 200;
-  background: darkolivegreen;
+  background: #708d3e;
 }
 .nav-center {
 
@@ -289,7 +289,7 @@ Navbar
   transition: var(--transition);
 }
 .toggle-btn:hover {
-  color: grey;
+  color: white;
 }
 
 
@@ -661,6 +661,8 @@ color: #fafafa;
 
   }
 
+
+
   @media screen and (min-width: 760px) {
     .container-footer{
       grid-template-columns: repeat(12,1fr);
@@ -672,8 +674,8 @@ color: #fafafa;
     grid-template-columns: repeat(6,1fr);
     display: grid;
     height: 100%;
-    background-color: darkolivegreen;
-    font-size: 3rem;
+    background-color: #708d3e;
+    font-size: 2rem;
 
   }
 
@@ -691,6 +693,16 @@ color: #fafafa;
     align-items: center;
   }
 
+  .footer-e1-a{
+    color: white;
+  }
+
+  .footer-e1-a:hover{
+    color: black;
+  }
+
+  
+
   @media screen and (min-width: 760px) {
     .footer-e1{
       grid-column: 2 /span 2;
@@ -704,6 +716,10 @@ color: #fafafa;
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+
+  .footer-e1-row2:hover{
+    color: black;
   }
 
   @media screen and (min-width: 760px) {
@@ -1083,10 +1099,16 @@ background-color: orange;
 
 .footer-blog{
 
+background-color: #8baf4d;
+  height: 70px;
+  font-family: "Lobster";
+  font-size: 1.3rem;
+}
 
-  height: 125px;
-
-
+@media screen and (min-width: 760px) {
+  .footer-blog{
+    font-size: 1.7rem;
+  }
 }
 
 
@@ -1094,6 +1116,7 @@ background-color: orange;
 
 height: auto;
 background: antiquewhite;
+/* background: #8baf4d; */
 
 }
 
@@ -1132,8 +1155,16 @@ background-image: url(../assets/images/28.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+}
+
+.content3-box1:hover{
+
+  opacity: 0.8;
+  color: darkolivegreen;
 
 }
+
+
 .content3-box2 {
 
 grid-column: 5/span 4;
@@ -1143,9 +1174,15 @@ background-image: url(../assets/images/27.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+}
 
+.content3-box2:hover{
+
+  opacity: 0.8;
+  color: darkolivegreen;
 
 }
+
 .content3-box3 {
 
 grid-column: 9/span 4;
@@ -1155,9 +1192,16 @@ background-image: url(../assets/images/29.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+}
 
+
+.content3-box3:hover{
+
+  opacity: 0.8;
+  color: darkolivegreen;
 
 }
+
 
 /* ### - Test: List */
 
@@ -1232,6 +1276,17 @@ margin: 20px 20px 20px 20px;
   display: flex;
   
   }
+
+  .content3-box1-flex:hover{
+
+    opacity: 0.8;
+    color: darkolivegreen;
+
+  }
+
+
+
+
   .content3-box2-flex {
   
   background-color: #fafafa;
@@ -1244,9 +1299,17 @@ margin: 20px 20px 20px 20px;
   /* width: 90%; */
   height: 300px;
   display: flex;
-  
-  
   }
+
+  .content3-box2-flex:hover{
+
+    opacity: 0.8;
+    color: darkolivegreen;
+
+
+  }
+
+
   .content3-box3-flex {
   
   background-color: #fafafa;
@@ -1259,8 +1322,14 @@ margin: 20px 20px 20px 20px;
   /* width: 90%; */
   height: 300px;
   display: flex;
-  
-  
+  }
+
+  .content3-box3-flex:hover{
+
+    opacity: 0.8;
+    color: darkolivegreen;
+
+
   }
 
 
@@ -1270,7 +1339,7 @@ margin: 20px 20px 20px 20px;
 
   .sidebar-social-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 1.5rem;
     margin-top: 20px;
 
@@ -1325,6 +1394,15 @@ margin: 20px 20px 20px 20px;
 
   }
 
+  @media screen and (min-width: 550px) {
+    .hero-youtube{
+      height: 450px;
+    }
+  }
+
+
+
+
   .card:hover {
     background: #add8e6;
 }
@@ -1341,11 +1419,10 @@ margin: 20px 20px 20px 20px;
 
 /* ### - Header Overview */
 
-.header-overview:hover {
-
-background: red;
-
+.ui-card{
+  font-family: "Lobster";
 }
+
 
 
 
@@ -1355,10 +1432,19 @@ background: red;
   background: antiquewhite;
   padding: 10px;
   font-size: 1.5rem;
-
-
-
 }
+
+.header-overview:hover{
+
+  /* color: darkolivegreen; */
+  
+  }
+
+
+  /* ### - Header Overview End */
+
+
+
 
 .image-overview{
   opacity: 1;
@@ -1370,11 +1456,7 @@ background: red;
 }
 
 
-.image-overview:hover{
 
-background: blue;
-
-}
 
 .container-img{
   position: relative;
@@ -1382,5 +1464,51 @@ background: blue;
 }
 
 .container-img:hover .image-overview {
-  opacity: 0.3;
+  opacity: 0.8;
 }
+
+/* ### -  */
+
+
+/* .content3-box1-flex{
+  position: relative;
+}
+
+
+.content3-title-test{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.content3-box1-flex:hover .content3-title-test {
+  opacity: 0.8;
+} */
+
+/* ### */
+
+
+
+
+
+
+
+
+/* ### - Content3 */
+
+
+.content3-title:hover{
+
+  color: darkolivegreen;
+  
+  }
+
+
+  .ui-card:hover{
+    opacity: 0.8;
+    color: darkolivegreen;
+    /* font-family: "Lobster"; */
+  }

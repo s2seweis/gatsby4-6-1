@@ -88,8 +88,8 @@ const Content3 = () => {
       {/* ###-Start */}
 
       <div className="content3-box1-flex" style={{}}>
-        <div style={{marginTop: '10%', marginLeft: '10%', height:"fit-content"}}>
-          <span
+        <div className='content3-title-test' style={{marginTop: '10%', marginLeft: '10%', height:"fit-content"}}>
+          <span className='content3-title'
             style={{
               padding: '5px',
               background: 'white',
@@ -107,7 +107,7 @@ const Content3 = () => {
 
       <div className="content3-box2-flex">
         <div style={{marginTop: '40%', marginLeft: '10%', height:"fit-content"}}>
-          <span
+          <span className='content3-title'
             style={{
               padding: '5px',
               background: 'white',
@@ -125,7 +125,7 @@ const Content3 = () => {
 
       <div className="content3-box3-flex">
         <div style={{marginTop: '50%', marginLeft: '10%'}}>
-          <span
+          <span className='content3-title'
             style={{
               padding: '5px',
               background: 'white',

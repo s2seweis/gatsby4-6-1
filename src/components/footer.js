@@ -10,25 +10,25 @@ const Footer = () => {
 
   return (
     <footer
-      style={{background: 'darkolivegreen', color: 'white'}}
+      style={{ color: 'white'}}
       className="footer-blog"
     >
       <div className="container-footer">
 
         <div className="footer-e1">
 
-          <p>
+          <a className='footer-e1-a' style={{}} href="/" >
             Copyright SWT
-          </p>
+          </a>
 
         </div>
 
         <div className="footer-e2">
-          <p>About</p>
+          <a className='footer-e1-a' style={{}} href="/about" >About</a>
         </div>
 
         <div className="footer-e3">
-          <p>Contact</p>
+          <a className='footer-e1-a' style={{}} href="/contact" >Contact</a>
         </div>
 
       </div>

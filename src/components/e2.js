@@ -68,10 +68,11 @@ const E2 = () => {
                 display: 'grid',
                 fontSize: '1.2rem',
                 padding: '20px',
+                fontFamily:"Lobster"
               }}
             >
 
-              <p>
+              <p style={{fontSize:"1.3rem"}}>
                 where I share my passion for cooking and all things food-related! My name is Mitzi Falmarin, and I'm thrilled to have you here.
                 {' '}
               </p>
