@@ -65,7 +65,7 @@ const Overview = () => {
 
       <div style={{marginTop: '25px'}} className="menu-row">
 
-        <a style={{margin: '15px', color:"black"}} href="/breakfast">
+        <a style={{ color:"black"}} href="/breakfast">
 
           <div className="ui-card" style={{width: 'auto'}} href="/breakfast">
             <div className="container-img">
@@ -79,7 +79,7 @@ const Overview = () => {
           </div>
         </a>
 
-        <a style={{margin: '15px', color:"black"}} href="/breakfast">
+        <a style={{ color:"black"}} href="/breakfast">
           <div className="ui-card" style={{width: 'auto'}}>
             <div className="container-img">
               <img className="image-overview" src={image21} />
@@ -93,7 +93,7 @@ const Overview = () => {
         </a>
 
 
-        <a style={{margin: '15px', color:"black"}} href="/breakfast">
+        <a style={{ color:"black"}} href="/breakfast">
         <div
           className="ui-card"
           style={{ width: 'auto'}}
@@ -118,7 +118,7 @@ const Overview = () => {
       <div style={{marginTop: '25px'}} className="menu-row">
 
 
-      <a style={{margin: '15px', color:"black"}} href="/breakfast">
+      <a style={{ color:"black"}} href="/breakfast">
         <div
           className="ui-card"
           style={{ width: 'auto'}}
@@ -134,7 +134,7 @@ const Overview = () => {
         </div>
         </a>
 
-        <a style={{margin: '15px', color:"black"}} href="/breakfast">
+        <a style={{ color:"black"}} href="/breakfast">
         <div
           className="ui-card"
           style={{ width: 'auto'}}
@@ -150,7 +150,7 @@ const Overview = () => {
         </div>
         </a>
 
-        <a style={{margin: '15px', color:"black"}} href="/breakfast">
+        <a style={{ color:"black"}} href="/breakfast">
         <div
           className="ui-card"
           style={{ width: 'auto'}}

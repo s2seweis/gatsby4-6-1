@@ -1,6 +1,6 @@
 import React from 'react';
 import links from '../constans/links-sidemenu';
-// import socialLinks from "../constants/social_links"
+import socialLinks from '../constans/social_links';
 import {Link} from 'gatsby';
 
 // ###close
@@ -19,7 +19,10 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
       <button className="close-btn" type="button" onClick={toggleSidebar}>
         <FaTimes />
       </button>
-      <div className="side-container" style={{marginTop: '-200px', width:"100%"}}>
+      <div
+        className="side-container"
+        style={{marginTop: '-200px', width: '100%'}}
+      >
 
         {/* <img src="../assets/images/hero.svg"  className="about-img-svg" /> */}
 
@@ -37,6 +40,8 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
 
       </div> */}
 
+      <div className="sidebar-social-links-margin">
+
         <ul className={isOpen ? 'sidebar-links' : null}>
           {links.map (link => {
             return (
@@ -49,7 +54,24 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
           })}
         </ul>
 
-        <div className="sidebar-social-links">
+      </div>
+
+        <div className="sidebar-social-links-margin">
+
+          <ul className={isOpen ? 'social-links sidebar-icons' : null}>
+            {socialLinks.map (link => {
+              return (
+                <li key={link.id}>
+                  <a href={link.url} className="social-link">
+                    {link.icon}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+
+        </div>
+        {/* <div className="sidebar-social-links">
 
           <span><FaFacebookSquare /></span>
           <span><FaInstagram /></span>
@@ -63,7 +85,7 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
           <span><FaTiktok /></span>
           <span><FaYoutube /></span>
 
-        </div>
+        </div> */}
 
       </div>
     </aside>

@@ -502,8 +502,8 @@ Sidebar Animation
 @media screen and (min-width: 640px) {
   .menu-row{
     display: flex;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -1348,6 +1348,20 @@ margin: 20px 20px 20px 20px;
   }
 
 
+  .social-link {
+    font-size: 1.75rem;
+    color: var(--clr-grey-1);
+    transition: var(--transition);
+  }
+
+  .social-links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    padding-left: 0;
+  }
+
+
   /* ### - Hero-Grid */
 
   .hero-info{
@@ -1421,6 +1435,14 @@ margin: 20px 20px 20px 20px;
 
 .ui-card{
   font-family: "Lobster";
+  margin: 0px 15px 15px 15px;
+}
+
+@media screen and (min-width: 640px) {
+  .ui-card{
+  margin: 0px 15px 0px 15px ;
+
+  }
 }
 
 
@@ -1511,4 +1533,10 @@ margin: 20px 20px 20px 20px;
     opacity: 0.8;
     color: darkolivegreen;
     /* font-family: "Lobster"; */
+  }
+
+  .container{
+
+
+    
   }
