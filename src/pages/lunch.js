@@ -1,71 +1,98 @@
-import React from 'react';
-// import Seo from "../components/Seo"
-// import Seo from "../components/seo"
+import React, {useState} from 'react';
+
+import {Link} from 'gatsby';
+import {StaticImage} from 'gatsby-plugin-image';
+
+import {use} from '../styles/main-use.css';
+
+// ###
+
+import {useStaticQuery, graphql} from 'gatsby';
+
+// ###
+
+import ArticlesGrid from '../components/articles-grid';
 
 import Layout from '../components/layout';
 
-const contact = () => {
-  // const seo = {
-  //     metaTitle: title,
-  //     metaDescription: title,
-  //   }
+
+// ###
+
+const Lunch = () => {
+  const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
+
+
+  
+
+
+
+  query {
+    allStrapiArticle(filter: {categories: {eq: "lunch"}}) {
+      nodes {
+        ...ArticleCard
+      }
+    }
+    strapiGlobal {
+      siteName
+      siteDescription
+    }
+  }
+`)
+
+
+
+
+
 
   return (
+
     <Layout>
+      
 
-      <section style={{width:"50%", margin:"auto", marginTop:"100px"}} className="contact-page">
-        <article className="contact-form">
-          <h3>get in touch</h3>
-          <form
-            action="https://formsubmit.co/weissenborn.sebastian@gmail.com"
-            method="POST"
-          >
-            <div className="form-group">
-              <input
-                type="text"
-                name="name"
-                placeholder="name"
-                className="form-control"
-              />
-              <input type="hidden" name="_captcha" value="false" />
-              <input
-                type="hidden"
-                name="_next"
-                value="https://precious-conkies-b8586b.netlify.app/thankyou"
-              />
+    <header className="menu-landing" style={{}}>
 
-              <input
-                type="hidden"
-                name="_subject"
-                value="Message From My Portfolio!!!"
-              />
+      <h1
+        style={{
+          textAlign: 'center',
+          marginTop: '20px',
+          display: 'flex',
+          justifyContent: 'center',
+          marginTop: '20px',
+          marginBottom: '20px',
+          fontFamily: 'Lobster',
+          fontSize: '3rem',
+          background: 'antiquewhite',
+        }}
+      >
+        {' '}Lunch{' '}
+      </h1>
 
-              <input
-                type="email"
-                name="email"
-                placeholder="email"
-                className="form-control"
-                required
-              />
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="message"
-                className="form-control"
-              />
-            </div>
-            <button
-              style={{backgroundColor: 'lightblue'}}
-              type="submit"
-              className="submit-btn btn"
-            >
-              submit here
-            </button>
-          </form>
-        </article>
-      </section>
+      <ArticlesGrid articles={allStrapiArticle.nodes} />
+
+      <div
+        class="ui breadcrumb"
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          // marginBottom: '50px',
+          marginTop: '50px',
+        }}
+      >
+        <a class="section" href="/web-development">News</a>
+
+        <div class="divider">/</div>
+        <a class="section" href="/web-design">About</a>
+
+        <div class="divider">/</div>
+        <div class="active section " href="/adobe">Index</div>
+
+      </div>
+
+    </header>
+
     </Layout>
+
   );
 };
 
-export default contact;
+export default Lunch;

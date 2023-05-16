@@ -17,8 +17,14 @@ import ArticlesGrid from '../components/articles-grid';
 
 const Grid = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
+
+
+  
+
+
+
   query {
-    allStrapiArticle {
+    allStrapiArticle(filter: {categories: {eq: "breakfast"}}) {
       nodes {
         ...ArticleCard
       }
@@ -28,7 +34,12 @@ const Grid = () => {
       siteDescription
     }
   }
-`);
+`)
+
+
+
+
+
 
   return (
     <header className="menu-landing" style={{}}>

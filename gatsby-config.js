@@ -40,20 +40,20 @@ module.exports = {
               },
             },
           },
-          {
-            singularName: 'breakfast',
-            queryParams: {
-              publicationState: process.env.GATSBY_IS_PREVIEW === 'true'
-                ? 'preview'
-                : 'live',
-              populate: {
-                cover: '*',
-                blocks: {
-                  populate: '*',
-                },
-              },
-            },
-          },
+          // {
+          //   singularName: 'breakfast',
+          //   queryParams: {
+          //     publicationState: process.env.GATSBY_IS_PREVIEW === 'true'
+          //       ? 'preview'
+          //       : 'live',
+          //     populate: {
+          //       cover: '*',
+          //       blocks: {
+          //         populate: '*',
+          //       },
+          //     },
+          //   },
+          // },
           {
             singularName: 'author',
           },

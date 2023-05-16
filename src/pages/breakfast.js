@@ -1,3 +1,5 @@
+
+
 import React, {useState} from 'react';
 
 import {Link} from 'gatsby';
@@ -11,19 +13,24 @@ import {useStaticQuery, graphql} from 'gatsby';
 
 // ###
 
-import BreakfastsGrid from '../components/breakfasts-grid';
+import ArticlesGrid from '../components/articles-grid';
 
 import Layout from '../components/layout';
 
-
 // ###
 
-const Grid = () => {
-  const {allStrapiBreakfast, strapiGlobal} = useStaticQuery (graphql`
+const Breakfast = () => {
+  const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
+
+
+  
+
+
+
   query {
-    allStrapiBreakfast {
+    allStrapiArticle(filter: {categories: {eq: "breakfast"}}) {
       nodes {
-        ...BreakfastCard
+        ...ArticleCard
       }
     }
     strapiGlobal {
@@ -31,12 +38,17 @@ const Grid = () => {
       siteDescription
     }
   }
-`);
+`)
+
+
+
+
+
 
   return (
 
+    <Layout>
 
-<Layout>
 
     <header className="menu-landing" style={{}}>
 
@@ -53,10 +65,10 @@ const Grid = () => {
           background: 'antiquewhite',
         }}
       >
-        {' '}Our Best Recipes{' '}
+        {' '}Breakfast{' '}
       </h1>
 
-      <BreakfastsGrid breakfasts={allStrapiBreakfast.nodes} />
+      <ArticlesGrid articles={allStrapiArticle.nodes} />
 
       <div
         class="ui breadcrumb"
@@ -80,7 +92,8 @@ const Grid = () => {
     </header>
 
     </Layout>
+
   );
 };
 
-export default Grid;
+export default Breakfast;

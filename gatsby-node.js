@@ -6,7 +6,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Define a template for blog post
   const articlePost = path.resolve("./src/templates/article-post.js")
   // ###
-  const breakfastPost = path.resolve("./src/templates/breakfast-post.js")
+  // const breakfastPost = path.resolve("./src/templates/breakfast-post.js")
 
 
 
@@ -49,41 +49,41 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // ### - Breakfast
 
-  const result1 = await graphql(
-    `
-      {
-        allStrapiBreakfast {
-          nodes {
-            title
-            slug
-          }
-        }
-      }
-    `
-  )
+  // const result1 = await graphql(
+  //   `
+  //     {
+  //       allStrapiBreakfast {
+  //         nodes {
+  //           title
+  //           slug
+  //         }
+  //       }
+  //     }
+  //   `
+  // )
 
-  if (result1.errors) {
-    reporter.panicOnBuild(
-      `There was an error loading your Strapi breakfasts`,
-      result1.errors
-    )
+  // if (result1.errors) {
+  //   reporter.panicOnBuild(
+  //     `There was an error loading your Strapi breakfasts`,
+  //     result1.errors
+  //   )
 
-    return
-  }
+  //   return
+  // }
 
-  const breakfast = result1.data.allStrapiBreakfast.nodes
+  // const breakfast = result1.data.allStrapiBreakfast.nodes
 
-  if (breakfast.length > 0) {
-    breakfast.forEach((breakfast) => {
-      createPage({
-        path: `/breakfast/${breakfast.slug}`,
-        component: breakfastPost,
-        context: {
-          slug: breakfast.slug,
-        },
-      })
-    })
-  }
+  // if (breakfast.length > 0) {
+  //   breakfast.forEach((breakfast) => {
+  //     createPage({
+  //       path: `/breakfast/${breakfast.slug}`,
+  //       component: breakfastPost,
+  //       context: {
+  //         slug: breakfast.slug,
+  //       },
+  //     })
+  //   })
+  // }
 
 
 
