@@ -71,14 +71,14 @@ const Grid = () => {
           marginTop: '50px',
         }}
       >
-        <a class="section" href="/web-development">News</a>
+        <a class="section" href="/news">News</a>
 
         <div class="divider">/</div>
-        <a class="section" href="/web-design">About</a>
+        <a class="section" href="/about">About</a>
 
         <div class="divider">/</div>
-        <div class="active section " href="/adobe">Index</div>
-
+        <a class="section " href="/index-all-recipes">Index</a>
+        {/* class="active section " */}
       </div>
 
     </header>

@@ -54,6 +54,7 @@ const E2 = () => {
                 textAlign: 'center',
                 fontSize: '2rem',
                 fontFamily: 'Lobster',
+                marginTop:"20px"
               }}
             >
               Welcome to my food blog
@@ -63,7 +64,7 @@ const E2 = () => {
               className="e2-text"
               style={{
                 margin: 'auto',
-                height: '80%',
+                height: '60%',
                 alignItems: 'center',
                 display: 'grid',
                 fontSize: '1.2rem',

@@ -45,7 +45,7 @@ const data = [
     {
       id: 9,
       text: "index",
-      url: "/index",
+      url: "/index-all-recipes",
     },
 
     {

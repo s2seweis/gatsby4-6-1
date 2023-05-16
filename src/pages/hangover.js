@@ -18,7 +18,7 @@ import Layout from '../components/layout';
 
 // ###
 
-const AllRecipes = () => {
+const Hangover = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
 
 
@@ -27,14 +27,14 @@ const AllRecipes = () => {
 
 
   query {
-    allStrapiArticle {
+    allStrapiArticle(filter: {categories: {eq: "hangover"}}) {
       nodes {
         ...ArticleCard
       }
     }
     strapiGlobal {
-      siteDescription
       siteName
+      siteDescription
     }
   }
 `)
@@ -64,7 +64,7 @@ const AllRecipes = () => {
           background: 'antiquewhite',
         }}
       >
-        {' '}Index - Recipes{' '}
+        {' '}Hangover???{' '}
       </h1>
 
       <ArticlesGrid articles={allStrapiArticle.nodes} />
@@ -95,4 +95,4 @@ const AllRecipes = () => {
   );
 };
 
-export default AllRecipes;
+export default Hangover;

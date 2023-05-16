@@ -27,42 +27,48 @@ const Content3 = () => {
 
         {/* ### */}
 
-        <div className="content3-box1" style={{}}>
-          <div style={{marginTop: '20%', marginLeft: '20%'}}>
-            <span
-              style={{
-                padding: '5px',
-                background: 'white',
-                fontFamily: 'Lobster',
-                fontSize: '1.5rem',
-                opacity: '0.8',
-              }}
-            >
-              Veggies???
-            </span>
-          </div>
+        <a style={{color: 'black', display: 'contents'}} href="/veggies">
+          <div className="content3-box1" style={{}}>
 
-          {/* ### */}
+            <div style={{marginTop: '20%', marginLeft: '20%'}}>
+              <span
+                style={{
+                  padding: '5px',
+                  background: 'white',
+                  fontFamily: 'Lobster',
+                  fontSize: '1.5rem',
+                  opacity: '0.8',
+                }}
+              >
+                Veggies???
+              </span>
+            </div>
 
-        </div>
-        <div className="content3-box2">
-          <div style={{marginTop: '40%', marginLeft: '20%'}}>
-            <span
-              style={{
-                padding: '5px',
-                background: 'white',
-                fontFamily: 'Lobster',
-                fontSize: '1.5rem',
-                opacity: '0.8',
-              }}
-            >
-              Craving for something spicy?
-            </span>
+            {/* ### */}
+
           </div>
-        </div>
+        </a>
+
+        <a style={{color: 'black', display: 'contents'}} href="/spicy">
+          <div className="content3-box2">
+            <div style={{marginTop: '40%', marginLeft: '20%'}}>
+              <span
+                style={{
+                  padding: '5px',
+                  background: 'white',
+                  fontFamily: 'Lobster',
+                  fontSize: '1.5rem',
+                  opacity: '0.8',
+                }}
+              >
+                Craving for something spicy?
+              </span>
+            </div>
+          </div>
+        </a>
 
         {/* ### */}
-
+        <a style={{color: 'black', display: 'contents'}} href="/hangover">
         <div className="content3-box3">
           <div style={{marginTop: '70%', marginLeft: '20%'}}>
             <span
@@ -78,6 +84,7 @@ const Content3 = () => {
             </span>
           </div>
         </div>
+        </a>
 
         {/* ### */}
 
@@ -85,59 +92,70 @@ const Content3 = () => {
 
       <div className="content3-flex">
 
-      {/* ###-Start */}
-
-      <div className="content3-box1-flex" style={{}}>
-        <div className='content3-title-test' style={{marginTop: '10%', marginLeft: '10%', height:"fit-content"}}>
-          <span className='content3-title'
-            style={{
-              padding: '5px',
-              background: 'white',
-              fontFamily: 'Lobster',
-              fontSize: '1.5rem',
-              opacity: '0.8',
-            }}
+        {/* ###-Start */}
+        <a style={{color: 'black', display: 'contents'}} href="/veggies">
+        <div className="content3-box1-flex" style={{}}>
+          <div
+            className="content3-title-test"
+            style={{marginTop: '10%', marginLeft: '10%', height: 'fit-content'}}
           >
-            Veggies???
-          </span>
+            <span
+              className="content3-title"
+              style={{
+                padding: '5px',
+                background: 'white',
+                fontFamily: 'Lobster',
+                fontSize: '1.5rem',
+                opacity: '0.8',
+              }}
+            >
+              Veggies???
+            </span>
+          </div>
         </div>
-      </div>
+        </a>
 
-      {/* ### */}
-
-      <div className="content3-box2-flex">
-        <div style={{marginTop: '40%', marginLeft: '10%', height:"fit-content"}}>
-          <span className='content3-title'
-            style={{
-              padding: '5px',
-              background: 'white',
-              fontFamily: 'Lobster',
-              fontSize: '1.5rem',
-              opacity: '0.8',
-            }}
+        {/* ### */}
+        <a style={{color: 'black', display: 'contents'}} href="/spicy">
+        <div className="content3-box2-flex">
+          <div
+            style={{marginTop: '40%', marginLeft: '10%', height: 'fit-content'}}
           >
-            Craving for something spicy?
-          </span>
+            <span
+              className="content3-title"
+              style={{
+                padding: '5px',
+                background: 'white',
+                fontFamily: 'Lobster',
+                fontSize: '1.5rem',
+                opacity: '0.8',
+              }}
+            >
+              Craving for something spicy?
+            </span>
+          </div>
         </div>
-      </div>
+        </a>
 
-      {/* ### */}
-
-      <div className="content3-box3-flex">
-        <div style={{marginTop: '50%', marginLeft: '10%'}}>
-          <span className='content3-title'
-            style={{
-              padding: '5px',
-              background: 'white',
-              fontFamily: 'Lobster',
-              fontSize: '1.5rem',
-              opacity: '0.8',
-            }}
-          >
-            Did you drink too much again?
-          </span>
+        {/* ### */}
+        <a style={{color: 'black', display: 'contents'}} href="/hangover">
+        <div className="content3-box3-flex">
+          <div style={{marginTop: '50%', marginLeft: '10%'}}>
+            <span
+              className="content3-title"
+              style={{
+                padding: '5px',
+                background: 'white',
+                fontFamily: 'Lobster',
+                fontSize: '1.5rem',
+                opacity: '0.8',
+              }}
+            >
+              Did you drink too much again?
+            </span>
+          </div>
         </div>
-      </div>
+        </a>
 
       </div>
 
