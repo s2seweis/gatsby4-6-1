@@ -11,7 +11,7 @@ import {useStaticQuery, graphql} from 'gatsby';
 
 // ###
 
-import ArticlesGrid from '../components/articles-grid';
+import ArticlesGrid from '../components/article-grid-index';
 
 import Layout from '../components/layout';
 
@@ -51,10 +51,23 @@ const AllRecipes = () => {
 
     <header className="menu-landing" style={{}}>
 
+    <div style={{marginTop: '20px'}}>
+        <a
+          style={{
+            fontSize: '1.3rem',
+            padding: '5px',
+            marginLeft: '20px',
+          }}
+          href="javascript:history.back()"
+        >
+          <button type="button" class="btn btn-link">Go Back</button>
+        </a>
+      </div>
+
       <h1
         style={{
           textAlign: 'center',
-          marginTop: '20px',
+          // marginTop: '20px',
           display: 'flex',
           justifyContent: 'center',
           marginTop: '20px',

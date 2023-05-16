@@ -1,5 +1,3 @@
-
-
 import React, {useState} from 'react';
 
 import {Link} from 'gatsby';
@@ -38,61 +36,66 @@ const Dessert = () => {
       siteDescription
     }
   }
-`)
-
-
-
-
-
+`);
 
   return (
-
     <Layout>
 
-
-    <header className="menu-landing" style={{}}>
-
-      <h1
-        style={{
-          textAlign: 'center',
-          marginTop: '20px',
-          display: 'flex',
-          justifyContent: 'center',
-          marginTop: '20px',
-          marginBottom: '20px',
-          fontFamily: 'Lobster',
-          fontSize: '3rem',
-          background: 'antiquewhite',
-        }}
-      >
-        {' '}Dessert{' '}
-      </h1>
-
-      <ArticlesGrid articles={allStrapiArticle.nodes} />
-
-      <div
-        class="ui breadcrumb"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          // marginBottom: '50px',
-          marginTop: '50px',
-        }}
-      >
-        <a class="section" href="/web-development">News</a>
-
-        <div class="divider">/</div>
-        <a class="section" href="/web-design">About</a>
-
-        <div class="divider">/</div>
-        <div class="active section " href="/adobe">Index</div>
-
+      <div style={{marginTop: '30px'}}>
+        <a
+          style={{
+            fontSize: '1.3rem',
+            padding: '5px',
+            marginLeft: '30px',
+          }}
+          href="javascript:history.back()"
+        >
+          <button type="button" class="btn btn-link">Go Back</button>
+        </a>
       </div>
 
-    </header>
+      <header className="menu-landing" style={{}}>
+
+        <h1
+          style={{
+            textAlign: 'center',
+            marginTop: '20px',
+            display: 'flex',
+            justifyContent: 'center',
+            marginTop: '20px',
+            marginBottom: '20px',
+            fontFamily: 'Lobster',
+            fontSize: '3rem',
+            background: 'antiquewhite',
+          }}
+        >
+          {' '}Dessert{' '}
+        </h1>
+
+        <ArticlesGrid articles={allStrapiArticle.nodes} />
+
+        <div
+          class="ui breadcrumb"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            // marginBottom: '50px',
+            marginTop: '50px',
+          }}
+        >
+          <a class="section" href="/web-development">News</a>
+
+          <div class="divider">/</div>
+          <a class="section" href="/web-design">About</a>
+
+          <div class="divider">/</div>
+          <div class="active section " href="/adobe">Index</div>
+
+        </div>
+
+      </header>
 
     </Layout>
-
   );
 };
 

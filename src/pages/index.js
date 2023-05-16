@@ -19,6 +19,8 @@ import Seperate from '../components/seperate';
 import Content3 from '../components/content3';
 import E2 from '../components/e2';
 
+import ScrollToTop from "react-scroll-to-top";
+
 const IndexPage = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
     query {
@@ -38,6 +40,8 @@ const IndexPage = () => {
     <Layout>
 
       <Seo seo={{metaTitle: 'Home'}} />
+
+      <ScrollToTop smooth color="#708d3e" style={{display:"flex", justifyContent:"center", alignItems:"center"}} />
 
       <Hero />
       {/* <Seperate /> */}

@@ -73,7 +73,7 @@ const Overview = () => {
             </div>
             <div style={{}} className="content">
               <div style={{textAlign: 'center'}} className="header-overview">
-                Breakfast1
+                Breakfast
               </div>
             </div>
           </div>
