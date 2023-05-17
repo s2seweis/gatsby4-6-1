@@ -19,6 +19,8 @@ const Content3 = () => {
           padding: ',20px',
           fontSize: '3rem',
           fontFamily: 'Lobster',
+          background:"antiquewhite",
+          marginBottom:"20px"
         }}
       >
         You looking for something special?

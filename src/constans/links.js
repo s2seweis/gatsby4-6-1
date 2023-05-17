@@ -10,16 +10,16 @@ const data = [
       url: "/infopage/",
     },
 
-    {
-      id: 3,
-      text: "breakfast",
-      url: "/breakfast/",
-    },
-    {
-      id: 4,
-      text: "lunch",
-      url: "/lunch",
-    },
+    // {
+    //   id: 3,
+    //   text: "breakfast",
+    //   url: "/breakfast/",
+    // },
+    // {
+    //   id: 4,
+    //   text: "lunch",
+    //   url: "/lunch",
+    // },
     // {
     //   id: 5,
     //   text: "dinner",

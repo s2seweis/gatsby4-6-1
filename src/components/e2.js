@@ -19,8 +19,6 @@ const E2 = () => {
   return (
     <header className="e2" style={{}}>
 
-
-
       <section className="e2-level1">
 
         <div className="e2-grid">
@@ -39,22 +37,35 @@ const E2 = () => {
               }}
               className="<e2-box-social-links>"
             >
-              <span><FaFacebookSquare /></span>
-              <span><FaInstagram /></span>
-              <span><FaTiktok /></span>
-              <span><FaYoutube /></span>
+              {/* <a style={{color: 'black'}} href="https://www.facebook.com">
+                <span><FaFacebookSquare /></span>
+              </a>
+              <a style={{color: 'black'}} href="https://www.instagram.com">
+                <span><FaInstagram /></span>
+              </a>
+              <a style={{color: 'black'}} href="https://tiktok.com">
+
+                <span><FaTiktok /></span>
+              </a>
+              <a
+                style={{color: 'black'}}
+                href="https://www.youtube.com/@Thesolacelife"
+              >
+
+                <span><FaYoutube /></span>
+              </a> */}
 
             </div>
             {' '}
           </div>
           <div className="e2-box2" style={{padding: '15px'}}>
 
-            <p
+            <p className='e2-text-p2'
               style={{
                 textAlign: 'center',
-                fontSize: '2rem',
+                // fontSize: '2rem',
                 fontFamily: 'Lobster',
-                marginTop:"20px"
+                marginTop: '20px',
               }}
             >
               Welcome to my food blog
@@ -67,16 +78,43 @@ const E2 = () => {
                 height: '60%',
                 alignItems: 'center',
                 display: 'grid',
-                fontSize: '1.2rem',
+                // fontSize: '1.2rem',
                 padding: '20px',
-                fontFamily:"Lobster"
+                fontFamily: 'Lobster',
               }}
             >
 
-              <p style={{fontSize:"1.3rem"}}>
+              <p className="e2-text-p1" style={{}}>
                 where I share my passion for cooking and all things food-related! My name is Mitzi Falmarin, and I'm thrilled to have you here.
                 {' '}
               </p>
+
+              <div
+                style={{
+                  display: 'flex',
+                  fontSize: '2rem',
+                  justifyContent: 'space-around',
+                }}
+                className="flex-social-links"
+              >
+
+                <a style={{color: 'black'}} href="https://www.facebook.com">
+                  <span><FaFacebookSquare /></span>
+                </a>
+                <a style={{color: 'black'}} href="https://www.instagram.com">
+                  <span><FaInstagram /></span>
+                </a>
+                <a style={{color: 'black'}} href="https://www.tiktok.com">
+                  <span><FaTiktok /></span>
+                </a>
+                <a
+                  style={{color: 'black'}}
+                  href="https://www.youtube.com/@Thesolacelife"
+                >
+                  <span><FaYoutube /></span>
+                </a>
+
+              </div>
               {/* <p></p> */}
 
             </div>
@@ -102,11 +140,21 @@ const E2 = () => {
               }}
               className="e2-box1-flex-social-links"
             >
-
-              <span><FaFacebookSquare /></span>
-              <span><FaInstagram /></span>
-              <span><FaTiktok /></span>
-              <span><FaYoutube /></span>
+              <a style={{color: 'black'}} href="https://www.facebook.com">
+                <span><FaFacebookSquare /></span>
+              </a>
+              <a style={{color: 'black'}} href="https://www.instagram.com">
+                <span><FaInstagram /></span>
+              </a>
+              <a style={{color: 'black'}} href="https://www.tiktok.com">
+                <span><FaTiktok /></span>
+              </a>
+              <a
+                style={{color: 'black'}}
+                href="https://www.youtube.com/@Thesolacelife"
+              >
+                <span><FaYoutube /></span>
+              </a>
 
             </div>
 

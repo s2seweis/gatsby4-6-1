@@ -12,6 +12,8 @@ import {FaFacebookSquare} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa';
 import {FaTiktok} from 'react-icons/fa';
 import {FaYoutube} from 'react-icons/fa';
+import logo5 from '../assets/images/logo5.png';
+
 
 const Sidebar = ({isOpen, toggleSidebar}) => {
   return (
@@ -21,8 +23,18 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
       </button>
       <div
         className="side-container"
-        style={{marginTop: '-200px', width: '100%'}}
+        style={{marginTop: '60px', width: '100%'}}
       >
+
+        {/* <div className="nav-header-sidebar" style={{ height:"80px", width:"80px", margin:"auto" }}>
+
+          <a href="/">
+            <img src={logo5} alt="web dev" />
+          </a>
+
+   
+
+        </div> */}
 
         {/* <img src="../assets/images/hero.svg"  className="about-img-svg" /> */}
 
@@ -40,23 +52,23 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
 
       </div> */}
 
-      <div className="sidebar-social-links-margin">
+        <div className="sidebar-social-links-margin" style={{marginTop:"auto"}}>
 
-        <ul className={isOpen ? 'sidebar-links' : null}>
-          {links.map (link => {
-            return (
-              <li style={{}} key={link.id}>
-                <Link to={link.url} onClick={toggleSidebar}>
-                  {link.text}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+          <ul className={isOpen ? 'sidebar-links' : null}>
+            {links.map (link => {
+              return (
+                <li style={{}} key={link.id}>
+                  <Link to={link.url} onClick={toggleSidebar}>
+                    {link.text}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
 
-      </div>
+        </div>
 
-        <div className="sidebar-social-links-margin">
+        <div className="sidebar-social-links-margin" style={{marginTop:"30px"}}>
 
           <ul className={isOpen ? 'social-links sidebar-icons' : null}>
             {socialLinks.map (link => {

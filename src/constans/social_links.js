@@ -20,17 +20,17 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.facebook.com/people/Basti-Wei%C3%9Fenborn/pfbid02eL8CSEQUiA8or6yr8HS54a5BtScUX4JzXE3EUGncJ2hUxXqhdEqxRB4uKek5m1Yzl/?mibextid=ZbWKwL",
+    url: "https://www.facebook.com",
   },
   {
     id: 2,
     icon: <FaYoutube className="social-icon"></FaYoutube>,
-    url: "https://www.twitter.com",
+    url: "https://www.youtube.com/@Thesolacelife",
   },
   {
     id: 3,
     icon: <FaTiktok className="social-icon"></FaTiktok>,
-    url: "https://github.com/s2seweis",
+    url: "https://www.tiktok.com/",
   },
   // {
   //   id: 4,

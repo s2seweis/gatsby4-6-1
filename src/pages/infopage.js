@@ -51,6 +51,19 @@ const InfoPage = () => {
     
     <Layout >
 
+      <div style={{marginTop: '20px'}}>
+        <a
+          style={{
+            fontSize: '1.3rem',
+            padding: '5px',
+            marginLeft: '20px',
+          }}
+          href="javascript:history.back()"
+        >
+          <button type="button" class="btn btn-link">Go Back</button>
+        </a>
+      </div>
+
         <div className="container max-w-4xl py-8">
 
 
