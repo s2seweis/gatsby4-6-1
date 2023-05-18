@@ -7,6 +7,7 @@ const ArticleCard = ({ article }) => {
     <Link
       to={`/article/${article.slug}`}
       className="overflow-hidden rounded-lg bg-white shadow-sm transition-shadow hover:shadow-md"
+      style={{textDecoration:"none"}}
     >
 
 

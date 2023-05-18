@@ -18,74 +18,90 @@ const Hero1 = () => {
 
         <div className="hero5">
 
-          <div className="h-box4">
+          <a style={{color: 'black', display: 'contents'}} href="/veggies">
+            <div className="h-box4">
 
-            <div style={{marginTop: '20%', marginLeft: '20%'}}>
-              <span
-                style={{
-                  padding: '5px',
-                  background: 'white',
-                  fontFamily: 'Lobster',
-                  fontSize: '1.5rem',
-                  opacity: '0.8',
-                }}
-              >
-                Best Pork Adobe Recipe!
-              </span>
+              <div style={{marginTop: '20%', marginLeft: '20%'}}>
+                <span
+                  style={{
+                    padding: '5px',
+                    background: 'white',
+                    fontFamily: 'Lobster Two',
+                    fontSize: '1.5rem',
+                    opacity: '0.8',
+                  }}
+                >
+                  Best Pork Adobe Recipe!
+                </span>
+              </div>
+            </div>
+          </a>
+
+          <a style={{color: 'black', display: 'contents'}} href="/veggies">
+
+            <div className="h-box6">
+              <div style={{marginTop: '20%', marginLeft: '20%'}}>
+                <span
+                  style={{
+                    padding: '5px',
+                    background: 'white',
+                    fontFamily: 'Lobster Two',
+                    fontSize: '1.5rem',
+                    opacity: '0.8',
+                  }}
+                >
+                  Delicious Veggie Bowl.
+                </span>
+              </div>
             </div>
 
-          </div>
-          <div className="h-box6">
-            <div style={{marginTop: '20%', marginLeft: '20%'}}>
-              <span
-                style={{
-                  padding: '5px',
-                  background: 'white',
-                  fontFamily: 'Lobster',
-                  fontSize: '1.5rem',
-                  opacity: '0.8',
-                }}
-              >
-                Delicious Veggie Bowl.
-              </span>
-            </div>
-          </div>
+          </a>
 
         </div>
 
         <div className="hero6">
 
-          <div className="h-box7">
-            <div style={{marginTop: '20%', marginLeft: '20%'}}>
-              <span
-                style={{
-                  padding: '5px',
-                  background: 'white',
-                  fontFamily: 'Lobster',
-                  fontSize: '1.5rem',
-                  opacity: '0.8',
-                }}
-              >
-                Tiktok - Halo Halo.
-              </span>
+          <a style={{color: 'black', display: 'contents'}} href="/veggies">
+
+            <div className="h-box7">
+              <div style={{marginTop: '20%', marginLeft: '20%'}}>
+                <span
+                  style={{
+                    padding: '5px',
+                    background: 'white',
+                    fontFamily: 'Lobster Two',
+                    fontSize: '1.5rem',
+                    opacity: '0.8',
+                  }}
+                >
+                  Tiktok - Halo Halo.
+                </span>
+              </div>
             </div>
-          </div>
+
+          </a>
+
           {/* <div  className='box8'>Box2</div> */}
-          <div className="h-box9">
-            <div style={{marginTop: '20%', marginLeft: '20%'}}>
-              <span
-                style={{
-                  padding: '5px',
-                  background: 'white',
-                  fontFamily: 'Lobster',
-                  fontSize: '1.5rem',
-                  opacity: '0.8',
-                }}
-              >
-                Mouth Watering Fiesta.
-              </span>
+
+          <a style={{color: 'black', display: 'contents'}} href="/veggies">
+
+            <div className="h-box9">
+              <div style={{marginTop: '20%', marginLeft: '20%'}}>
+                <span
+                  style={{
+                    padding: '5px',
+                    background: 'white',
+                    fontFamily: 'Lobster Two',
+                    fontSize: '1.5rem',
+                    opacity: '0.8',
+                  }}
+                >
+                  Mouth Watering Fiesta.
+                </span>
+              </div>
             </div>
-          </div>
+
+          </a>
 
         </div>
 

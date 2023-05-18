@@ -18,7 +18,7 @@ const Content3 = () => {
           textAlign: 'center',
           padding: ',20px',
           fontSize: '3rem',
-          fontFamily: 'Lobster',
+          fontFamily: 'Lobster Two',
           background:"antiquewhite",
           marginBottom:"20px"
         }}
@@ -37,7 +37,7 @@ const Content3 = () => {
                 style={{
                   padding: '5px',
                   background: 'white',
-                  fontFamily: 'Lobster',
+                  fontFamily: 'Lobster Two',
                   fontSize: '1.5rem',
                   opacity: '0.8',
                 }}
@@ -58,7 +58,7 @@ const Content3 = () => {
                 style={{
                   padding: '5px',
                   background: 'white',
-                  fontFamily: 'Lobster',
+                  fontFamily: 'Lobster Two',
                   fontSize: '1.5rem',
                   opacity: '0.8',
                 }}
@@ -77,7 +77,7 @@ const Content3 = () => {
               style={{
                 padding: '5px',
                 background: 'white',
-                fontFamily: 'Lobster',
+                fontFamily: 'Lobster Two',
                 fontSize: '1.5rem',
                 opacity: '0.8',
               }}
@@ -106,7 +106,7 @@ const Content3 = () => {
               style={{
                 padding: '5px',
                 background: 'white',
-                fontFamily: 'Lobster',
+                fontFamily: 'Lobster Two',
                 fontSize: '1.5rem',
                 opacity: '0.8',
               }}
@@ -128,7 +128,7 @@ const Content3 = () => {
               style={{
                 padding: '5px',
                 background: 'white',
-                fontFamily: 'Lobster',
+                fontFamily: 'Lobster Two',
                 fontSize: '1.5rem',
                 opacity: '0.8',
               }}
@@ -148,7 +148,7 @@ const Content3 = () => {
               style={{
                 padding: '5px',
                 background: 'white',
-                fontFamily: 'Lobster',
+                fontFamily: 'Lobster Two',
                 fontSize: '1.5rem',
                 opacity: '0.8',
               }}

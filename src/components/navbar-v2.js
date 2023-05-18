@@ -52,7 +52,7 @@ const Navbar1 = ({toggleSidebar}) => {
             style={{
               display: 'flex',
               justifyContent: 'center',
-              fontFamily: 'Lobster',
+              fontFamily: 'Lobster Two',
               width:"100%"
             }}
           >

@@ -64,7 +64,7 @@ const E2 = () => {
               style={{
                 textAlign: 'center',
                 // fontSize: '2rem',
-                fontFamily: 'Lobster',
+                fontFamily: 'Lobster Two',
                 marginTop: '20px',
               }}
             >
@@ -80,7 +80,7 @@ const E2 = () => {
                 display: 'grid',
                 // fontSize: '1.2rem',
                 padding: '20px',
-                fontFamily: 'Lobster',
+                fontFamily: 'Lobster Two',
               }}
             >
 
@@ -88,6 +88,8 @@ const E2 = () => {
                 where I share my passion for cooking and all things food-related! My name is Mitzi Falmarin, and I'm thrilled to have you here.
                 {' '}
               </p>
+
+              <p style={{fontSize:"1.4rem", textAlign:"center"}} >  Check ou my other Channels </p>
 
               <div
                 style={{
@@ -172,7 +174,7 @@ const E2 = () => {
                   textAlign: 'center',
                   padding: '20px 20px 20px 20px',
                   fontSize: '2rem',
-                  fontFamily: 'Lobster',
+                  fontFamily: 'Lobster Two',
                 }}
               >
                 Welcome to my food blog
@@ -183,7 +185,7 @@ const E2 = () => {
                   textAlign: 'center',
                   padding: '20px 20px 20px 20px',
                   fontSize: '1.5rem',
-                  fontFamily: 'Lobster',
+                  fontFamily: 'Lobster Two',
                 }}
               >
                 where I share my divassion for cooking and all things food-related! My name is Mitzi, and I'm thrilled to have you here.

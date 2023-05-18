@@ -110,6 +110,10 @@ module.exports = {
             name: `Lobster`, 
             file: `https://fonts.googleapis.com/css2?family=Lobster&display=swap`,
           },
+          {
+            name: `Lobster+Two`, 
+            file: `https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto:wght@300&display=swap`,
+          },
         ],
       },
 

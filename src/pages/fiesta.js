@@ -73,7 +73,7 @@ const Fiesta = () => {
           justifyContent: 'center',
           marginTop: '20px',
           marginBottom: '20px',
-          fontFamily: 'Lobster',
+          fontFamily: 'Lobster Two',
           fontSize: '3rem',
           background: 'antiquewhite',
         }}

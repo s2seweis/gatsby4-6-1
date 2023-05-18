@@ -43,13 +43,14 @@ const ArticlePage = ({data}) => {
         </h1>
         {/* <h1 className="text-3xl  text-neutral-700">Test1</h1> */}
 
-        <p className="mt-4 text-2xl text-neutral-500">{article.description}</p>
+        <p className="mt-4 text-2xl text-neutral-500" style={{textAlign:"center"}}>{article.description}</p>
 
 
         <GatsbyImage
           image={getImage(article?.cover?.localFile)}
           alt={article?.cover?.alternativeText}
           className="mt-6"
+          style={{margin:"auto", maxWidth:"400px", display:"flex"}}
         />
 
 
