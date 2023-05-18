@@ -67,7 +67,7 @@ const ArticlePage = ({data}) => {
         <BlocksRenderer blocks={article.blocks || []} />
       </main>
 
-      <div className="hero-youtube" style={{maxHeight:"450px", maxWidth:"450px", margin:"auto", marginBottom:"20px"}}>
+      <div className="hero-youtube" style={{maxHeight:"450px", maxWidth:"450px", margin:"20px auto", marginBottom:"20px", padding:"15px"}}>
 
         <div
           style={{height: '-webkit-fill-available'}}
