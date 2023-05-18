@@ -1624,3 +1624,13 @@ margin: 20px 20px 20px 20px;
   .overflow-hidden{
     text-decoration: none;
   }
+
+  .contact-form {
+    width: 65%;
+  }
+
+  @media screen and (min-width: 760px) {
+    .contact-form{
+    width: 40%;
+    }
+  }

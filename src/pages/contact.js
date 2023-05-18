@@ -13,8 +13,24 @@ const contact = () => {
   return (
     <Layout>
 
-      <section style={{width:"50%", margin:"auto", marginTop:"100px"}} className="contact-page">
-        <article className="contact-form">
+      <section 
+      className="contact-page">
+
+      <div style={{marginTop: '20px'}}>
+            <a
+              style={{
+                fontSize: '1.3rem',
+                padding: '5px',
+                marginLeft: '20px',
+              }}
+              href="javascript:history.back()"
+            >
+              <button type="button" class="btn btn-link">Go Back</button>
+            </a>
+          </div>
+
+        <article className="contact-form"       style={{ margin:"auto", marginTop:"100px"}} 
+>
           <h3>get in touch</h3>
           <form
             action="https://formsubmit.co/weissenborn.sebastian@gmail.com"
