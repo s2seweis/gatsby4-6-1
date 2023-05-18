@@ -17,7 +17,7 @@ const Footer = () => {
 
         <div className="footer-e1">
 
-          <a className='footer-e1-a' style={{}} href="/" >
+          <a className='footer-e1-a' style={{}} href="/copyright" >
             Copyright SWT
           </a>
 

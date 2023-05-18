@@ -1634,3 +1634,17 @@ margin: 20px 20px 20px 20px;
     width: 40%;
     }
   }
+
+
+  .text-copyright-1{
+
+    width: 80%;
+
+  }
+
+
+  @media screen and (min-width: 760px) {
+    .text-copyright-1{
+    width: 30%;
+    }
+  }

@@ -12,6 +12,7 @@ const BlockMedia = ({ data }) => {
         <GatsbyImage
           image={getImage(data.file.localFile)}
           alt={data.file.alternativeText}
+          style={{width:"35%", display:"flex", margin:"auto"}}
         />
       )}
     </div>

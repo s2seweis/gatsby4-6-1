@@ -100,17 +100,17 @@ const E2 = () => {
                 className="flex-social-links"
               >
 
-                <a style={{color: 'black'}} href="https://www.facebook.com">
+                <a style={{color: 'white'}} href="https://www.facebook.com/people/The-Solace-Life/100090725413897/?mibextid=LQQJ4d">
                   <span><FaFacebookSquare /></span>
                 </a>
-                <a style={{color: 'black'}} href="https://www.instagram.com">
+                <a style={{color: 'white'}} href="https://www.instagram.com">
                   <span><FaInstagram /></span>
                 </a>
-                <a style={{color: 'black'}} href="https://www.tiktok.com">
+                <a style={{color: 'white'}} href="https://www.tiktok.com">
                   <span><FaTiktok /></span>
                 </a>
                 <a
-                  style={{color: 'black'}}
+                  style={{color: 'white'}}
                   href="https://www.youtube.com/@Thesolacelife"
                 >
                   <span><FaYoutube /></span>
@@ -142,7 +142,7 @@ const E2 = () => {
               }}
               className="e2-box1-flex-social-links"
             >
-              <a style={{color: 'black'}} href="https://www.facebook.com">
+              <a style={{color: 'black'}} href="https://www.facebook.com/people/The-Solace-Life/100090725413897/?mibextid=LQQJ4d">
                 <span><FaFacebookSquare /></span>
               </a>
               <a style={{color: 'black'}} href="https://www.instagram.com">

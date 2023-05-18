@@ -7,7 +7,7 @@ const data = [
     {
       id: 2,
       text: "about",
-      url: "/infopage/",
+      url: "/about",
     },
 
     // {

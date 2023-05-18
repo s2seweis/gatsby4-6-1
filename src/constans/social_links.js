@@ -20,7 +20,7 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.facebook.com",
+    url: "https://www.facebook.com/people/The-Solace-Life/100090725413897/?mibextid=LQQJ4d",
   },
   {
     id: 2,

@@ -31,7 +31,7 @@ const contact = () => {
 
         <article className="contact-form"       style={{ margin:"auto", marginTop:"100px"}} 
 >
-          <h3>get in touch</h3>
+          <h3 style={{textAlign:"center"}}>get in touch</h3>
           <form
             action="https://formsubmit.co/weissenborn.sebastian@gmail.com"
             method="POST"
