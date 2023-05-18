@@ -1620,3 +1620,7 @@ margin: 20px 20px 20px 20px;
   .h-box9:hover  {
     opacity: 0.8;
   }
+
+  .overflow-hidden{
+    text-decoration: none;
+  }

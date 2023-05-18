@@ -36,32 +36,7 @@ const Overview = () => {
         {' '}Overview{' '}
       </h1>
 
-      {/* <div
-        class="ui breadcrumb"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          marginBottom: '50px',
-        }}
-      >
-        <a class="section" href="/web-development">Breakfast</a>
-
-        <div class="divider">/</div>
-        <a class="section" href="/web-design">Lunch</a>
-
-        <div class="divider">/</div>
-        <div class="active section " href="/adobe">Dinner</div>
-
-        <div class="divider">/</div>
-        <div class="active section " href="/adobe">Dessert</div>
-
-        <div class="divider">/</div>
-        <div class="active section " href="/adobe">Fiesta</div>
-
-        <div class="divider">/</div>
-        <div class="active section " href="/adobe">Dinner</div>
-
-      </div> */}
+      
 
       <div style={{marginTop: '25px'}} className="menu-row">
 
