@@ -4,26 +4,27 @@ import { useStaticQuery, graphql } from "gatsby"
 
 const Seo = ({ seo = {} }) => {
   const { strapiGlobal } = useStaticQuery(graphql`
-    query {
-      strapiGlobal {
-        siteName
-        favicon {
+  query {
+    strapiGlobal {
+      siteName
+      favicon {
+        localFile {
+          url
+        }
+      }
+      defaultSeo {
+        metaTitle
+        metaDescription
+        shareImage {
           localFile {
             url
           }
         }
-        defaultSeo {
-          metaTitle
-          metaDescription
-          shareImage {
-            localFile {
-              url
-            }
-          }
-        }
+        keywords
       }
     }
-  `)
+  }
+`)
 
   const { siteName, defaultSeo, favicon } = strapiGlobal
 
@@ -31,6 +32,7 @@ const Seo = ({ seo = {} }) => {
 
   // Merge default and page-specific SEO values
   const fullSeo = { ...defaultSeo, ...seo }
+  console.log("line:3", fullSeo);
 
   // Add site name to title
   fullSeo.metaTitle = `${fullSeo.metaTitle} | ${siteName}`
@@ -66,6 +68,32 @@ const Seo = ({ seo = {} }) => {
         }
       )
     }
+
+
+    // ###
+
+
+    if (fullSeo.keywords) {
+      tags.push(
+        {
+          name: "keywords",
+          content: fullSeo.keywords,
+        },
+        {
+          property: "og:keywords",
+          content: fullSeo.keywords,
+        },
+        {
+          name: "twitter:keywords",
+          content: fullSeo.keywords,
+        }
+      )
+    }
+
+
+    // ###
+
+
     if (fullSeo.shareImage) {
       const imageUrl = fullSeo.shareImage.localFile.url
       tags.push(

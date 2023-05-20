@@ -69,7 +69,7 @@ console.log("line:3", strapiAbout.title);
           </a>
         </div>
 
-        <Seo seo={seo} />
+        <Seo seo={{metaTitle: 'About'}} />
 
         <Headings title={strapiAbout.title} />
 
