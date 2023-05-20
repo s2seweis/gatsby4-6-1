@@ -19,7 +19,8 @@ const Hero1 = () => {
         <div className="hero5">
 
           <a style={{color: 'black', display: 'contents'}} href="/article/pork-adobe">
-            <div className="h-box4">
+            <div className="h-box4"  alt="Food Blog"
+ >
 
               <div style={{marginTop: '20%', marginLeft: '20%'}}>
                 <span
@@ -39,7 +40,7 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box6">
+            <div className="h-box6" alt="Food Blog">
               <div style={{marginTop: '20%', marginLeft: '20%'}}>
                 <span
                   style={{
@@ -63,7 +64,7 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box7">
+            <div className="h-box7" alt="Food Blog">
               <div style={{marginTop: '20%', marginLeft: '20%'}}>
                 <span
                   style={{
@@ -85,7 +86,7 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box9">
+            <div className="h-box9" alt="Food Blog">
               <div style={{marginTop: '20%', marginLeft: '20%'}}>
                 <span
                   style={{

@@ -44,7 +44,7 @@ const Overview = () => {
 
           <div className="ui-card" style={{width: 'auto'}} href="/breakfast">
             <div className="container-img">
-              <img className="image-overview" src={image20} />
+              <img className="image-overview" src={image20} alt="Food Blog" />
             </div>
             <div style={{}} className="content">
               <div style={{textAlign: 'center'}} className="header-overview">
@@ -57,7 +57,7 @@ const Overview = () => {
         <a style={{ color:"black", textDecoration:"none"}} href="/lunch">
           <div className="ui-card" style={{width: 'auto'}}>
             <div className="container-img">
-              <img className="image-overview" src={image21} />
+              <img className="image-overview" src={image21} alt="Food Blog" />
             </div>
             <div className="content">
               <div style={{textAlign: 'center'}} className="header-overview">
@@ -74,7 +74,7 @@ const Overview = () => {
           style={{ width: 'auto'}}
         >
           <div className="container-img">
-            <img className="image-overview" src={image22} />
+            <img className="image-overview" src={image22} alt="Food Blog" />
           </div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
@@ -101,7 +101,7 @@ const Overview = () => {
           style={{ width: 'auto'}}
         >
           <div className="container-img">
-            <img className="image-overview" src={image23} />
+            <img className="image-overview" src={image23} alt="Food Blog" />
           </div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
@@ -117,7 +117,7 @@ const Overview = () => {
           style={{ width: 'auto'}}
         >
           <div className="container-img">
-            <img className="image-overview" src={image24} />
+            <img className="image-overview" src={image24} alt="Food Blog" />
           </div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
@@ -133,7 +133,7 @@ const Overview = () => {
           style={{ width: 'auto'}}
         >
           <div className="container-img">
-            <img className="image-overview" src={image25} />
+            <img className="image-overview" src={image25} alt="Food Blog" />
           </div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
