@@ -34,7 +34,7 @@ const ArticlePage = ({data}) => {
           }}
           href="javascript:history.back()"
         >
-          <button type="button" class="btn btn-link">Go Back</button>
+          <button type="button" className="btn btn-link">Go Back</button>
         </a>
       </div>
 
@@ -71,7 +71,7 @@ const ArticlePage = ({data}) => {
 
         <div
           style={{height: '-webkit-fill-available'}}
-          class="ratio ratio-16x9"
+          className="ratio ratio-16x9"
         >
           <iframe
             src={src1}
@@ -83,7 +83,7 @@ const ArticlePage = ({data}) => {
       </div>
 
       <div
-        class="ui breadcrumb"
+        className="ui breadcrumb"
         style={{
           display: 'flex',
           justifyContent: 'center',
@@ -92,14 +92,14 @@ const ArticlePage = ({data}) => {
           paddingBottom:"50px"
         }}
       >
-        <a class="section" href="/news">News</a>
+        <a className="section" href="/news">News</a>
 
-        <div class="divider">/</div>
-        <a class="section" href="/about">About</a>
+        <div className="divider">/</div>
+        <a className="section" href="/about">About</a>
 
-        <div class="divider">/</div>
-        <a class="section " href="/index-all-recipes">Index</a>
-        {/* class="active section " */}
+        <div className="divider">/</div>
+        <a className="section " href="/index-all-recipes">Index</a>
+        {/* className="active section " */}
       </div>
 
     </Layout>

@@ -15,11 +15,15 @@ import ArticlesGrid from '../components/article-grid-index';
 
 import Layout from '../components/layout';
 
-
 // ###
+
+import Seo from '../components/seo';
 
 const AllRecipes = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
+
+
+  
 
 
   
@@ -37,75 +41,73 @@ const AllRecipes = () => {
       siteName
     }
   }
-`)
+`);
 
+console.log( "line:1", strapiGlobal);
 
-
-
-
+ 
 
   return (
-
     <Layout>
-      
 
-    <header className="menu-landing" style={{}}>
+      <header className="menu-landing" style={{}}>
 
-    <div style={{marginTop: '20px'}}>
-        <a
+        <Seo seo={{metaTitle: 'Index'}}  />
+
+        <div style={{marginTop: '20px'}}>
+          <a
+            style={{
+              fontSize: '1.3rem',
+              padding: '5px',
+              marginLeft: '20px',
+            }}
+            href="javascript:history.back()"
+          >
+            <button type="button" className="btn btn-link">Go Back</button>
+          </a>
+        </div>
+
+        <h1
           style={{
-            fontSize: '1.3rem',
-            padding: '5px',
-            marginLeft: '20px',
+            textAlign: 'center',
+            // marginTop: '20px',
+            display: 'flex',
+            justifyContent: 'center',
+            marginTop: '20px',
+            marginBottom: '20px',
+            fontFamily: 'Lobster Two',
+            fontSize: '3rem',
+            background: 'antiquewhite',
           }}
-          href="javascript:history.back()"
         >
-          <button type="button" class="btn btn-link">Go Back</button>
-        </a>
-      </div>
+          {' '}Index - Recipes{' '}
+        </h1>
 
-      <h1
-        style={{
-          textAlign: 'center',
-          // marginTop: '20px',
-          display: 'flex',
-          justifyContent: 'center',
-          marginTop: '20px',
-          marginBottom: '20px',
-          fontFamily: 'Lobster Two',
-          fontSize: '3rem',
-          background: 'antiquewhite',
-        }}
-      >
-        {' '}Index - Recipes{' '}
-      </h1>
+        <ArticlesGrid articles={allStrapiArticle.nodes} />
 
-      <ArticlesGrid articles={allStrapiArticle.nodes} />
+        <div
+          className="ui breadcrumb"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            // marginBottom: '50px',
+            marginTop: '50px',
+            paddingBottom: '50px',
+          }}
+        >
+          <a className="section" href="/news">News</a>
 
-      <div
-        class="ui breadcrumb"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          // marginBottom: '50px',
-          marginTop: '50px',
-          paddingBottom:"50px"
-        }}
-      >
-        <a class="section" href="/news">News</a>
+          <div className="divider">/</div>
+          <a className="section" href="/about">About</a>
 
-        <div class="divider">/</div>
-        <a class="section" href="/about">About</a>
+          <div className="divider">/</div>
+          <a className="section " href="/index-all-recipes">Index</a>
+          {/* className="active section " */}
+        </div>
 
-        <div class="divider">/</div>
-        <a class="section " href="/index-all-recipes">Index</a>
-        {/* class="active section " */}
-      </div>
-
-    </header>
+      </header>
 
     </Layout>
-
   );
 };
 

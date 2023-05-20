@@ -62,7 +62,7 @@ console.log("line:1", strapiInfo);
           }}
           href="javascript:history.back()"
         >
-          <button type="button" class="btn btn-link">Go Back</button>
+          <button type="button" className="btn btn-link">Go Back</button>
         </a>
       </div>
 

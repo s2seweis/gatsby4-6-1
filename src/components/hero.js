@@ -45,7 +45,7 @@ const Hero = () => {
 
             <div
               style={{height: '-webkit-fill-available'}}
-              class="ratio ratio-16x9"
+              className="ratio ratio-16x9"
             >
               <iframe
                 src="https://www.youtube.com/embed/YIsEYluQaLk"
@@ -85,7 +85,7 @@ const Hero = () => {
 
             <div
               style={{height: '-webkit-fill-available'}}
-              class="ratio ratio-16x9"
+              className="ratio ratio-16x9"
             >
               <iframe
                 src="https://www.youtube.com/embed/YIsEYluQaLk"

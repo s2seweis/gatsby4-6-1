@@ -61,7 +61,7 @@ const Lunch = () => {
             }}
             href="javascript:history.back()"
           >
-            <button type="button" class="btn btn-link">Go Back</button>
+            <button type="button" className="btn btn-link">Go Back</button>
           </a>
         </div>
 
@@ -84,7 +84,7 @@ const Lunch = () => {
         <ArticlesGrid articles={allStrapiArticle.nodes} />
 
         <div
-          class="ui breadcrumb"
+          className="ui breadcrumb"
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -92,14 +92,14 @@ const Lunch = () => {
             marginTop: '50px',
           }}
         >
-          <a class="section" href="/news">News</a>
+          <a className="section" href="/news">News</a>
 
-          <div class="divider">/</div>
-          <a class="section" href="/about">About</a>
+          <div className="divider">/</div>
+          <a className="section" href="/about">About</a>
 
-          <div class="divider">/</div>
-          <a class="section " href="/index-all-recipes">Index</a>
-          {/* class="active section " */}
+          <div className="divider">/</div>
+          <a className="section " href="/index-all-recipes">Index</a>
+          {/* className="active section " */}
         </div>
 
       </header>

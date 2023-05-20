@@ -38,6 +38,7 @@ const AboutPage = () => {
 
 console.log("line:1", strapiAbout.cover.localFile.url);
 console.log("line:2", strapiAbout.cover.alternativeText);
+console.log("line:3", strapiAbout.title);
 
   
   const {title, blocks} = strapiAbout;
@@ -64,11 +65,12 @@ console.log("line:2", strapiAbout.cover.alternativeText);
             }}
             href="javascript:history.back()"
           >
-            <button type="button" class="btn btn-link">Go Back</button>
+            <button type="button" className="btn btn-link">Go Back</button>
           </a>
         </div>
 
         <Seo seo={seo} />
+
         <Headings title={strapiAbout.title} />
 
         {/* <img className='test:1' style={{width:"auto", height:"350px", margin:"auto", borderRadius:"50%"}} src={strapiAbout.cover.localFile.url} ></img> */}
@@ -92,7 +94,7 @@ console.log("line:2", strapiAbout.cover.alternativeText);
       
 
         <div
-          class="ui breadcrumb"
+          className="ui breadcrumb"
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -101,14 +103,14 @@ console.log("line:2", strapiAbout.cover.alternativeText);
             paddingBottom:"50px"
           }}
         >
-          <a class="section" href="/news">News</a>
+          <a className="section" href="/news">News</a>
 
-          <div class="divider">/</div>
-          <a class="section" href="/about">About</a>
+          <div className="divider">/</div>
+          <a className="section" href="/about">About</a>
 
-          <div class="divider">/</div>
-          <a class="section " href="/index-all-recipes">Index</a>
-          {/* class="active section " */}
+          <div className="divider">/</div>
+          <a className="section " href="/index-all-recipes">Index</a>
+          {/* className="active section " */}
         </div>
 
 

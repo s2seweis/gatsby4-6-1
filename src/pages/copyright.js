@@ -1,17 +1,13 @@
 import React from 'react';
-// import Seo from "../components/Seo"
-// import Seo from "../components/seo"
+import Seo from "../components/seo"
 
 import Layout from '../components/layout';
 
 const contact = () => {
-  // const seo = {
-  //     metaTitle: title,
-  //     metaDescription: title,
-  //   }
-
   return (
     <Layout>
+
+      <Seo seo={{metaTitle: 'Copyright'}} />
 
       <section className="contact-page">
 
@@ -24,7 +20,7 @@ const contact = () => {
             }}
             href="javascript:history.back()"
           >
-            <button type="button" class="btn btn-link">Go Back</button>
+            <button type="button" className="btn btn-link">Go Back</button>
           </a>
         </div>
 
@@ -75,7 +71,7 @@ const contact = () => {
 
         </article>
         <div
-          class="ui breadcrumb"
+          className="ui breadcrumb"
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -84,14 +80,14 @@ const contact = () => {
             paddingBottom: '50px',
           }}
         >
-          <a class="section" href="/news">News</a>
+          <a className="section" href="/news">News</a>
 
-          <div class="divider">/</div>
-          <a class="section" href="/about">About</a>
+          <div className="divider">/</div>
+          <a className="section" href="/about">About</a>
 
-          <div class="divider">/</div>
-          <a class="section " href="/index-all-recipes">Index</a>
-          {/* class="active section " */}
+          <div className="divider">/</div>
+          <a className="section " href="/index-all-recipes">Index</a>
+          {/* className="active section " */}
         </div>
 
       </section>

@@ -84,7 +84,7 @@ const Beverage = () => {
         <ArticlesGrid articles={allStrapiArticle.nodes} />
 
         <div
-          class="ui breadcrumb"
+          className="ui breadcrumb"
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -92,13 +92,13 @@ const Beverage = () => {
             marginTop: '50px',
           }}
         >
-          <a class="section" href="/web-development">News</a>
+          <a className="section" href="/web-development">News</a>
 
-          <div class="divider">/</div>
-          <a class="section" href="/web-design">About</a>
+          <div className="divider">/</div>
+          <a className="section" href="/web-design">About</a>
 
-          <div class="divider">/</div>
-          <div class="active section " href="/adobe">Index</div>
+          <div className="divider">/</div>
+          <div className="active section " href="/adobe">Index</div>
 
         </div>
 

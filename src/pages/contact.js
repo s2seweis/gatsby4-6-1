@@ -1,6 +1,5 @@
 import React from 'react';
-// import Seo from "../components/Seo"
-// import Seo from "../components/seo"
+import Seo from "../components/seo"
 
 import Layout from '../components/layout';
 
@@ -15,6 +14,9 @@ const contact = () => {
 
       <section className="contact-page">
 
+      <Seo seo={{metaTitle: 'Contact'}} />
+
+
         <div style={{marginTop: '20px'}}>
           <a
             style={{
@@ -24,7 +26,7 @@ const contact = () => {
             }}
             href="javascript:history.back()"
           >
-            <button type="button" class="btn btn-link">Go Back</button>
+            <button type="button" className="btn btn-link">Go Back</button>
           </a>
         </div>
 
@@ -83,7 +85,7 @@ const contact = () => {
       </section>
 
       <div
-          class="ui breadcrumb"
+          className="ui breadcrumb"
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -92,14 +94,14 @@ const contact = () => {
             paddingBottom:"50px"
           }}
         >
-          <a class="section" href="/news">News</a>
+          <a className="section" href="/news">News</a>
 
-          <div class="divider">/</div>
-          <a class="section" href="/about">About</a>
+          <div className="divider">/</div>
+          <a className="section" href="/about">About</a>
 
-          <div class="divider">/</div>
-          <a class="section " href="/index-all-recipes">Index</a>
-          {/* class="active section " */}
+          <div className="divider">/</div>
+          <a className="section " href="/index-all-recipes">Index</a>
+          {/* className="active section " */}
         </div>
 
     </Layout>
