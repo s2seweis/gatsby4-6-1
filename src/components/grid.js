@@ -69,6 +69,7 @@ const Grid = () => {
           justifyContent: 'center',
           // marginBottom: '50px',
           marginTop: '50px',
+          paddingBottom:"50px"
         }}
       >
         <a class="section" href="/news">News</a>

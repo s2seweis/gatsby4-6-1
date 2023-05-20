@@ -30,10 +30,33 @@ const contact = () => {
         style={{width: '50%', margin: 'auto', marginTop: '100px'}}
         className="contact-page"
       >
-        <article style={{margin:"auto"}} className="contact-form">
-          <h3 style={{textAlign:"center"}}>This will coming soon. In Work. </h3>
-          
+        <article style={{margin: 'auto'}} className="contact-form">
+          <h3 style={{textAlign: 'center'}}>
+            This will coming soon. In Work.{' '}
+          </h3>
+
         </article>
+
+        <div
+          class="ui breadcrumb"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            // marginBottom: '50px',
+            marginTop: '50px',
+            paddingBottom: '50px',
+          }}
+        >
+          <a class="section" href="/news">News</a>
+
+          <div class="divider">/</div>
+          <a class="section" href="/about">About</a>
+
+          <div class="divider">/</div>
+          <a class="section " href="/index-all-recipes">Index</a>
+          {/* class="active section " */}
+        </div>
+
       </section>
     </Layout>
   );

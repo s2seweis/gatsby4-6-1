@@ -36,12 +36,12 @@ const contact = () => {
           <div
             className="text-copyright-1"
             style={{
-                // width: '60%', 
-                margin: 'auto'
+              // width: '60%',
+              margin: 'auto',
             }}
           >
 
-            <p style={{fontWeight:"700"}} className="text-copyright-3">
+            <p style={{fontWeight: '700'}} className="text-copyright-3">
               Copyright (c) [2023] [SHW]. All rights reserved.
 
               This copyright notice applies to the blog app [The Solace Life] software developed by [Sebastian Hans Weissenborn].
@@ -74,6 +74,26 @@ const contact = () => {
           </div>
 
         </article>
+        <div
+          class="ui breadcrumb"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            // marginBottom: '50px',
+            marginTop: '50px',
+            paddingBottom: '50px',
+          }}
+        >
+          <a class="section" href="/news">News</a>
+
+          <div class="divider">/</div>
+          <a class="section" href="/about">About</a>
+
+          <div class="divider">/</div>
+          <a class="section " href="/index-all-recipes">Index</a>
+          {/* class="active section " */}
+        </div>
+
       </section>
     </Layout>
   );

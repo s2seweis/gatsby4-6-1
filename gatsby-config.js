@@ -62,16 +62,20 @@ module.exports = {
           },
         ],
         singleTypes: [
+
           {
             singularName: 'about',
             queryParams: {
               populate: {
+                cover: '*',
                 blocks: {
                   populate: '*',
                 },
               },
             },
           },
+
+
           {
             singularName: 'global',
             queryParams: {

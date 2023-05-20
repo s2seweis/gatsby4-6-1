@@ -17,6 +17,8 @@ import Layout from '../components/layout';
 
 // ###
 
+import Seo from '../components/seo';
+
 const Dessert = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
 
@@ -38,15 +40,22 @@ const Dessert = () => {
   }
 `);
 
+  const seo = {
+    metaTitle: 'Dessert',
+    // metaDescription: "Delicious",
+  };
+
   return (
     <Layout>
 
-      <div style={{marginTop: '30px'}}>
+      <Seo seo={seo} />
+
+      <div style={{marginTop: '20px'}}>
         <a
           style={{
             fontSize: '1.3rem',
             padding: '5px',
-            marginLeft: '30px',
+            marginLeft: '20px',
           }}
           href="javascript:history.back()"
         >
@@ -75,23 +84,23 @@ const Dessert = () => {
         <ArticlesGrid articles={allStrapiArticle.nodes} />
 
         <div
-        class="ui breadcrumb"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          // marginBottom: '50px',
-          marginTop: '50px',
-        }}
-      >
-        <a class="section" href="/news">News</a>
+          class="ui breadcrumb"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            // marginBottom: '50px',
+            marginTop: '50px',
+          }}
+        >
+          <a class="section" href="/news">News</a>
 
-        <div class="divider">/</div>
-        <a class="section" href="/about">About</a>
+          <div class="divider">/</div>
+          <a class="section" href="/about">About</a>
 
-        <div class="divider">/</div>
-        <a class="section " href="/index-all-recipes">Index</a>
-        {/* class="active section " */}
-      </div>
+          <div class="divider">/</div>
+          <a class="section " href="/index-all-recipes">Index</a>
+          {/* class="active section " */}
+        </div>
 
       </header>
 

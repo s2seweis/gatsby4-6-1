@@ -20,7 +20,8 @@ const Content3 = () => {
           fontSize: '3rem',
           fontFamily: 'Lobster Two',
           background:"antiquewhite",
-          marginBottom:"20px"
+          marginBottom:"20px",
+          marginTop:"20px"
         }}
       >
         You looking for something special?

@@ -39,6 +39,8 @@ const InfoPage = () => {
   }
 `)
 
+console.log("line:1", strapiInfo);
+
 
   const { title } = strapiInfo
 
@@ -93,6 +95,7 @@ const InfoPage = () => {
 
 
       <GatsbyImage
+      className="infopage-12"
 
         image={getImage(strapiInfo.image?.localFile)}
         alt={strapiInfo.image?.alternativeText}

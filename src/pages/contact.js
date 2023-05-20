@@ -13,25 +13,26 @@ const contact = () => {
   return (
     <Layout>
 
-      <section 
-      className="contact-page">
+      <section className="contact-page">
 
-      <div style={{marginTop: '20px'}}>
-            <a
-              style={{
-                fontSize: '1.3rem',
-                padding: '5px',
-                marginLeft: '20px',
-              }}
-              href="javascript:history.back()"
-            >
-              <button type="button" class="btn btn-link">Go Back</button>
-            </a>
-          </div>
+        <div style={{marginTop: '20px'}}>
+          <a
+            style={{
+              fontSize: '1.3rem',
+              padding: '5px',
+              marginLeft: '20px',
+            }}
+            href="javascript:history.back()"
+          >
+            <button type="button" class="btn btn-link">Go Back</button>
+          </a>
+        </div>
 
-        <article className="contact-form"       style={{ margin:"auto", marginTop:"100px"}} 
->
-          <h3 style={{textAlign:"center"}}>get in touch</h3>
+        <article
+          className="contact-form"
+          style={{margin: 'auto', marginTop: '100px'}}
+        >
+          <h3 style={{textAlign: 'center'}}>get in touch</h3>
           <form
             action="https://formsubmit.co/weissenborn.sebastian@gmail.com"
             method="POST"
@@ -80,6 +81,27 @@ const contact = () => {
           </form>
         </article>
       </section>
+
+      <div
+          class="ui breadcrumb"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            // marginBottom: '50px',
+            marginTop: '50px',
+            paddingBottom:"50px"
+          }}
+        >
+          <a class="section" href="/news">News</a>
+
+          <div class="divider">/</div>
+          <a class="section" href="/about">About</a>
+
+          <div class="divider">/</div>
+          <a class="section " href="/index-all-recipes">Index</a>
+          {/* class="active section " */}
+        </div>
+
     </Layout>
   );
 };

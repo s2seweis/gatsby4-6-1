@@ -25,12 +25,12 @@ const ArticlePage = ({data}) => {
     <Layout as="article">
       <Seo seo={seo} />
 
-      <div style={{marginTop: '30px'}}>
+      <div style={{marginTop: '20px'}}>
         <a
           style={{
             fontSize: '1.3rem',
             padding: '5px',
-            marginLeft: '30px',
+            marginLeft: '20px',
           }}
           href="javascript:history.back()"
         >
@@ -80,6 +80,26 @@ const ArticlePage = ({data}) => {
           />
         </div>
 
+      </div>
+
+      <div
+        class="ui breadcrumb"
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          // marginBottom: '50px',
+          marginTop: '50px',
+          paddingBottom:"50px"
+        }}
+      >
+        <a class="section" href="/news">News</a>
+
+        <div class="divider">/</div>
+        <a class="section" href="/about">About</a>
+
+        <div class="divider">/</div>
+        <a class="section " href="/index-all-recipes">Index</a>
+        {/* class="active section " */}
       </div>
 
     </Layout>

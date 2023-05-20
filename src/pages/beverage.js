@@ -1,5 +1,3 @@
-
-
 import React, {useState} from 'react';
 
 import {Link} from 'gatsby';
@@ -18,6 +16,8 @@ import ArticlesGrid from '../components/articles-grid';
 import Layout from '../components/layout';
 
 // ###
+
+import Seo from '../components/seo';
 
 const Beverage = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
@@ -38,61 +38,73 @@ const Beverage = () => {
       siteDescription
     }
   }
-`)
+`);
 
-
-
-
-
+  const seo = {
+    metaTitle: 'Beverage',
+    // metaDescription: "Delicious",
+  };
 
   return (
-
     <Layout>
 
+      <Seo seo={seo} />
 
-    <header className="menu-landing" style={{}}>
+      <header className="menu-landing" style={{}}>
 
-      <h1
-        style={{
-          textAlign: 'center',
-          marginTop: '20px',
-          display: 'flex',
-          justifyContent: 'center',
-          marginTop: '20px',
-          marginBottom: '20px',
-          fontFamily: 'Lobster Two',
-          fontSize: '3rem',
-          background: 'antiquewhite',
-        }}
-      >
-        {' '}Beverage{' '}
-      </h1>
+        <div style={{marginTop: '20px'}}>
+          <a
+            style={{
+              fontSize: '1.3rem',
+              padding: '5px',
+              marginLeft: '20px',
+            }}
+            href="javascript:history.back()"
+          >
+            <button type="button" class="btn btn-link">Go Back</button>
+          </a>
+        </div>
 
-      <ArticlesGrid articles={allStrapiArticle.nodes} />
+        <h1
+          style={{
+            textAlign: 'center',
+            marginTop: '20px',
+            display: 'flex',
+            justifyContent: 'center',
+            marginTop: '20px',
+            marginBottom: '20px',
+            fontFamily: 'Lobster Two',
+            fontSize: '3rem',
+            background: 'antiquewhite',
+          }}
+        >
+          {' '}Beverage{' '}
+        </h1>
 
-      <div
-        class="ui breadcrumb"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          // marginBottom: '50px',
-          marginTop: '50px',
-        }}
-      >
-        <a class="section" href="/web-development">News</a>
+        <ArticlesGrid articles={allStrapiArticle.nodes} />
 
-        <div class="divider">/</div>
-        <a class="section" href="/web-design">About</a>
+        <div
+          class="ui breadcrumb"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            // marginBottom: '50px',
+            marginTop: '50px',
+          }}
+        >
+          <a class="section" href="/web-development">News</a>
 
-        <div class="divider">/</div>
-        <div class="active section " href="/adobe">Index</div>
+          <div class="divider">/</div>
+          <a class="section" href="/web-design">About</a>
 
-      </div>
+          <div class="divider">/</div>
+          <div class="active section " href="/adobe">Index</div>
 
-    </header>
+        </div>
+
+      </header>
 
     </Layout>
-
   );
 };
 
