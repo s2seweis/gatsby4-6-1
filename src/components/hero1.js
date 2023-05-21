@@ -19,7 +19,7 @@ const Hero1 = () => {
         <div className="hero5">
 
           <a style={{color: 'black', display: 'contents'}} href="/article/pork-adobe">
-            <div className="h-box4"  alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/20_be89c76575.jpg)"}}
+            <div className="h-box4"  alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/30_445a4c554b.webp)"}}
  >
 
 
@@ -41,7 +41,7 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box6" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/22_cef2def971.jpg)"}} >
+            <div className="h-box6" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/31_2891c5c0ca.webp)"}} >
 
 
 
@@ -68,7 +68,7 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box7" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/24_03747eb5e4.jpg)"}} >
+            <div className="h-box7" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/32_987e7e0ab4.webp)"}} >
               <div style={{marginTop: '20%', marginLeft: '20%'}}>
                 <span
                   style={{
@@ -90,7 +90,7 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box9" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/26_70de2e0936.jpg)"}} >
+            <div className="h-box9" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/33_0c39b80c31.webp)"}} >
               <div style={{marginTop: '20%', marginLeft: '20%'}}>
                 <span
                   style={{

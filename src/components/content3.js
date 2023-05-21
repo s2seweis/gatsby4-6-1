@@ -31,7 +31,7 @@ const Content3 = () => {
         {/* ### */}
 
         <a style={{color: 'black', display: 'contents'}} href="/veggies">
-          <div className="content3-box1" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/28_476f9172de.jpg)"}}>
+          <div className="content3-box1" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/28_cd5773e909.webp)"}}>
 
             <div style={{marginTop: '20%', marginLeft: '20%'}}>
               <span
@@ -53,7 +53,7 @@ const Content3 = () => {
         </a>
 
         <a style={{color: 'black', display: 'contents'}} href="/spicy">
-          <div className="content3-box2" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/27_1e0252e82a.jpg)"}}>
+          <div className="content3-box2" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/27_62400318ff.webp)"}}>
             <div style={{marginTop: '40%', marginLeft: '20%'}}>
               <span
                 style={{
@@ -72,7 +72,7 @@ const Content3 = () => {
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/hangover">
-        <div className="content3-box3" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/29_0604ce291f.jpg)"}}>
+        <div className="content3-box3" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/29_a9087224a2.webp)"}}>
           <div style={{marginTop: '70%', marginLeft: '20%'}}>
             <span
               style={{
@@ -97,7 +97,7 @@ const Content3 = () => {
 
         {/* ###-Start */}
         <a style={{color: 'black', display: 'contents'}} href="/veggies">
-        <div className="content3-box1-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/28_476f9172de.jpg)"}}>
+        <div className="content3-box1-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/28_cd5773e909.webp)"}}>
           <div
             className="content3-title-test"
             style={{marginTop: '10%', marginLeft: '10%', height: 'fit-content'}}
@@ -120,7 +120,7 @@ const Content3 = () => {
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/spicy">
-        <div className="content3-box2-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/27_1e0252e82a.jpg)"}}>
+        <div className="content3-box2-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/27_62400318ff.webp)"}}>
           <div
             style={{marginTop: '40%', marginLeft: '10%', height: 'fit-content'}}
           >
@@ -142,7 +142,7 @@ const Content3 = () => {
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/hangover">
-        <div className="content3-box3-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/29_0604ce291f.jpg)"}}>
+        <div className="content3-box3-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/29_a9087224a2.webp)"}}>
           <div style={{marginTop: '50%', marginLeft: '10%'}}>
             <span
               className="content3-title"
