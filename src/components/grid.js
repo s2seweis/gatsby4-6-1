@@ -72,12 +72,12 @@ const Grid = () => {
           paddingBottom:"50px"
         }}
       >
-        <a className="section" href="/news">News</a>
+        <a aria-label="News" className="section" href="/news">News</a>
 
-        <div className="divider">/</div>
+        <div aria-label="About" className="divider">/</div>
         <a className="section" href="/about">About</a>
 
-        <div className="divider">/</div>
+        <div aria-label="Index" className="divider">/</div>
         <a className="section " href="/index-all-recipes">Index</a>
         {/* className="active section " */}
       </div>

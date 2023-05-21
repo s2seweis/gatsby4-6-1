@@ -143,7 +143,7 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
 
       <div style={{marginTop: '25px'}} className="menu-row">
 
-        <a style={{ color:"black", textDecoration:"none"}} href="/breakfast">
+        <a aria-label="breakfast" style={{ color:"black", textDecoration:"none"}} href="/breakfast">
 
           <div className="ui-card" style={{width: 'auto'}} href="/breakfast">
             <div className="container-img">
@@ -160,7 +160,7 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
           </div>
         </a>
 
-        <a style={{ color:"black", textDecoration:"none"}} href="/lunch">
+        <a aria-label="lunch" style={{ color:"black", textDecoration:"none"}} href="/lunch">
           <div className="ui-card" style={{width: 'auto'}}>
             <div className="container-img">
               <img className="image-overview" 
@@ -178,7 +178,7 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
         </a>
 
 
-        <a style={{ color:"black", textDecoration:"none"}} href="/dinner">
+        <a aria-label="dinner" style={{ color:"black", textDecoration:"none"}} href="/dinner">
         <div
           className="ui-card"
           style={{ width: 'auto'}}
@@ -209,7 +209,7 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
         }} className="menu-row">
 
 
-      <a style={{ color:"black", textDecoration:"none"}} href="/dessert">
+      <a aria-label="link" style={{ color:"black", textDecoration:"none"}} href="/dessert">
         <div
           className="ui-card"
           style={{ width: 'auto'}}
@@ -230,7 +230,7 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
         </div>
         </a>
 
-        <a style={{ color:"black", textDecoration:"none"}} href="/fiesta">
+        <a aria-label="link" style={{ color:"black", textDecoration:"none"}} href="/fiesta">
         <div
           className="ui-card"
           style={{ width: 'auto'}}
@@ -250,7 +250,7 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
         </div>
         </a>
 
-        <a style={{ color:"black", textDecoration:"none"}} href="/beverage">
+        <a aria-label="link" style={{ color:"black", textDecoration:"none"}} href="/beverage">
         <div
           className="ui-card"
           style={{ width: 'auto'}}

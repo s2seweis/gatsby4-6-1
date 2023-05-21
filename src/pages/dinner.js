@@ -92,13 +92,13 @@ const Dinner = () => {
             marginTop: '50px',
           }}
         >
-          <a className="section" href="/news">News</a>
+          <a aria-label="link" className="section" href="/news">News</a>
 
           <div className="divider">/</div>
-          <a className="section" href="/about">About</a>
+          <a aria-label="link" className="section" href="/about">About</a>
 
           <div className="divider">/</div>
-          <a className="section " href="/index-all-recipes">Index</a>
+          <a aria-label="link" className="section " href="/index-all-recipes">Index</a>
           {/* className="active section " */}
         </div>
 

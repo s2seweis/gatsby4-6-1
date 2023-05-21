@@ -18,7 +18,7 @@ import logo5 from '../assets/images/logo5.png';
 const Sidebar = ({isOpen, toggleSidebar}) => {
   return (
     <aside className={isOpen ? 'sidebar show-sidebar' : 'sidebar'}>
-      <button className="close-btn" type="button" onClick={toggleSidebar}>
+      <button className="close-btn" alt="close" type="button" onClick={toggleSidebar}>
         <FaTimes />
       </button>
       <div
@@ -74,7 +74,7 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
             {socialLinks.map (link => {
               return (
                 <li key={link.id}>
-                  <a href={link.url} className="social-link">
+                  <a aria-label="link" href={link.url} className="social-link">
                     {link.icon}
                   </a>
                 </li>
