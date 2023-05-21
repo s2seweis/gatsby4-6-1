@@ -160,7 +160,7 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
           <div className="ui-card" style={{width: 'auto'}} href="/breakfast">
             <div className="container-img">
               <img className="image-overview" 
-              src={overview.strapiOverview.breakfast.localFile.url}
+              // src={overview.strapiOverview.breakfast.localFile.url}
               // src={image20}
                alt="Food Blog" />
             </div>
