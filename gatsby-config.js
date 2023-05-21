@@ -90,6 +90,7 @@ module.exports = {
 
 
           'info',
+          'overview',
 
           // 'me'
 

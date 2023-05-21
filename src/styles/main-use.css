@@ -818,7 +818,7 @@ color: #fafafa;
     grid-column: 1/span 8;
     /* grid-row: 1 /span 2; */
     margin-right: 20px;
-    background-image: url(../assets/images/21.jpg);
+    /* background-image: url(../assets/images/21.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -844,7 +844,7 @@ color: #fafafa;
     height: 300px;
     background-color: white;
     grid-column: 9/span 4;
-    background-image: url(../assets/images/22.jpg);
+    /* background-image: url(../assets/images/22.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -895,7 +895,7 @@ color: #fafafa;
       grid-column: 1/span 4;
       /* grid-row: 1 /span 2; */
       margin-right: 20px;
-      background-image: url(../assets/images/23.jpg);
+      /* background-image: url(../assets/images/23.jpg); */
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -922,7 +922,7 @@ color: #fafafa;
       height: 300px;
       background-color: white;
       grid-column: 5/span 8;
-      background-image: url(../assets/images/24.jpg);
+      /* background-image: url(../assets/images/24.jpg); */
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -1012,7 +1012,7 @@ color: #fafafa;
   /* margin: 20px 20px 20px 20px; */
   margin: 20px auto;
   border-radius: 50%;
-  background-image: url(../assets/images/26.jpg);
+  /* background-image: url(../assets/images/26.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1077,7 +1077,7 @@ border-radius: 50%;
 /* background-color: aquamarine; */
 display: flex;
 margin: 0px auto 20px auto;
-background-image: url(../assets/images/26.jpg);
+/* background-image: url(../assets/images/26.jpg); */
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -1157,7 +1157,7 @@ height: 300px;
 grid-column: 1/span 4;
 background-color: #fafafa;
 margin: 20px 20px 20px 20px;
-background-image: url(../assets/images/28.jpg);
+/* background-image: url(../assets/images/28.jpg); */
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -1176,7 +1176,7 @@ background-position: center;
 grid-column: 5/span 4;
 background-color: #fafafa;
 margin: 20px 20px 20px 20px;
-background-image: url(../assets/images/27.jpg);
+/* background-image: url(../assets/images/27.jpg); */
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -1194,7 +1194,7 @@ background-position: center;
 grid-column: 9/span 4;
 background-color: #fafafa;
 margin: 20px 20px 20px 20px;
-background-image: url(../assets/images/29.jpg);
+/* background-image: url(../assets/images/29.jpg); */
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -1248,7 +1248,7 @@ margin: 20px 20px 20px 20px;
 
   background-color: #fafafa;
   margin: 15px 15px 15px 15px;
-  background-image: url(../assets/images/28.jpg);
+  /* background-image: url(../assets/images/28.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1273,7 +1273,7 @@ margin: 20px 20px 20px 20px;
   background-color: #fafafa;
   /* margin: 20px 20px 20px 20px; */
   margin: 15px 15px 15px 15px;
-  background-image: url(../assets/images/27.jpg);
+  /* background-image: url(../assets/images/27.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1296,7 +1296,7 @@ margin: 20px 20px 20px 20px;
   background-color: #fafafa;
   /* margin: 20px 20px 20px 20px; */
   margin: 15px 15px 15px 15px;
-  background-image: url(../assets/images/29.jpg);
+  /* background-image: url(../assets/images/29.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

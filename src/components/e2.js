@@ -6,7 +6,7 @@ import {StaticImage} from 'gatsby-plugin-image';
 
 import {use} from '../styles/main-use.css';
 
-import image1 from '../assets/images/image1.jpg';
+// import image1 from '../assets/images/image1.jpg';
 
 // import {main} from '../styles/main.css';
 
@@ -25,7 +25,7 @@ const E2 = () => {
 
           {/* <h1>E2</h1> */}
 
-          <div className="e2-box1">
+          <div className="e2-box1" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/40_51f275db19.jpg)"}} >
             {' '}
             <div
               style={{
@@ -129,7 +129,7 @@ const E2 = () => {
 
           {/* <h1>E2</h1> */}
 
-          <div className="e2-box1-flex">
+          <div className="e2-box1-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/40_51f275db19.jpg)"}} >
 
             <div
               style={{

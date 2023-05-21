@@ -39,7 +39,7 @@ const data = [
     {
       id: 8,
       text: "beverage",
-      url: "/infopage/",
+      url: "/beverage/",
     },
 
     {

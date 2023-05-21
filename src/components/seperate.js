@@ -7,7 +7,7 @@ import {StaticImage} from 'gatsby-plugin-image';
 import {use} from '../styles/main-use.css';
 
 // import {main} from '../styles/main.css';
-import image1 from '../assets/images/image1.jpg';
+// import image1 from '../assets/images/image1.jpg';
 
 const Seperate = () => {
   return (

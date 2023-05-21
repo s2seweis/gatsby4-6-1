@@ -7,7 +7,7 @@ import {StaticImage} from 'gatsby-plugin-image';
 import {use} from '../styles/main-use.css';
 
 // import {main} from '../styles/main.css';
-import image1 from '../assets/images/image1.jpg';
+// import image1 from '../assets/images/image1.jpg';
 
 const Content3 = () => {
   return (
@@ -31,7 +31,7 @@ const Content3 = () => {
         {/* ### */}
 
         <a style={{color: 'black', display: 'contents'}} href="/veggies">
-          <div className="content3-box1" style={{}}>
+          <div className="content3-box1" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/28_476f9172de.jpg)"}}>
 
             <div style={{marginTop: '20%', marginLeft: '20%'}}>
               <span
@@ -53,7 +53,7 @@ const Content3 = () => {
         </a>
 
         <a style={{color: 'black', display: 'contents'}} href="/spicy">
-          <div className="content3-box2">
+          <div className="content3-box2" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/27_1e0252e82a.jpg)"}}>
             <div style={{marginTop: '40%', marginLeft: '20%'}}>
               <span
                 style={{
@@ -72,7 +72,7 @@ const Content3 = () => {
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/hangover">
-        <div className="content3-box3">
+        <div className="content3-box3" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/29_0604ce291f.jpg)"}}>
           <div style={{marginTop: '70%', marginLeft: '20%'}}>
             <span
               style={{
@@ -97,7 +97,7 @@ const Content3 = () => {
 
         {/* ###-Start */}
         <a style={{color: 'black', display: 'contents'}} href="/veggies">
-        <div className="content3-box1-flex" style={{}}>
+        <div className="content3-box1-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/28_476f9172de.jpg)"}}>
           <div
             className="content3-title-test"
             style={{marginTop: '10%', marginLeft: '10%', height: 'fit-content'}}
@@ -120,7 +120,7 @@ const Content3 = () => {
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/spicy">
-        <div className="content3-box2-flex">
+        <div className="content3-box2-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/27_1e0252e82a.jpg)"}}>
           <div
             style={{marginTop: '40%', marginLeft: '10%', height: 'fit-content'}}
           >
@@ -142,7 +142,7 @@ const Content3 = () => {
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/hangover">
-        <div className="content3-box3-flex">
+        <div className="content3-box3-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/29_0604ce291f.jpg)"}}>
           <div style={{marginTop: '50%', marginLeft: '10%'}}>
             <span
               className="content3-title"

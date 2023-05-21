@@ -1,20 +1,122 @@
 import React from 'react';
 import {Link} from 'gatsby';
 import {StaticImage} from 'gatsby-plugin-image';
+import {useStaticQuery, graphql} from 'gatsby';
+
 
 // import group from '../assets/images/group.png';
 
 import {use} from '../styles/main-use.css';
 
 // import {main} from '../styles/main.css';
-import image20 from '../assets/images/20.jpg';
-import image21 from '../assets/images/21.jpg';
-import image22 from '../assets/images/22.jpg';
-import image23 from '../assets/images/23.jpg';
-import image24 from '../assets/images/24.jpg';
-import image25 from '../assets/images/25.jpg';
+// ###
+// import image20 from '../assets/images/20.jpg';
+// import image21 from '../assets/images/21.jpg';
+// import image22 from '../assets/images/22.jpg';
+// import image23 from '../assets/images/23.jpg';
+// import image24 from '../assets/images/24.jpg';
+// import image25 from '../assets/images/25.jpg';
+// ###
+
+
+
+// ###
+
+
+
+
 
 const Overview = () => {
+
+
+  const overview = useStaticQuery(graphql`
+  query {
+    strapiOverview {
+      breakfast {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+      lunch {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+      dinner {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+      desserts {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+      fiesta {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+      beverage {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+    }
+  }
+`)
+
+console.log("line:4", overview);
+console.log("line:5", overview.strapiOverview.breakfast.localFile);
+
+
+
+
+
+
+// ###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   return (
     <header className="menu-landing" style={{}}>
 
@@ -35,6 +137,7 @@ const Overview = () => {
       >
         {' '}Overview{' '}
       </h1>
+      
 
       
 
@@ -44,7 +147,10 @@ const Overview = () => {
 
           <div className="ui-card" style={{width: 'auto'}} href="/breakfast">
             <div className="container-img">
-              <img className="image-overview" src={image20} alt="Food Blog" />
+              <img className="image-overview" 
+              src={overview.strapiOverview.breakfast.localFile.url}
+              // src={image20}
+               alt="Food Blog" />
             </div>
             <div style={{}} className="content">
               <div style={{textAlign: 'center'}} className="header-overview">
@@ -57,7 +163,11 @@ const Overview = () => {
         <a style={{ color:"black", textDecoration:"none"}} href="/lunch">
           <div className="ui-card" style={{width: 'auto'}}>
             <div className="container-img">
-              <img className="image-overview" src={image21} alt="Food Blog" />
+              <img className="image-overview" 
+              // src={image21} 
+              src={overview.strapiOverview.lunch.localFile.url}
+
+              alt="Food Blog" />
             </div>
             <div className="content">
               <div style={{textAlign: 'center'}} className="header-overview">
@@ -74,7 +184,11 @@ const Overview = () => {
           style={{ width: 'auto'}}
         >
           <div className="container-img">
-            <img className="image-overview" src={image22} alt="Food Blog" />
+            <img className="image-overview" 
+            // src={image22}
+            src={overview.strapiOverview.dinner.localFile.url}
+
+             alt="Food Blog" />
           </div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
@@ -101,7 +215,12 @@ const Overview = () => {
           style={{ width: 'auto'}}
         >
           <div className="container-img">
-            <img className="image-overview" src={image23} alt="Food Blog" />
+            <img className="image-overview" 
+            // src={image23}
+            src={overview.strapiOverview.desserts.localFile.url}
+
+            alt="Food Blog" />
+            
           </div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
@@ -117,7 +236,11 @@ const Overview = () => {
           style={{ width: 'auto'}}
         >
           <div className="container-img">
-            <img className="image-overview" src={image24} alt="Food Blog" />
+            <img className="image-overview" 
+            // src={image24}
+            src={overview.strapiOverview.fiesta.localFile.url}
+
+            alt="Food Blog" />
           </div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
@@ -133,7 +256,11 @@ const Overview = () => {
           style={{ width: 'auto'}}
         >
           <div className="container-img">
-            <img className="image-overview" src={image25} alt="Food Blog" />
+            <img className="image-overview" 
+            // src={image25}
+            src={overview.strapiOverview.beverage.localFile.url}
+
+            alt="Food Blog" />
           </div>
           <div className="content">
             <div style={{textAlign: 'center'}} className="header-overview">
@@ -163,6 +290,8 @@ const Overview = () => {
       </section>
     </header>
   );
+
+
 };
 
 export default Overview;

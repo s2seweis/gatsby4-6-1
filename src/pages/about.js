@@ -5,15 +5,11 @@ import Seo from '../components/seo';
 import BlocksRenderer from '../components/blocks-renderer';
 import Headings from '../components/headings';
 
-
 // ###
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 // ###
 
 import logo5 from '../assets/images/logo5.png';
-
-
-
 
 const AboutPage = () => {
   const {strapiAbout} = useStaticQuery (graphql`
@@ -34,13 +30,12 @@ const AboutPage = () => {
       }
     }
   }
-`)
+`);
 
-console.log("line:1", strapiAbout.cover.localFile.url);
-console.log("line:2", strapiAbout.cover.alternativeText);
-console.log("line:3", strapiAbout.title);
+  console.log ('line:1', strapiAbout.cover.localFile.url);
+  console.log ('line:2', strapiAbout.cover.alternativeText);
+  console.log ('line:3', strapiAbout.title);
 
-  
   const {title, blocks} = strapiAbout;
 
   const seo = {
@@ -51,11 +46,12 @@ console.log("line:3", strapiAbout.title);
   return (
     <Layout>
 
-      <header className="menu-landing" style={{background:"rgb(250 250 250 / var(--tw-bg-opacity))"}}>
+      <header
+        className="menu-landing"
+        style={{background: 'rgb(250 250 250 / var(--tw-bg-opacity))'}}
+      >
 
-        <div 
-        style={{marginTop: '20px'}}
-        >
+        <div style={{marginTop: '20px'}}>
 
           <a
             style={{
@@ -75,23 +71,20 @@ console.log("line:3", strapiAbout.title);
 
         {/* <img className='test:1' style={{width:"auto", height:"350px", margin:"auto", borderRadius:"50%"}} src={strapiAbout.cover.localFile.url} ></img> */}
 
+        {/* ### */}
 
-      {/* ### */}
-      <GatsbyImage
-      className='image-about'
+        <GatsbyImage
+        className='image-about'
 
         image={getImage(strapiAbout.cover?.localFile)}
         alt={strapiAbout.cover?.alternativeText}
         style={{ margin:"auto", display:"flex", marginTop:"20px", borderRadius:"50%"  }}
         />
-      {/* ### */}
 
-
+        {/* ### */}
 
         {/* ### - need to replace the image - query direct for it */}
         <BlocksRenderer blocks={blocks} />
-
-      
 
         <div
           className="ui breadcrumb"
@@ -100,7 +93,7 @@ console.log("line:3", strapiAbout.title);
             justifyContent: 'center',
             // marginBottom: '50px',
             marginTop: '50px',
-            paddingBottom:"50px"
+            paddingBottom: '50px',
           }}
         >
           <a className="section" href="/news">News</a>
@@ -112,11 +105,6 @@ console.log("line:3", strapiAbout.title);
           <a className="section " href="/index-all-recipes">Index</a>
           {/* className="active section " */}
         </div>
-
-
-      
-
-        
 
       </header>
 
