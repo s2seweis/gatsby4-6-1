@@ -149,6 +149,14 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
         // alt={strapiAbout.cover?.alternativeText}
         style={{ margin:"auto", display:"flex", marginTop:"20px", borderRadius:"50%"  }}
         />
+
+      <GatsbyImage
+        className='image-about'
+
+        image={getImage(overview.strapiOverview.lunch.localFile)}
+        // alt={strapiAbout.cover?.alternativeText}
+        style={{ margin:"auto", display:"flex", marginTop:"20px", borderRadius:"50%"  }}
+        />
       
 
       
@@ -177,7 +185,7 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
             <div className="container-img">
               <img className="image-overview" 
               // src={image21} 
-              src={overview.strapiOverview.lunch.localFile.url}
+              // src={overview.strapiOverview.lunch.localFile.url}
 
               alt="Food Blog" />
             </div>
