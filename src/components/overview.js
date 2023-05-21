@@ -22,6 +22,9 @@ import {use} from '../styles/main-use.css';
 
 // ###
 
+import {GatsbyImage, getImage} from 'gatsby-plugin-image';
+
+
 
 
 
@@ -135,8 +138,17 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
           background: 'antiquewhite',
         }}
       >
-        {' '}Overview{' '}
+        {' '}Overview1{' '}
       </h1>
+
+
+      <GatsbyImage
+        className='image-about'
+
+        image={getImage(overview.strapiOverview.breakfast.localFile)}
+        // alt={strapiAbout.cover?.alternativeText}
+        style={{ margin:"auto", display:"flex", marginTop:"20px", borderRadius:"50%"  }}
+        />
       
 
       
