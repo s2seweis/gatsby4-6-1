@@ -15,6 +15,9 @@ import {FaInstagram} from 'react-icons/fa';
 import {FaTiktok} from 'react-icons/fa';
 import {FaYoutube} from 'react-icons/fa';
 
+// import {GatsbyImage, getImage} from 'gatsby-plugin-image';
+
+
 const E2 = () => {
   return (
     <header className="e2" style={{}}>
@@ -37,23 +40,7 @@ const E2 = () => {
               }}
               className="<e2-box-social-links>"
             >
-              {/* <a style={{color: 'black'}} href="https://www.facebook.com">
-                <span><FaFacebookSquare /></span>
-              </a>
-              <a style={{color: 'black'}} href="https://www.instagram.com">
-                <span><FaInstagram /></span>
-              </a>
-              <a style={{color: 'black'}} href="https://tiktok.com">
-
-                <span><FaTiktok /></span>
-              </a>
-              <a
-                style={{color: 'black'}}
-                href="https://www.youtube.com/@Thesolacelife"
-              >
-
-                <span><FaYoutube /></span>
-              </a> */}
+           
 
             </div>
             {' '}

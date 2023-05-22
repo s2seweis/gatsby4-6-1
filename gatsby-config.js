@@ -91,6 +91,7 @@ module.exports = {
 
           'info',
           'overview',
+          'content3',
 
           // 'me'
 

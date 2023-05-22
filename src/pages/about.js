@@ -36,6 +36,8 @@ const AboutPage = () => {
   console.log ('line:2', strapiAbout.cover.alternativeText);
   console.log ('line:3', strapiAbout.title);
 
+  console.log("line:100",strapiAbout.cover?.localFile);
+
   const {title, blocks} = strapiAbout;
 
   const seo = {

@@ -3,7 +3,6 @@ import {Link} from 'gatsby';
 import {StaticImage} from 'gatsby-plugin-image';
 import {useStaticQuery, graphql} from 'gatsby';
 
-
 // import group from '../assets/images/group.png';
 
 import {use} from '../styles/main-use.css';
@@ -18,21 +17,12 @@ import {use} from '../styles/main-use.css';
 // import image25 from '../assets/images/25.jpg';
 // ###
 
-
-
 // ###
 
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 
-
-
-
-
-
 const Overview = () => {
-
-
-  const overview = useStaticQuery(graphql`
+  const overview = useStaticQuery (graphql`
   query {
     strapiOverview {
       breakfast {
@@ -91,34 +81,12 @@ const Overview = () => {
       }
     }
   }
-`)
+`);
 
-console.log("line:4", overview);
-console.log("line:5", overview.strapiOverview.breakfast.localFile);
+  console.log ('line:4', overview);
+  console.log ('line:5', overview.strapiOverview.breakfast.localFile);
 
-
-
-
-
-
-// ###
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // ###
 
   return (
     <header className="menu-landing" style={{}}>
@@ -138,39 +106,47 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
           background: 'antiquewhite',
         }}
       >
-        {' '}Overview1{' '}
+        {' '}Overview{' '}
       </h1>
 
-
-      <GatsbyImage
+      {/* <GatsbyImage
         className='image-about'
 
         image={getImage(overview.strapiOverview.breakfast.localFile)}
-        // alt={strapiAbout.cover?.alternativeText}
         style={{ margin:"auto", display:"flex", marginTop:"20px", borderRadius:"50%"  }}
-        />
+        /> */}
 
-      <GatsbyImage
+      {/* <GatsbyImage
         className='image-about'
 
         image={getImage(overview.strapiOverview.lunch.localFile)}
-        // alt={strapiAbout.cover?.alternativeText}
         style={{ margin:"auto", display:"flex", marginTop:"20px", borderRadius:"50%"  }}
-        />
-      
-
-      
+        /> */}
 
       <div style={{marginTop: '25px'}} className="menu-row">
 
-        <a aria-label="breakfast" style={{ color:"black", textDecoration:"none"}} href="/breakfast">
+        <a
+          aria-label="breakfast"
+          style={{color: 'black', textDecoration: 'none'}}
+          href="/breakfast"
+        >
 
           <div className="ui-card" style={{width: 'auto'}} href="/breakfast">
             <div className="container-img">
-              <img className="image-overview" 
-              // src={overview.strapiOverview.breakfast.localFile.url}
-              // src={image20}
-               alt="Food Blog" />
+
+              {/* <img
+                className="image-overview"
+                src={overview.strapiOverview.breakfast.localFile.url}
+                // src={image20}
+                alt="Food Blog"
+              /> */}
+
+              <GatsbyImage
+                className="image-overview"
+                image={getImage (overview.strapiOverview.breakfast.localFile)}
+                style={{}}
+              />
+
             </div>
             <div style={{}} className="content">
               <div style={{textAlign: 'center'}} className="header-overview">
@@ -180,14 +156,27 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
           </div>
         </a>
 
-        <a aria-label="lunch" style={{ color:"black", textDecoration:"none"}} href="/lunch">
+        <a
+          aria-label="lunch"
+          style={{color: 'black', textDecoration: 'none'}}
+          href="/lunch"
+        >
           <div className="ui-card" style={{width: 'auto'}}>
             <div className="container-img">
-              <img className="image-overview" 
-              // src={image21} 
-              // src={overview.strapiOverview.lunch.localFile.url}
 
-              alt="Food Blog" />
+              {/* <img
+                className="image-overview"
+                // src={image21}
+                src={overview.strapiOverview.lunch.localFile.url}
+                alt="Food Blog"
+              /> */}
+
+              <GatsbyImage
+                className="image-overview"
+                image={getImage (overview.strapiOverview.lunch.localFile)}
+                style={{}}
+              />
+
             </div>
             <div className="content">
               <div style={{textAlign: 'center'}} className="header-overview">
@@ -197,97 +186,134 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
           </div>
         </a>
 
-
-        <a aria-label="dinner" style={{ color:"black", textDecoration:"none"}} href="/dinner">
-        <div
-          className="ui-card"
-          style={{ width: 'auto'}}
+        <a
+          aria-label="dinner"
+          style={{color: 'black', textDecoration: 'none'}}
+          href="/dinner"
         >
-          <div className="container-img">
-            <img className="image-overview" 
-            // src={image22}
-            src={overview.strapiOverview.dinner.localFile.url}
+          <div className="ui-card" style={{width: 'auto'}}>
+            <div className="container-img">
 
-             alt="Food Blog" />
-          </div>
-          <div className="content">
-            <div style={{textAlign: 'center'}} className="header-overview">
-              Dinner
+              {/* <img
+                className="image-overview"
+                // src={image22}
+                src={overview.strapiOverview.dinner.localFile.url}
+                alt="Food Blog"
+              /> */}
+
+              <GatsbyImage
+                className="image-overview"
+                image={getImage (overview.strapiOverview.dinner.localFile)}
+                style={{}}
+              />
+
+            </div>
+            <div className="content">
+              <div style={{textAlign: 'center'}} className="header-overview">
+                Dinner
+              </div>
             </div>
           </div>
-        </div>
         </a>
 
-
       </div>
-      
 
       {/* ###--- */}
 
-      <div style={{
-        marginTop: '15px'
-        }} className="menu-row">
+      <div
+        style={{
+          marginTop: '15px',
+        }}
+        className="menu-row"
+      >
 
-
-      <a aria-label="link" style={{ color:"black", textDecoration:"none"}} href="/dessert">
-        <div
-          className="ui-card"
-          style={{ width: 'auto'}}
+        <a
+          aria-label="link"
+          style={{color: 'black', textDecoration: 'none'}}
+          href="/dessert"
         >
-          <div className="container-img">
-            <img className="image-overview" 
-            // src={image23}
-            src={overview.strapiOverview.desserts.localFile.url}
+          <div className="ui-card" style={{width: 'auto'}}>
+            <div className="container-img">
 
-            alt="Food Blog" />
-            
-          </div>
-          <div className="content">
-            <div style={{textAlign: 'center'}} className="header-overview">
-              Desserts
+              {/* <img
+                className="image-overview"
+                // src={image23}
+                src={overview.strapiOverview.desserts.localFile.url}
+                alt="Food Blog"
+              /> */}
+
+              <GatsbyImage
+                className="image-overview"
+                image={getImage (overview.strapiOverview.desserts.localFile)}
+                style={{}}
+              />
+
+            </div>
+            <div className="content">
+              <div style={{textAlign: 'center'}} className="header-overview">
+                Desserts
+              </div>
             </div>
           </div>
-        </div>
         </a>
 
-        <a aria-label="link" style={{ color:"black", textDecoration:"none"}} href="/fiesta">
-        <div
-          className="ui-card"
-          style={{ width: 'auto'}}
+        <a
+          aria-label="link"
+          style={{color: 'black', textDecoration: 'none'}}
+          href="/fiesta"
         >
-          <div className="container-img">
-            <img className="image-overview" 
-            // src={image24}
-            src={overview.strapiOverview.fiesta.localFile.url}
+          <div className="ui-card" style={{width: 'auto'}}>
+            <div className="container-img">
 
-            alt="Food Blog" />
-          </div>
-          <div className="content">
-            <div style={{textAlign: 'center'}} className="header-overview">
-              Fiesta
+              {/* <img
+                className="image-overview"
+                // src={image24}
+                src={overview.strapiOverview.fiesta.localFile.url}
+                alt="Food Blog"
+              /> */}
+
+              <GatsbyImage
+                className="image-overview"
+                image={getImage (overview.strapiOverview.fiesta.localFile)}
+                style={{}}
+              />
+
+            </div>
+            <div className="content">
+              <div style={{textAlign: 'center'}} className="header-overview">
+                Fiesta
+              </div>
             </div>
           </div>
-        </div>
         </a>
 
-        <a aria-label="link" style={{ color:"black", textDecoration:"none"}} href="/beverage">
-        <div
-          className="ui-card"
-          style={{ width: 'auto'}}
+        <a
+          aria-label="link"
+          style={{color: 'black', textDecoration: 'none'}}
+          href="/beverage"
         >
-          <div className="container-img">
-            <img className="image-overview" 
-            // src={image25}
-            src={overview.strapiOverview.beverage.localFile.url}
+          <div className="ui-card" style={{width: 'auto'}}>
+            <div className="container-img">
+              {/* <img
+                className="image-overview"
+                // src={image25}
+                src={overview.strapiOverview.beverage.localFile.url}
+                alt="Food Blog"
+              /> */}
 
-            alt="Food Blog" />
-          </div>
-          <div className="content">
-            <div style={{textAlign: 'center'}} className="header-overview">
-              Beverage
+              <GatsbyImage
+                className="image-overview"
+                image={getImage (overview.strapiOverview.beverage.localFile)}
+                style={{}}
+              />
+
+            </div>
+            <div className="content">
+              <div style={{textAlign: 'center'}} className="header-overview">
+                Beverage
+              </div>
             </div>
           </div>
-        </div>
         </a>
       </div>
 
@@ -310,8 +336,6 @@ console.log("line:5", overview.strapiOverview.breakfast.localFile);
       </section>
     </header>
   );
-
-
 };
 
 export default Overview;
