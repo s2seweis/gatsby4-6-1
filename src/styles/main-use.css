@@ -1147,7 +1147,7 @@ height: 300px;
 
 @media screen and (min-width: 960px) {
   .content3-grid{
-    height: auto;
+    height: 450px;
   }
 }
 
@@ -1279,7 +1279,7 @@ margin: 20px 20px 20px 20px;
   background-position: center;
   /* width: 90%; */
   height: 300px;
-  display: flex;
+  /* display: flex; */
   }
 
   .content3-box2-flex:hover{
@@ -1302,7 +1302,7 @@ margin: 20px 20px 20px 20px;
   background-position: center;
   /* width: 90%; */
   height: 300px;
-  display: flex;
+  /* display: flex; */
   }
 
   .content3-box3-flex:hover{

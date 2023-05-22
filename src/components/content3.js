@@ -66,7 +66,7 @@ const Content3 = () => {
           marginTop: '20px',
         }}
       >
-        You looking for something special1?
+        You looking for something special?
       </h3>
 
       {/* <GatsbyImage
@@ -93,7 +93,7 @@ const Content3 = () => {
 
             <div
               style={{
-                marginTop: '-40%',
+                marginTop: '-250px',
                 marginLeft: '20%',
               }}
             >
@@ -119,13 +119,21 @@ const Content3 = () => {
         </a>
 
         <a style={{color: 'black', display: 'contents'}} href="/spicy">
-          <div
-            className="content3-box2"
-            style={{
-              backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/27_62400318ff.webp)',
-            }}
-          >
-            <div style={{marginTop: '40%', marginLeft: '20%'}}>
+          <div className="content3-box2">
+
+            <GatsbyImage
+              image={getImage (content3.strapiContent3.cover2.localFile)}
+              // alt={content3.strapiContent3.cover1.alternativeText}
+              style={{height: '100%'}}
+            />
+
+            <div
+              style={{
+                marginTop: '-200px',
+                marginLeft: '20%',
+              }}
+            >
+
               <span
                 style={{
                   padding: '5px',
@@ -135,21 +143,33 @@ const Content3 = () => {
                   opacity: '0.8',
                 }}
               >
-                Craving for something spicy?
+                Craving for something spicy???
               </span>
+
             </div>
+
+            {/* ### */}
+
           </div>
         </a>
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/hangover">
-          <div
-            className="content3-box3"
-            style={{
-              backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/29_a9087224a2.webp)',
-            }}
-          >
-            <div style={{marginTop: '70%', marginLeft: '20%'}}>
+          <div className="content3-box3">
+
+            <GatsbyImage
+              image={getImage (content3.strapiContent3.cover3.localFile)}
+              // alt={content3.strapiContent3.cover1.alternativeText}
+              style={{height: '100%'}}
+            />
+
+            <div
+              style={{
+                marginTop: '-100px',
+                marginLeft: '20%',
+              }}
+            >
+
               <span
                 style={{
                   padding: '5px',
@@ -159,9 +179,13 @@ const Content3 = () => {
                   opacity: '0.8',
                 }}
               >
-                Did you drink too much again?
+                Did you drunk again too much?
               </span>
+
             </div>
+
+            {/* ### */}
+
           </div>
         </a>
 
@@ -210,19 +234,23 @@ const Content3 = () => {
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/spicy">
-          <div
-            className="content3-box2-flex"
-            style={{
-              backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/27_62400318ff.webp)',
-            }}
-          >
+          <div className="content3-box2-flex">
+
+            <GatsbyImage
+              image={getImage (content3.strapiContent3.cover2.localFile)}
+              // alt={content3.strapiContent3.cover1.alternativeText}
+              style={{height: '100%'}}
+            />
+
             <div
+              className="content3-title-test"
               style={{
-                marginTop: '40%',
-                marginLeft: '10%',
+                marginTop: '-40%',
+                marginLeft: '30%',
                 height: 'fit-content',
               }}
             >
+
               <span
                 className="content3-title"
                 style={{
@@ -235,19 +263,30 @@ const Content3 = () => {
               >
                 Craving for something spicy?
               </span>
+
             </div>
           </div>
         </a>
 
         {/* ### */}
         <a style={{color: 'black', display: 'contents'}} href="/hangover">
-          <div
-            className="content3-box3-flex"
-            style={{
-              backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/29_a9087224a2.webp)',
-            }}
-          >
-            <div style={{marginTop: '50%', marginLeft: '10%'}}>
+          <div className="content3-box3-flex">
+
+            <GatsbyImage
+              image={getImage (content3.strapiContent3.cover3.localFile)}
+              // alt={content3.strapiContent3.cover1.alternativeText}
+              style={{height: '100%'}}
+            />
+
+            <div
+              className="content3-title-test"
+              style={{
+                marginTop: '-20%',
+                marginLeft: '50%',
+                height: 'fit-content',
+              }}
+            >
+
               <span
                 className="content3-title"
                 style={{
@@ -260,6 +299,7 @@ const Content3 = () => {
               >
                 Did you drink too much again?
               </span>
+
             </div>
           </div>
         </a>
