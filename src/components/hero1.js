@@ -10,20 +10,93 @@ import {use} from '../styles/main-use.css';
 
 // import {main} from '../styles/main.css';
 
+import {useStaticQuery, graphql} from 'gatsby';
+
+import {GatsbyImage, getImage} from 'gatsby-plugin-image';
+
 const Hero1 = () => {
+  const hero1 = useStaticQuery (graphql`
+  query {
+    strapiHero1 {
+      file1 {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+      file2 {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+      file3 {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+      file4 {
+        alternativeText
+        localFile {
+          url
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
+    }
+  }
+`);
+
+  console.log ('line:1000', hero1);
+  console.log ('line:2000', hero1.strapiHero1.file1.localFile);
+
   return (
     <header className="hero" style={{}}>
+
+      {/* ### */}
+
+      {/* <GatsbyImage
+        className="image-overview"
+        image={getImage (hero1.strapiHero1.file1.localFile)}
+        style={{}}
+      /> */}
+
+      {/* ### */}
 
       <section className="hero-level1">
 
         <div className="hero5">
 
-          <a style={{color: 'black', display: 'contents'}} href="/article/pork-adobe">
-            <div className="h-box4"  alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/20_be89c76575.jpg)"}}
- >
+          <a
+            style={{color: 'black', display: 'contents'}}
+            href="/article/pork-adobe"
+          >
+            <div
+              className="h-box4"
+              alt="Food Blog"
+              // style={{
+              //   backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/20_be89c76575.jpg)',
+              // }}
+            >
 
+              <GatsbyImage
+                className="h-box4-1"
+                image={getImage (hero1.strapiHero1.file1.localFile)}
+                style={{}}
+              />
 
-              <div style={{marginTop: '20%', marginLeft: '20%'}}>
+              <div style={{marginTop: '-20%', marginLeft: '20%'}}>
                 <span
                   style={{
                     padding: '5px',
@@ -41,11 +114,21 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box6" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/22_cef2def971.jpg)"}} >
+            <div
+              className="h-box6"
+              alt="Food Blog"
+              // style={{
+              //   backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/22_cef2def971.jpg)',
+              // }}
+            >
 
+              <GatsbyImage
+                className="h-box6"
+                image={getImage (hero1.strapiHero1.file2.localFile)}
+                style={{}}
+              />
 
-
-              <div style={{marginTop: '20%', marginLeft: '20%'}}>
+              <div style={{marginTop: '-20%', marginLeft: '20%'}}>
                 <span
                   style={{
                     padding: '5px',
@@ -68,8 +151,21 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box7" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/24_03747eb5e4.jpg)"}} >
-              <div style={{marginTop: '20%', marginLeft: '20%'}}>
+            <div
+              className="h-box7"
+              alt="Food Blog"
+              // style={{
+              //   backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/24_03747eb5e4.jpg)',
+              // }}
+            >
+
+              <GatsbyImage
+                className="h-box7-1"
+                image={getImage (hero1.strapiHero1.file3.localFile)}
+                style={{}}
+              />
+
+              <div style={{marginTop: '-20%', marginLeft: '20%'}}>
                 <span
                   style={{
                     padding: '5px',
@@ -90,8 +186,21 @@ const Hero1 = () => {
 
           <a style={{color: 'black', display: 'contents'}} href="/veggies">
 
-            <div className="h-box9" alt="Food Blog" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/26_70de2e0936.jpg)"}} >
-              <div style={{marginTop: '20%', marginLeft: '20%'}}>
+            <div
+              className="h-box9"
+              alt="Food Blog"
+              // style={{
+              //   backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/26_70de2e0936.jpg)',
+              // }}
+            >
+
+              <GatsbyImage
+                className="h-box9"
+                image={getImage (hero1.strapiHero1.file4.localFile)}
+                style={{width:"100%"}}
+              />
+
+              <div style={{marginTop: '-20%', marginLeft: '20%'}}>
                 <span
                   style={{
                     padding: '5px',

@@ -836,6 +836,34 @@ color: #fafafa;
         height: 500px;
       }
     }
+
+  .h-box4-1 {
+
+    width: auto;
+    height: 300px;
+    /* height: auto; */
+    background-color: white;
+    grid-column: 1/span 8;
+    /* grid-row: 1 /span 2; */
+    /* margin-right: 20px; */
+    /* background-image: url(../assets/images/21.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    }
+
+    @media screen and (min-width: 960px) {
+      .h-box4-1{
+        height: 400px;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      .h-box4-1{
+        height: 500px;
+      }
+    }
     
     
     .h-box6 {
@@ -915,6 +943,35 @@ color: #fafafa;
         }
       }
 
+      .h-box7-1 {
+
+      width: auto;
+      height: 300px;
+      /* height: auto; */
+      background-color: white;
+      grid-column: 1/span 4;
+      /* grid-row: 1 /span 2; */
+      /* margin-right: 20px; */
+      /* background-image: url(../assets/images/23.jpg); */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      }
+
+
+      @media screen and (min-width: 960px) {
+        .h-box7-1{
+          height: 400px;
+        }
+      }
+  
+      @media screen and (min-width: 1200px) {
+        .h-box7-1{
+          height: 500px;
+        }
+      }
+
 
       .h-box9 {
 
@@ -938,6 +995,32 @@ color: #fafafa;
   
       @media screen and (min-width: 1200px) {
         .h-box9{
+          height: 500px;
+        }
+      }
+
+      .h-box9-1 {
+
+      width: auto;
+      height: 300px;
+      background-color: white;
+      grid-column: 5/span 8;
+      /* background-image: url(../assets/images/24.jpg); */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+
+      }
+
+      @media screen and (min-width: 960px) {
+        .h-box-1{
+          height: 400px;
+        }
+      }
+  
+      @media screen and (min-width: 1200px) {
+        .h-box9-1{
           height: 500px;
         }
       }
@@ -1510,6 +1593,7 @@ margin: 20px 20px 20px 20px;
   @media screen and (min-width: 820px) {
     .e2-text-p2{
     font-size: 2rem;
+
   
     }
   }
