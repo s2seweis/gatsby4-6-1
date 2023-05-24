@@ -5,7 +5,9 @@ import Navbar1 from './navbar-v2';
 
 import Sidebar from './sidebar';
 
-import MenuBurger from './burger-menu';
+// import MenuBurger from './burger-menu';
+
+import CookieConsent from 'react-cookie-consent';
 
 const Layout = ({children}) => {
   const scrolled = useRef (null);
@@ -39,6 +41,33 @@ const Layout = ({children}) => {
   return (
     <div className="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
       <div>
+
+        <CookieConsent
+          location="bottom"
+          buttonText="I Accept It"
+          cookieName="myAwesomeCookieName2"
+          style={{background: '#2B373B'}}
+          buttonStyle={{color: '#4e503b', fontSize: '13px'}}
+          expires={150}
+        >
+          This website uses cookies to enhance the user experience.{' '}
+          <span style={{fontSize: '10px'}}>
+            <div style={{marginTop: '20px'}}>
+
+              <a
+                style={{
+                  fontSize: '1.3rem',
+                  padding: '5px',
+                  marginLeft: '20px',
+                }}
+                href="javascript:history.back()"
+              >
+                <button type="button" className="btn btn-link">Go Back</button>
+              </a>
+            </div>
+          </span>
+
+        </CookieConsent>
 
         <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
 

@@ -15,12 +15,19 @@ import {FaInstagram} from 'react-icons/fa';
 import {FaTiktok} from 'react-icons/fa';
 import {FaYoutube} from 'react-icons/fa';
 
+// import AdBlock from './adblock';
+
 // import {GatsbyImage, getImage} from 'gatsby-plugin-image';
+
 
 
 const E2 = () => {
   return (
     <header className="e2" style={{}}>
+
+
+    {/* <AdBlock/> */}
+
 
       <section className="e2-level1">
 

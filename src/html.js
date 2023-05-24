@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import LoaderSVG from './assets/images/loader.svg'
+import LoaderSVG from './assets/images/loader.svg';
 
 export default function HTML (props) {
   return (
@@ -13,7 +13,15 @@ export default function HTML (props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5912939817167412"
+          crossorigin="anonymous"
+        />
+
         {props.headComponents}
+
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

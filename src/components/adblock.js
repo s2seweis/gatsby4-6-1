@@ -3,7 +3,7 @@ import AdSense from 'react-adsense'
 
 const AdBlock = () => (
     <AdSense.Google
-        client="YOUR-CODE-HERE"
+        client="5912939817167412"
         slot="YOUR-SLOT-HERE"
         style={{ display: 'block' }}
         layout="in-article"
