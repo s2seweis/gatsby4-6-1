@@ -46,7 +46,7 @@ const Layout = ({children}) => {
           location="bottom"
           buttonText="I Accept It"
           cookieName="myAwesomeCookieName2"
-          style={{background: '#2B373B'}}
+          style={{background: '#708d3e'}}
           buttonStyle={{color: '#4e503b', fontSize: '13px'}}
           expires={150}
         >
