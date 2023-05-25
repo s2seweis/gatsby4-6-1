@@ -54,7 +54,25 @@ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cl
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
 
 
-### Upload Test - 1
+
 
 
 <!-- Push Test -->
+
+## Overview
+ - Using Bootsrap/Tailwind
+ - Add Posts 
+ - Edit Posts 
+ - Delete Posts 
+ - Filter Posts by Categories
+ - Hero Elements 
+ - Social Media Links
+ - Animated Side Navigation Menu 
+ - Added Youtube I-Frames to Posts
+ - Using Simple Cookie Banner
+ - Using Google Analytics and Google Adsense 
+ - View Supported by Mobile, Tablet and Desktop
+ - Search Engine Optimization by Lighthouse measuring 100% 
+ - Converted JPG to WebP
+ - Checked the HTTP/2 connection via Networks
+ - Connected to www.thesolacelife.com
