@@ -30,7 +30,7 @@ const Overview = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -39,7 +39,7 @@ const Overview = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -48,7 +48,7 @@ const Overview = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -57,7 +57,7 @@ const Overview = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -66,7 +66,7 @@ const Overview = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -75,7 +75,7 @@ const Overview = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }

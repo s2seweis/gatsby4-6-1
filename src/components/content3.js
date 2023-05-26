@@ -21,7 +21,7 @@ const Content3 = () => {
           localFile {
             url
             childImageSharp {
-              gatsbyImageData
+              gatsbyImageData(placeholder: BLURRED)
             }
           }
         }
@@ -30,7 +30,7 @@ const Content3 = () => {
           localFile {
             url
             childImageSharp {
-              gatsbyImageData
+              gatsbyImageData(placeholder: BLURRED)
             }
           }
         }
@@ -39,7 +39,7 @@ const Content3 = () => {
           localFile {
             url
             childImageSharp {
-              gatsbyImageData
+              gatsbyImageData(placeholder: BLURRED)
             }
           }
         }

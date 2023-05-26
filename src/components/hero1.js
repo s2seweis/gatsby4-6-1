@@ -23,7 +23,7 @@ const Hero1 = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -32,7 +32,7 @@ const Hero1 = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -41,7 +41,7 @@ const Hero1 = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -50,7 +50,7 @@ const Hero1 = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
@@ -96,7 +96,7 @@ const Hero1 = () => {
                 style={{}}
               />
 
-              <div style={{marginTop: '-20%', marginLeft: '20%'}}>
+              <div className='line:1' style={{marginTop: '-20%', marginLeft: '20%'}}>
                 <span
                   style={{
                     padding: '5px',
@@ -106,7 +106,7 @@ const Hero1 = () => {
                     opacity: '0.8',
                   }}
                 >
-                  Best Pork Adobe Recipe!
+                  Best Pork Adobe Recipe1!
                 </span>
               </div>
             </div>
@@ -117,18 +117,19 @@ const Hero1 = () => {
             <div
               className="h-box6"
               alt="Food Blog"
-              // style={{
-              //   backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/22_cef2def971.jpg)',
-              // }}
+              style={{
+                // backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/22_cef2def971.jpg)',
+                background:"white"
+              }}
             >
 
               <GatsbyImage
                 className="h-box6"
                 image={getImage (hero1.strapiHero1.file2.localFile)}
-                style={{}}
+                style={{background:"white"}}
               />
 
-              <div style={{marginTop: '-20%', marginLeft: '20%'}}>
+              <div className='line:2' style={{marginTop: '-20%', marginLeft: '20%'}}>
                 <span
                   style={{
                     padding: '5px',

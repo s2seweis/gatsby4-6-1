@@ -45,7 +45,7 @@ export const query = graphql`
       alternativeText
       localFile {
         childImageSharp {
-          gatsbyImageData(aspectRatio: 1.77)
+          gatsbyImageData(aspectRatio: 1.77, placeholder: BLURRED)
         }
       }
     }

@@ -24,7 +24,7 @@ const AboutPage = () => {
         localFile {
           url
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: BLURRED)
           }
         }
       }
