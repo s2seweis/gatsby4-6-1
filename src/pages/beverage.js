@@ -88,7 +88,7 @@ const Beverage = () => {
           style={{
             display: 'flex',
             justifyContent: 'center',
-            // marginBottom: '50px',
+            marginBottom: '20px',
             marginTop: '50px',
           }}
         >

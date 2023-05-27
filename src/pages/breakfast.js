@@ -90,6 +90,7 @@ const Breakfast = () => {
             justifyContent: 'center',
             // marginBottom: '50px',
             marginTop: '50px',
+            marginBottom:"20px"
           }}
         >
           <a aria-label="link" className="section" href="/news">News</a>
