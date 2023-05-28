@@ -9,6 +9,15 @@ import Sidebar from './sidebar';
 
 import CookieConsent from 'react-cookie-consent';
 
+// ###
+
+import {FaFacebookSquare} from 'react-icons/fa';
+import {FaInstagram} from 'react-icons/fa';
+import {FaTiktok} from 'react-icons/fa';
+import {FaYoutube} from 'react-icons/fa';
+
+// ###
+
 const Layout = ({children}) => {
   const scrolled = useRef (null);
 
@@ -40,6 +49,41 @@ const Layout = ({children}) => {
 
   return (
     <div className="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
+
+      <div className="social-media-left-side" 
+      // style={{fontSize: '2.2rem'}}
+      >
+
+        <a
+          aria-label="link"
+          // style={{color: 'black'}}
+          href="https://www.instagram.com/"
+          className="link-social-left1"
+          style={{}}
+        >
+          <span><FaInstagram /></span>
+        </a>
+        <a
+          aria-label="link"
+          // style={{color: 'black'}}
+          href="https://www.facebook.com"
+          className="link-social-left2"
+        >
+          <span><FaFacebookSquare /></span>
+        </a>
+        <a
+          aria-label="link"
+          // style={{color: 'black'}}
+          href="https://www.youtube.com"
+          className="link-social-left3"
+        >
+          <span><FaYoutube /></span>
+        </a>
+        
+        
+
+      </div>
+
       <div>
 
         <CookieConsent

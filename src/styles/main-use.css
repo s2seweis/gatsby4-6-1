@@ -1200,6 +1200,9 @@ background-color: #8baf4d;
   }
 }
 
+/* ---
+### Content3
+--- */
 
 .content3 {
 
@@ -1250,7 +1253,7 @@ background-position: center;
 .content3-box1:hover{
 
   opacity: 0.8;
-  color: darkolivegreen;
+  /* color: darkolivegreen; */
 
 }
 
@@ -1269,7 +1272,7 @@ background-position: center;
 .content3-box2:hover{
 
   opacity: 0.8;
-  color: darkolivegreen;
+  /* color: darkolivegreen; */
 
 }
 
@@ -1288,7 +1291,7 @@ background-position: center;
 .content3-box3:hover{
 
   opacity: 0.8;
-  color: darkolivegreen;
+  /* color: darkolivegreen; */
 
 }
 
@@ -1563,14 +1566,16 @@ margin: 20px 20px 20px 20px;
     /* font-family: "Lobster Two"; */
   }
 
-  .container{
 
 
-    
-  }
+
+/* ---
+### e2 Component 
+--- */
 
 
-  /* ### */
+  
+
 
   .e2-text-p1 {
     font-size: 1.2rem;
@@ -1627,6 +1632,10 @@ margin: 20px 20px 20px 20px;
   }
 
 
+/* ---
+### hero1 Component
+--- */
+
   .h-box4:hover  {
     opacity: 0.8;
   }
@@ -1640,9 +1649,19 @@ margin: 20px 20px 20px 20px;
     opacity: 0.8;
   }
 
+
+/* ---
+### article-card Component
+--- */
+
   .overflow-hidden{
     text-decoration: none;
   }
+
+
+/* ---
+###  contact-form Page
+--- */
 
   .contact-form {
     width: 65%;
@@ -1654,6 +1673,11 @@ margin: 20px 20px 20px 20px;
     }
   }
 
+
+     /* ---
+### Page Copyright
+--- */
+  
 
   .text-copyright-1{
 
@@ -1673,6 +1697,10 @@ margin: 20px 20px 20px 20px;
 
     
   }
+
+    /* ---
+### Social Media Links E2/Footer/
+--- */
 
 
   @media screen and (min-width: 820px) {
@@ -1728,3 +1756,97 @@ margin: 20px 20px 20px 20px;
     color: white;
     transition: .5s ease;
   }
+
+
+  /* ---
+### Social Media Left Side Bar
+--- */
+
+
+.social-media-left-side {
+
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 264px;
+  z-index: 100;
+
+}
+
+
+.link-social-left1 {
+  /* float:left;
+  width:30px;    */
+ text-align:center;
+ color: white;
+ /* background-color: aqua; */
+ background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);;
+ padding: 5px;
+ width: 56px;
+ border-radius: 0px 20px 20px 0px;
+ font-size: 2.2rem;
+ height: 40px;
+ 
+ /* border-radius: 20px; */
+}
+
+.link-social-left1:hover {
+  cursor: pointer;
+  /* font-size: 38px; */
+  color: white;
+  width: 46px;
+  transition: .5s ease;
+  font-size: 2rem;
+}
+.link-social-left2 {
+  /* float:left;
+  width:30px;    */
+ text-align:center;
+ color: white;
+ background-color: #1778F2;
+ padding: 5px;
+ margin-top: 10px;
+ width: 56px;
+ border-radius: 0px 20px 20px 0px;
+ font-size: 2.2rem;
+ height: 40px;
+
+}
+ 
+
+.link-social-left2:hover {
+  cursor: pointer;
+  /* font-size: 38px; */
+  color: white;
+  transition: .5s ease;
+  width: 46px;
+  font-size: 2rem;
+  
+}
+.link-social-left3 {
+  /* float:left;
+  width:30px;    */
+ text-align:center;
+ color: white;
+ background-color: #FF0000;
+ padding: 5px;
+ margin-top: 10px;
+ width: 56px;
+ border-radius: 0px 20px 20px 0px;
+ font-size: 2.2rem;
+ height: 40px;
+}
+
+.link-social-left3:hover {
+  cursor: pointer;
+  /* font-size: 38px; */
+  color: white;
+  transition: .5s ease;
+  width: 46px;
+  font-size: 2rem;
+}
+
+  /* ---
+### Social Media Left Side Bar End
+--- */
