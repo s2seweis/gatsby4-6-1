@@ -21,6 +21,8 @@ const ArticlePage = ({data}) => {
   // const src2 = "https://www.youtube.com/embed/YIsEYluQaLk";
   // console.log( "line:2", src2);
 
+  console.log("line:20", article.blocks);
+
   return (
     <Layout as="article">
       <Seo seo={seo} />
@@ -63,6 +65,7 @@ const ArticlePage = ({data}) => {
         />
 
       </header>
+      {/* ### if not 1 Post is filled with blocks, whole code not working, not really good!!! */}
       <main style={{margin: '0px 15px 0px 15px'}} className="mt-8">
         <BlocksRenderer blocks={article.blocks || []} />
       </main>

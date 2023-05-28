@@ -19,15 +19,11 @@ import {FaYoutube} from 'react-icons/fa';
 
 // import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 
-
-
 const E2 = () => {
   return (
     <header className="e2" style={{}}>
 
-
-    {/* <AdBlock/> */}
-
+      {/* <AdBlock/> */}
 
       <section className="e2-level1">
 
@@ -35,7 +31,12 @@ const E2 = () => {
 
           {/* <h1>E2</h1> */}
 
-          <div className="e2-box1" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/40_51f275db19.jpg)"}} >
+          <div
+            className="e2-box1"
+            style={{
+              backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/small_mitzi_falmarin_831067a945.webp',
+            }}
+          >
             {' '}
             <div
               style={{
@@ -46,15 +47,13 @@ const E2 = () => {
                 fontSize: '2rem',
               }}
               className="<e2-box-social-links>"
-            >
-           
-
-            </div>
+            />
             {' '}
           </div>
           <div className="e2-box2" style={{padding: '15px'}}>
 
-            <p className='e2-text-p2'
+            <p
+              className="e2-text-p2"
               style={{
                 textAlign: 'center',
                 // fontSize: '2rem',
@@ -83,7 +82,9 @@ const E2 = () => {
                 {' '}
               </p>
 
-              <p style={{fontSize:"1.4rem", textAlign:"center"}} >  Check ou my other Channels </p>
+              <p style={{fontSize: '1.4rem', textAlign: 'center'}}>
+                {' '}Check ou my other Channels{' '}
+              </p>
 
               <div
                 style={{
@@ -94,17 +95,34 @@ const E2 = () => {
                 className="flex-social-links"
               >
 
-                <a aria-label="link" style={{color: 'white'}} href="https://www.facebook.com/people/The-Solace-Life/100090725413897/?mibextid=LQQJ4d">
+                <a
+                  aria-label="link"
+                  className="link-social-desktop"
+                  // style={{color: 'white'}}
+                  href="https://www.facebook.com/people/The-Solace-Life/100090725413897/?mibextid=LQQJ4d"
+                >
                   <span><FaFacebookSquare /></span>
                 </a>
-                <a aria-label="link" style={{color: 'white'}} href="https://www.instagram.com">
+                <a
+                  aria-label="link"
+                  // style={{color: 'white'}}
+                  className="link-social-desktop"
+                  href="https://www.instagram.com"
+                >
                   <span><FaInstagram /></span>
                 </a>
-                <a aria-label="link" style={{color: 'white'}} href="https://www.tiktok.com">
+                <a
+                  aria-label="link"
+                  // style={{color: 'white'}}
+                  className="link-social-desktop"
+                  href="https://www.tiktok.com"
+                >
                   <span><FaTiktok /></span>
                 </a>
-                <a aria-label="link"
-                  style={{color: 'white'}}
+                <a
+                  aria-label="link"
+                  // style={{color: 'white'}}
+                  className="link-social-desktop"
                   href="https://www.youtube.com/@Thesolacelife"
                 >
                   <span><FaYoutube /></span>
@@ -123,7 +141,12 @@ const E2 = () => {
 
           {/* <h1>E2</h1> */}
 
-          <div className="e2-box1-flex" style={{backgroundImage:"url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/40_51f275db19.jpg)"}} >
+          <div
+            className="e2-box1-flex"
+            style={{
+              backgroundImage: 'url(https://food-blog-v001-image-bucket.s3.eu-central-1.amazonaws.com/small_mitzi_falmarin_831067a945.webp)',
+            }}
+          >
 
             <div
               style={{
@@ -136,18 +159,35 @@ const E2 = () => {
               }}
               className="e2-box1-flex-social-links"
             >
-              <a aria-label="link" style={{color: 'black'}} href="https://www.facebook.com/people/The-Solace-Life/100090725413897/?mibextid=LQQJ4d">
+              <a
+                aria-label="link"
+                // style={{color: 'black'}}
+                href="https://www.facebook.com/people/The-Solace-Life/100090725413897/?mibextid=LQQJ4d"
+                className="link-social-mobile"
+              >
                 <span><FaFacebookSquare /></span>
               </a>
-              <a aria-label="link" style={{color: 'black'}} href="https://www.instagram.com">
+              <a
+                aria-label="link"
+                // style={{color: 'black'}}
+                href="https://www.instagram.com"
+                className="link-social-mobile"
+              >
                 <span><FaInstagram /></span>
               </a>
-              <a aria-label="link" style={{color: 'black'}} href="https://www.tiktok.com">
+              <a
+                aria-label="link"
+                // style={{color: 'black'}}
+                href="https://www.tiktok.com"
+                className="link-social-mobile"
+              >
                 <span><FaTiktok /></span>
               </a>
-              <a aria-label="link"
-                style={{color: 'black'}}
+              <a
+                aria-label="link"
+                // style={{color: 'black'}}
                 href="https://www.youtube.com/@Thesolacelife"
+                className="link-social-mobile"
               >
                 <span><FaYoutube /></span>
               </a>

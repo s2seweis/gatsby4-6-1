@@ -94,6 +94,7 @@ const Hero1 = () => {
                 className="h-box4-1"
                 image={getImage (hero1.strapiHero1.file1.localFile)}
                 style={{}}
+                alt='The Solace Life'
               />
 
               <div className='line:1' style={{marginTop: '-20%', marginLeft: '20%'}}>
@@ -106,13 +107,15 @@ const Hero1 = () => {
                     opacity: '0.8',
                   }}
                 >
-                  Best Pork Adobe Recipe1!
+                  Best Pork Adobe Recipe!
                 </span>
               </div>
             </div>
           </a>
 
-          <a style={{color: 'black', display: 'contents'}} href="/veggies">
+          <a style={{color: 'black', display: 'contents'}} 
+          href="/article/ginisang-gulay"
+          >
 
             <div
               className="h-box6"
@@ -127,6 +130,7 @@ const Hero1 = () => {
                 className="h-box6"
                 image={getImage (hero1.strapiHero1.file2.localFile)}
                 style={{background:"white"}}
+                alt='The Solace Life | Food Blog'
               />
 
               <div className='line:2' style={{marginTop: '-20%', marginLeft: '20%'}}>
@@ -150,7 +154,9 @@ const Hero1 = () => {
 
         <div className="hero6">
 
-          <a style={{color: 'black', display: 'contents'}} href="/veggies">
+          <a style={{color: 'black', display: 'contents'}} 
+          href="/article/leche-flan"
+          >
 
             <div
               className="h-box7"
@@ -164,6 +170,7 @@ const Hero1 = () => {
                 className="h-box7-1"
                 image={getImage (hero1.strapiHero1.file3.localFile)}
                 style={{}}
+                alt='Food Blog'
               />
 
               <div style={{marginTop: '-20%', marginLeft: '20%'}}>
@@ -185,7 +192,9 @@ const Hero1 = () => {
 
           {/* <div  className='box8'>Box2</div> */}
 
-          <a style={{color: 'black', display: 'contents'}} href="/veggies">
+          <a style={{color: 'black', display: 'contents'}} 
+          href="/article/chicken-adobo"
+          >
 
             <div
               className="h-box9"
@@ -199,6 +208,7 @@ const Hero1 = () => {
                 className="h-box9"
                 image={getImage (hero1.strapiHero1.file4.localFile)}
                 style={{width:"100%"}}
+                alt='Food Blog'
               />
 
               <div style={{marginTop: '-20%', marginLeft: '20%'}}>

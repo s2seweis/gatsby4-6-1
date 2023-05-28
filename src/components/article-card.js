@@ -14,7 +14,7 @@ const ArticleCard = ({ article }) => {
 
       <GatsbyImage
         image={getImage(article.cover?.localFile)}
-        alt={article.cover?.alternativeText}
+        alt=""
       />
 
 

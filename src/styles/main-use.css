@@ -724,6 +724,7 @@ color: #fafafa;
   .footer-e1-row2 {
     
     grid-column: 2 /span 4;
+    column-gap: 50px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -1699,3 +1700,31 @@ margin: 20px 20px 20px 20px;
     }
   }
 
+
+  .link-social-desktop {
+    float:left;
+    width:30px;   
+   text-align:center;
+   color: white;
+  }
+
+  .link-social-desktop:hover {
+    cursor: pointer;
+    font-size: 38px;
+    color: black;
+    transition: .5s ease;
+  }
+
+  .link-social-mobile {
+    float:left;
+    width:30px;   
+   text-align:center;
+   color: black;
+  }
+
+  .link-social-mobile:hover {
+    cursor: pointer;
+    font-size: 38px;
+    color: white;
+    transition: .5s ease;
+  }

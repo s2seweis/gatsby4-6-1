@@ -82,13 +82,16 @@ const Content3 = () => {
 
         {/* ### */}
 
-        <a style={{color: 'black', display: 'contents'}} href="/veggies">
+        <a style={{color: 'black', display: 'contents'}} 
+        href="/veggies"
+        >
           <div className="content3-box1">
 
             <GatsbyImage
               image={getImage (content3.strapiContent3.cover1.localFile)}
               // alt={content3.strapiContent3.cover1.alternativeText}
               style={{height: '100%'}}
+              alt='The Solace Life | Food Blog'
             />
 
             <div
@@ -118,13 +121,17 @@ const Content3 = () => {
 
         </a>
 
-        <a style={{color: 'black', display: 'contents'}} href="/spicy">
+        <a style={{color: 'black', display: 'contents'}} 
+        href="/spicy"
+        >
           <div className="content3-box2">
 
             <GatsbyImage
               image={getImage (content3.strapiContent3.cover2.localFile)}
               // alt={content3.strapiContent3.cover1.alternativeText}
               style={{height: '100%'}}
+              alt='The Solace Life | Food Blog'
+
             />
 
             <div
@@ -154,13 +161,17 @@ const Content3 = () => {
         </a>
 
         {/* ### */}
-        <a style={{color: 'black', display: 'contents'}} href="/hangover">
+        <a style={{color: 'black', display: 'contents'}} 
+        href="/hangover"
+        >
           <div className="content3-box3">
 
             <GatsbyImage
               image={getImage (content3.strapiContent3.cover3.localFile)}
               // alt={content3.strapiContent3.cover1.alternativeText}
               style={{height: '100%'}}
+              alt='The Solace Life | Food Blog'
+
             />
 
             <div
@@ -204,6 +215,8 @@ const Content3 = () => {
               image={getImage (content3.strapiContent3.cover1.localFile)}
               // alt={content3.strapiContent3.cover1.alternativeText}
               style={{height: '100%'}}
+              alt='The Solace Life | Food Blog'
+
             />
 
             <div
@@ -240,6 +253,8 @@ const Content3 = () => {
               image={getImage (content3.strapiContent3.cover2.localFile)}
               // alt={content3.strapiContent3.cover1.alternativeText}
               style={{height: '100%'}}
+              alt='The Solace Life | Food Blog'
+
             />
 
             <div
@@ -276,6 +291,8 @@ const Content3 = () => {
               image={getImage (content3.strapiContent3.cover3.localFile)}
               // alt={content3.strapiContent3.cover1.alternativeText}
               style={{height: '100%'}}
+              alt='The Solace Life | Food Blog'
+
             />
 
             <div

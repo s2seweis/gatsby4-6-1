@@ -147,6 +147,7 @@ const Overview = () => {
                 className="image-overview"
                 image={getImage (overview.strapiOverview.breakfast.localFile)}
                 style={{}}
+                alt='The Solace Life'
               />
 
             </div>
@@ -177,6 +178,7 @@ const Overview = () => {
                 className="image-overview"
                 image={getImage (overview.strapiOverview.lunch.localFile)}
                 style={{}}
+                alt='Food Blog'
               />
 
             </div>
@@ -207,6 +209,7 @@ const Overview = () => {
                 className="image-overview"
                 image={getImage (overview.strapiOverview.dinner.localFile)}
                 style={{}}
+                alt='Food Blog'
               />
 
             </div>
@@ -248,6 +251,7 @@ const Overview = () => {
                 className="image-overview"
                 image={getImage (overview.strapiOverview.desserts.localFile)}
                 style={{}}
+                alt='Food Blog'
               />
 
             </div>
@@ -278,6 +282,7 @@ const Overview = () => {
                 className="image-overview"
                 image={getImage (overview.strapiOverview.fiesta.localFile)}
                 style={{}}
+                alt='Food Blog'
               />
 
             </div>
@@ -307,6 +312,7 @@ const Overview = () => {
                 className="image-overview"
                 image={getImage (overview.strapiOverview.beverage.localFile)}
                 style={{}}
+                alt='Food Blog'
               />
 
             </div>
