@@ -107,7 +107,7 @@ const Hero1 = () => {
                     opacity: '0.8',
                   }}
                 >
-                  Best Pork Adobe Recipe!
+                  Best Pork Adobe Recipe1!
                 </span>
               </div>
             </div>
