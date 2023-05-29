@@ -10,7 +10,7 @@ import Hero1 from '../components/hero1';
 
 import Grid from '../components/grid';
 
-// import AdBlock from '../components/adblock';
+import AdBlock from '../components/adblock';
 
 import 'semantic-ui-css/semantic.min.css';
 
