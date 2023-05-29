@@ -7,17 +7,28 @@ export default function HTML (props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
+
+        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5912939817167412"
+     crossOrigin="anonymous"></script> */}
+
+        <script
+          async
+          src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        />
+        <script>
+          {`
+                    (adsbygoogle = window.adsbygoogle || []).push({
+                      google_ad_client: "ca-pub-5912939817167412",
+                      enable_page_level_ads: true
+                    });
+                  `}
+        </script>
+
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5912939817167412"
-          crossOrigin='anonymous'
         />
 
         {props.headComponents}

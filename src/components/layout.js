@@ -7,7 +7,9 @@ import Sidebar from './sidebar';
 
 // import MenuBurger from './burger-menu';
 
+// ###
 import CookieConsent from 'react-cookie-consent';
+// ###
 
 // ###
 
@@ -49,6 +51,8 @@ const Layout = ({children}) => {
 
   return (
     <div className="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
+
+      
 
       <div className="social-media-left-side" 
       // style={{fontSize: '2.2rem'}}

@@ -10,6 +10,8 @@ import Hero1 from '../components/hero1';
 
 import Grid from '../components/grid';
 
+import AdBlock from '../components/adblock';
+
 import 'semantic-ui-css/semantic.min.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -59,6 +61,8 @@ const IndexPage = () => {
         title={strapiGlobal.siteName}
         description={strapiGlobal.siteDescription}
       /> */}
+
+      <AdBlock/>
 
       <Overview />
 

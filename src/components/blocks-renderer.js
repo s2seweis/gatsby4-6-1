@@ -27,7 +27,7 @@ const BlocksRenderer = ({ blocks }) => {
     <div>
       {blocks.map((block, index) => (
         <Block key={`${index}${block.__typename}`} block={block} />
-      ))}
+      ) )}
     </div>
   )
 }
