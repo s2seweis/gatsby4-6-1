@@ -8,6 +8,7 @@ const AdBlock = () => (
         style={{ display: 'block' }}
         layout="in-article"
         format="fluid"
+        alt='The Solace Life | Food Blog'
     />
 )
 
