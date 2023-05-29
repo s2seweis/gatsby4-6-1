@@ -62,7 +62,7 @@ const IndexPage = () => {
         description={strapiGlobal.siteDescription}
       /> */}
 
-      {/* <AdBlock/> */}
+      <AdBlock/>
 
       <Overview />
 
