@@ -31,7 +31,6 @@
     "install": "^0.13.0",
     "postcss": "^8.4.6",
     "react": "^17.0.1",
-    "react-adsense": "^0.1.0",
     "react-bootstrap": "^2.7.4",
     "react-burger-menu": "3.0.8",
     "react-cookie-consent": "^8.0.1",
