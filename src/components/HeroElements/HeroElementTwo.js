@@ -1,10 +1,10 @@
 import React from 'react';
 // import {Link} from 'gatsby';
-import {use} from '../styles/main-use.css';
+import {use} from '../../styles/main-use.css';
 import {useStaticQuery, graphql} from 'gatsby';
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 
-const Hero1 = () => {
+const HeroElementTwo = () => {
   const hero1 = useStaticQuery (graphql`
   query {
     strapiHero1 {
@@ -48,9 +48,6 @@ const Hero1 = () => {
   }
 `);
 
-  console.log ('line:1000', hero1);
-  console.log ('line:2000', hero1.strapiHero1.file1.localFile);
-
   return (
     <header className="hero" style={{}}>
       <section className="hero-level1">
@@ -79,7 +76,7 @@ const Hero1 = () => {
                     opacity: '0.8',
                   }}
                 >
-                  Best Pork Adobe Recipe1!
+                  Best Pork Adobe Recipe!
                 </span>
               </div>
             </div>
@@ -179,4 +176,4 @@ const Hero1 = () => {
   );
 };
 
-export default Hero1;
+export default HeroElementTwo;

@@ -1,10 +1,10 @@
 import React from 'react';
-import logo5 from '../assets/images/logo5.png';
+import logo5 from '../../../assets/images/logo5.png';
 import {HiMenuAlt2} from 'react-icons/hi';
-import pageLinks from '../constans/links';
+import pageLinks from '../../../constans/links';
 import {Link} from 'gatsby';
-import Sidebar from '../components/sidebar';
-import '../styles/burger.css';
+import Sidebar from '../Sidebar/sidebar';
+import '../../../styles/burger.css';
 
 const Navbar1 = ({toggleSidebar}) => {
   return (

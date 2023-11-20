@@ -1,6 +1,6 @@
 import React from 'react';
-import links from '../constans/links-sidemenu';
-import socialLinks from '../constans/social_links';
+import links from '../../../constans/links-sidemenu';
+import socialLinks from '../../../constans/social_links';
 import {Link} from 'gatsby';
 import {FaTimes} from 'react-icons/fa';
 

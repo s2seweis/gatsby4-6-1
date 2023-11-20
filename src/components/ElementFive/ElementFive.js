@@ -1,11 +1,10 @@
 import React from 'react';
 // import {Link} from 'gatsby';
-import {StaticImage} from 'gatsby-plugin-image';
-import {use} from '../styles/main-use.css';
+import {use} from '../../styles/main-use.css';
 import {useStaticQuery, graphql} from 'gatsby';
-import ArticlesGrid from '../components/articles-grid';
+import ArticlesGrid from '../articles-grid';
 
-const Grid = () => {
+const ElementFive = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
 
   query {
@@ -59,4 +58,4 @@ const Grid = () => {
   );
 };
 
-export default Grid;
+export default ElementFive;

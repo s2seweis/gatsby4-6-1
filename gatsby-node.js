@@ -8,9 +8,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // ###
   // const breakfastPost = path.resolve("./src/templates/breakfast-post.js")
 
-
-
-
   const result = await graphql(
     `
       {
@@ -84,10 +81,4 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   //     })
   //   })
   // }
-
-
-
-
-
-  
 }

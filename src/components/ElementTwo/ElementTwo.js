@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
-import { use } from '../styles/main-use.css';
+// import { Link } from 'gatsby';
+import { use } from '../../styles/main-use.css';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 
-const E2 = () => {
+const ElementTwo = () => {
   return (
     <header className="e2" style={{}}>
       <section className="e2-level1">
@@ -181,4 +180,4 @@ const E2 = () => {
   );
 };
 
-export default E2;
+export default ElementTwo;

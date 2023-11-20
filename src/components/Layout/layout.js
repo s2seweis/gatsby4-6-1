@@ -1,10 +1,11 @@
 import React, {useState, useEffect, useRef} from 'react';
-import Footer from './footer';
-import Navbar from './navbar';
-import Navbar1 from './navbar-v2';
-import Sidebar from './sidebar';
+import Footer from './Footer/footer';
+import Navbar from './Navbar/navbar';
+import Navbar1 from './Navbar/navbar-v2';
+import Sidebar from './Sidebar/sidebar';
 import CookieConsent from 'react-cookie-consent';
-import {FaFacebookSquare, FaInstagram, FaTiktok, FaYoutube} from 'react-icons/fa';
+// import {FaFacebookSquare, FaInstagram, FaYoutube} from 'react-icons/fa';
+import SocialMedia from './SocialMedia/SocialMedia';
 
 const Layout = ({children}) => {
   const scrolled = useRef (null);
@@ -35,31 +36,7 @@ const Layout = ({children}) => {
 
   return (
     <div className="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
-      <div className="social-media-left-side" 
-      >
-        <a
-          aria-label="link"
-          href="https://www.instagram.com/"
-          className="link-social-left1"
-          style={{}}
-        >
-          <span><FaInstagram /></span>
-        </a>
-        <a
-          aria-label="link"
-          href="https://www.facebook.com"
-          className="link-social-left2"
-        >
-          <span><FaFacebookSquare /></span>
-        </a>
-        <a
-          aria-label="link"
-          href="https://www.youtube.com"
-          className="link-social-left3"
-        >
-          <span><FaYoutube /></span>
-        </a>
-      </div>
+      <SocialMedia/>
       <div>
         <CookieConsent
           location="bottom"

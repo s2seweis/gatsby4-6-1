@@ -8,9 +8,9 @@ const Footer = () => {
     <footer style={{color: 'white'}} className="footer-blog">
       <div className="container-footer">
         <div className="footer-e1">
-          <a className="footer-e1-a" style={{}} href="/copyright">
+          {/* <a className="footer-e1-a" style={{}} href="/copyright">
             Copyright SWT
-          </a>
+          </a> */}
         </div>
         <div className="footer-e2">
           <a className="footer-e1-a" style={{}} href="/about">About</a>

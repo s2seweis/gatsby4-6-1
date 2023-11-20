@@ -1,22 +1,9 @@
-import React, {useState} from 'react';
-
-import {Link} from 'gatsby';
-import {StaticImage} from 'gatsby-plugin-image';
-
+import React from 'react';
+// import {Link} from 'gatsby';
 import {use} from '../styles/main-use.css';
-
-// ###
-
 import {useStaticQuery, graphql} from 'gatsby';
-
-// ###
-
 import ArticlesGrid from '../components/articles-grid';
-
-import Layout from '../components/layout';
-
-// ###
-
+import Layout from '../components/Layout/layout';
 import Seo from '../components/seo';
 
 const Fiesta = () => {
@@ -58,7 +45,6 @@ const Fiesta = () => {
         <h1
           style={{
             textAlign: 'center',
-            // marginTop: '20px',
             display: 'flex',
             justifyContent: 'center',
             marginTop: '20px',

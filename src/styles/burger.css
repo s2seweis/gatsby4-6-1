@@ -34,17 +34,12 @@ F.navigation
   color: white;
 }
 
-
 .menu-item {
   /* border-top: 1px solid ; */
- 
-
 }
 
 /* The rest copied directly from react-burger-menu docs */
-
 /* Position and sizing of burger button */
-
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -60,14 +55,6 @@ F.navigation
       display: none;
     }
   }
-
-
-
-
-
-
-
-
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
@@ -120,7 +107,4 @@ F.navigation
   width: 65%;
   height: 100%;
   transition: all 0.5s ease 0s;
-
 }
-
-

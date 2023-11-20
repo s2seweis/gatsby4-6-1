@@ -1,8 +1,8 @@
 import React from 'react';
 // import {Link} from 'gatsby';
-import {use} from '../styles/main-use.css';
+import {use} from '../../styles/main-use.css';
 
-const Hero = () => {
+const HeroElementOne = () => {
   return (
     <header className="hero" style={{}}>
       <section className="section-center hero-center">
@@ -65,4 +65,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroElementOne;

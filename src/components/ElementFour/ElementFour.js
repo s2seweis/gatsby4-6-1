@@ -1,10 +1,10 @@
 import React from 'react';
 // import {Link} from 'gatsby';
 import {useStaticQuery, graphql} from 'gatsby';
-import {use} from '../styles/main-use.css';
+import {use} from '../../styles/main-use.css';
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 
-const Content3 = () => {
+const ElementFour = () => {
   const content3 = useStaticQuery (graphql`
  query {
       strapiContent3 {
@@ -241,4 +241,4 @@ const Content3 = () => {
   );
 };
 
-export default Content3;
+export default ElementFour;

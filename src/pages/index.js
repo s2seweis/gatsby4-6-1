@@ -1,15 +1,15 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
-import Layout from '../components/layout';
+import Layout from '../components/Layout/layout';
 import Seo from '../components/seo';
-import Hero from '../components/hero';
-import Hero1 from '../components/hero1';
-import Grid from '../components/grid';
+import HeroElementOne from '../components/HeroElements/HeroElementOne';
+import HeroElementTwo from '../components/HeroElements/HeroElementTwo';
+import ElementFive from '../components/ElementFive/ElementFive';
 import 'semantic-ui-css/semantic.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Overview from '../components/overview';
-import Content3 from '../components/content3';
-import E2 from '../components/e2';
+import ElementThree from '../components/ElementThree/ElementThree';
+import ElementFour from '../components/ElementFour/ElementFour';
+import ElementTwo from '../components/ElementTwo/ElementTwo';
 
 import ScrollToTop from "react-scroll-to-top";
 
@@ -34,12 +34,12 @@ const IndexPage = () => {
       seo={{metaTitle: 'Home'}}
        />
       <ScrollToTop smooth color="#708d3e" style={{display:"flex", justifyContent:"center", alignItems:"center"}} />
-      <Hero />
-      <Hero1 />
-      <E2 />
-      <Overview />
-      <Content3 />
-      <Grid />
+      <HeroElementOne />
+      <HeroElementTwo />
+      <ElementTwo />
+      <ElementThree />
+      <ElementFour />
+      <ElementFive />
     </Layout>
   );
 };

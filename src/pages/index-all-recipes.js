@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {use} from '../styles/main-use.css';
 import {useStaticQuery, graphql} from 'gatsby';
 import ArticlesGrid from '../components/article-grid-index';
-import Layout from '../components/layout';
+import Layout from '../components/Layout/layout';
 import Seo from '../components/seo';
 
 const AllRecipes = () => {

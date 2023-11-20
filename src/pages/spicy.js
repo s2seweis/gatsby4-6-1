@@ -4,7 +4,7 @@ import {StaticImage} from 'gatsby-plugin-image';
 import {use} from '../styles/main-use.css';
 import {useStaticQuery, graphql} from 'gatsby';
 import ArticlesGrid from '../components/articles-grid';
-import Layout from '../components/layout';
+import Layout from '../components/Layout/layout';
 import Seo from '../components/seo';
 
 const Spicy = () => {
