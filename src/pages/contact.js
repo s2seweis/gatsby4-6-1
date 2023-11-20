@@ -1,22 +1,13 @@
 import React from 'react';
 import Seo from "../components/seo"
-
 import Layout from '../components/layout';
 
 const contact = () => {
-  // const seo = {
-  //     metaTitle: title,
-  //     metaDescription: title,
-  //   }
-
+ 
   return (
     <Layout>
-
       <section className="contact-page">
-
       <Seo seo={{metaTitle: 'Contact'}} />
-
-
         <div style={{marginTop: '20px'}}>
           <a
             style={{
@@ -29,7 +20,6 @@ const contact = () => {
             <button type="button" className="btn btn-link">Go Back</button>
           </a>
         </div>
-
         <article
           className="contact-form"
           style={{margin: 'auto', marginTop: '100px'}}
@@ -52,13 +42,11 @@ const contact = () => {
                 name="_next"
                 value="https://precious-conkies-b8586b.netlify.app/thankyou"
               />
-
               <input
                 type="hidden"
                 name="_subject"
                 value="Message From My Portfolio!!!"
               />
-
               <input
                 type="email"
                 name="email"
@@ -95,15 +83,12 @@ const contact = () => {
           }}
         >
           <a aria-label="link" className="section" href="/news">News</a>
-
           <div className="divider">/</div>
           <a aria-label="link" className="section" href="/about">About</a>
 
           <div className="divider">/</div>
           <a aria-label="link" className="section " href="/index-all-recipes">Index</a>
-          {/* className="active section " */}
         </div>
-
     </Layout>
   );
 };

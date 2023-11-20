@@ -2,28 +2,12 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import BlocksRenderer from "../components/blocks-renderer"
 import Headings from "../components/headings"
-
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-
 
 const InfoPage = () => {
 
-
-
-//   const { strapiAbout } = useStaticQuery(graphql`
-//     query {
-//       strapiAbout {
-//         title
-//         blocks {
-//           ...Blocks
-//         }
-//       }
-//     }
-//   `)
-
-  const {strapiInfo} = useStaticQuery(graphql`
+  const { strapiInfo } = useStaticQuery(graphql`
   query {
     strapiInfo {
       title
@@ -39,9 +23,6 @@ const InfoPage = () => {
   }
 `)
 
-console.log("line:1", strapiInfo);
-
-
   const { title } = strapiInfo
 
   const seo = {
@@ -50,10 +31,8 @@ console.log("line:1", strapiInfo);
   }
 
   return (
-    
     <Layout >
-
-      <div style={{marginTop: '20px'}}>
+      <div style={{ marginTop: '20px' }}>
         <a
           style={{
             fontSize: '1.3rem',
@@ -65,48 +44,24 @@ console.log("line:1", strapiInfo);
           <button type="button" className="btn btn-link">Go Back</button>
         </a>
       </div>
-
-        <div className="container max-w-4xl py-8">
-
-
-
-      <Seo seo={seo} />
-      <Headings  title={strapiInfo.title} />
-
-
-
-
-      <h4
-      style={{ textAlign:"center" }}
-      >Test1</h4>
-
-
-      <p className="line-clamp-2 mt-2 text-neutral-500"
-      style={{ textAlign:"center" }}
-      >
+      <div className="container max-w-4xl py-8">
+        <Seo seo={seo} />
+        <Headings title={strapiInfo.title} />
+        <h4
+          style={{ textAlign: "center" }}
+        >Test1</h4>
+        <p className="line-clamp-2 mt-2 text-neutral-500"
+          style={{ textAlign: "center" }}
+        >
           {strapiInfo.description}
         </p>
-
-
-      {/* <BlocksRenderer blocks={blocks} /> */}
-
-
-
-
-
-      <GatsbyImage
-      className="infopage-12"
-
-        image={getImage(strapiInfo.image?.localFile)}
-        alt={strapiInfo.image?.alternativeText}
-        style={{ height: "500px", width:"300px", marginLeft:"auto", marginRight:"auto", display:"block", marginTop:"50px" }}
+        <GatsbyImage
+          className="infopage-12"
+          image={getImage(strapiInfo.image?.localFile)}
+          alt={strapiInfo.image?.alternativeText}
+          style={{ height: "500px", width: "300px", marginLeft: "auto", marginRight: "auto", display: "block", marginTop: "50px" }}
         />
-
-
-
-
-        </div>
-
+      </div>
     </Layout>
   )
 }

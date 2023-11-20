@@ -11,11 +11,6 @@ import {
   
 } from "react-icons/fa"
 
-
-
-
-
-
 const data = [
   {
     id: 1,
@@ -32,16 +27,6 @@ const data = [
     icon: <FaTiktok className="social-icon"></FaTiktok>,
     url: "https://www.tiktok.com/",
   },
-  // {
-  //   id: 4,
-  //   icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-  //   url: "https://www.twitter.com",
-  // },
-  // {
-  //   id: 5,
-  //   icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-  //   url: "https://www.twitter.com",
-  // },
 ]
 
 export default data

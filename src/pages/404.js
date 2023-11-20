@@ -1,14 +1,7 @@
 import React from 'react';
-// import Seo from "../components/Seo"
-// import Seo from "../components/seo"
-
 import Layout from '../components/layout';
 
 const contact = () => {
-  // const seo = {
-  //     metaTitle: title,
-  //     metaDescription: title,
-  //   }
 
   return (
     <Layout>
@@ -18,7 +11,6 @@ const contact = () => {
         className="contact-page"
       >
         <article className="contact-form">
-
           <div style={{marginTop: '20px'}}>
             <a
               style={{
@@ -31,9 +23,7 @@ const contact = () => {
               <button type="button" class="btn btn-link">Go Back</button>
             </a>
           </div>
-
           <h3>Thats a dead End!!!</h3>
-
         </article>
       </section>
     </Layout>

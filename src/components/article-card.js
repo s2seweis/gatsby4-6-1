@@ -9,27 +9,15 @@ const ArticleCard = ({ article }) => {
       className="overflow-hidden rounded-lg bg-white shadow-sm transition-shadow hover:shadow-md"
       style={{textDecoration:"none"}}
     >
-
-
-
       <GatsbyImage
         image={getImage(article.cover?.localFile)}
         alt=""
       />
-
-
-
       <div className="px-4 py-4" style={{textDecoration:"none"}}>
         <h3 className="font-bold text-neutral-700" style={{textAlign:"center", textDecoration:"none"}}>{article.title}</h3>
-
-        {/* <h3>Test</h3> */}
-
         <p className="line-clamp-2 mt-2 text-neutral-500" style={{textAlign:"center", textDecoration:"none"}}>
           {article.description}
         </p>
-
-
-
       </div>
     </Link>
   )

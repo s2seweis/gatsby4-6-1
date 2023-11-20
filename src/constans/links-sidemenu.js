@@ -53,11 +53,6 @@ const data = [
       text: "contact",
       url: "/contact/",
     },
-  
-
-
-   
-  
   ]
   
   export default data

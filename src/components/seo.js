@@ -27,14 +27,7 @@ const Seo = ({ seo = {} }) => {
 `)
 
   const { siteName, defaultSeo, favicon } = strapiGlobal
-
-  console.log("line:2", defaultSeo);
-
-  // Merge default and page-specific SEO values
   const fullSeo = { ...defaultSeo, ...seo }
-  console.log("line:3", fullSeo);
-
-  // Add site name to title
   fullSeo.metaTitle = `${fullSeo.metaTitle} | ${siteName}`
 
   const getMetaTags = () => {
@@ -69,10 +62,6 @@ const Seo = ({ seo = {} }) => {
       )
     }
 
-
-    // ###
-
-
     if (fullSeo.keywords) {
       tags.push(
         {
@@ -89,10 +78,6 @@ const Seo = ({ seo = {} }) => {
         }
       )
     }
-
-
-    // ###
-
 
     if (fullSeo.shareImage) {
       const imageUrl = fullSeo.shareImage.localFile.url

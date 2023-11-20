@@ -21,12 +21,6 @@ import Seo from '../components/seo';
 
 const Fiesta = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
-
-
-  
-
-
-
   query {
     allStrapiArticle(filter: {categories: {eq: "fiesta"}}) {
       nodes {
@@ -47,11 +41,8 @@ const Fiesta = () => {
 
   return (
     <Layout>
-
       <Seo seo={seo} />
-
       <header className="menu-landing" style={{}}>
-
         <div style={{marginTop: '20px'}}>
           <a
             style={{
@@ -64,7 +55,6 @@ const Fiesta = () => {
             <button type="button" className="btn btn-link">Go Back</button>
           </a>
         </div>
-
         <h1
           style={{
             textAlign: 'center',
@@ -80,9 +70,7 @@ const Fiesta = () => {
         >
           {' '}Fiesta{' '}
         </h1>
-
         <ArticlesGrid articles={allStrapiArticle.nodes} />
-
         <div
           className="ui breadcrumb"
           style={{
@@ -93,17 +81,12 @@ const Fiesta = () => {
           }}
         >
           <a aria-label="link" className="section" href="/news">News</a>
-
           <div className="divider">/</div>
           <a aria-label="link" className="section" href="/about">About</a>
-
           <div className="divider">/</div>
           <a aria-label="link" className="section " href="/index-all-recipes">Index</a>
-          {/* className="active section " */}
         </div>
-
       </header>
-
     </Layout>
   );
 };
