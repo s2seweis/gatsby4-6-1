@@ -2,6 +2,11 @@
 
 This project is a Gatsby/React website that utilizes Strapi as a CMS (Content Management System). The website is designed to provide a seamless user experience and incorporates various features, including AWS for storing images, a Cookie Banner for privacy compliance, integration with Google AdSense and Analytics, Search Engine Optimization (SEO) optimization, the use of WebP format for images instead of JPG, and ensuring a secure HTTPS connection.
 
+<div align="center">
+<img src="assets/food-blog-1.png" alt="Example Image">
+<img src="assets/food-blog-2.png" alt="Example Image">
+</div>
+
 ## Getting Started
 
 1. **Clone the Repository:**
@@ -90,3 +95,12 @@ If you'd like to contribute to the project, please follow the [contribution guid
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
+
+<div align="center">
+<img src="assets/food-blog-3.png" alt="Example Image">
+<img src="assets/food-blog-4.png" alt="Example Image">
+</div>
+
+<div align="center">
+<img src="assets/food-blog-5.png" alt="Example Image">
+</div>
