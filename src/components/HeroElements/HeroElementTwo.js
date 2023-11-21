@@ -1,6 +1,6 @@
 import React from 'react';
 // import {Link} from 'gatsby';
-import {use} from '../../styles/main-use.css';
+import '../../styles/HeroElementTwo.css';
 import {useStaticQuery, graphql} from 'gatsby';
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 

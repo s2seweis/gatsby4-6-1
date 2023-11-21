@@ -1,6 +1,6 @@
 import React from 'react';
 // import {Link} from 'gatsby';
-import {use} from '../../styles/main-use.css';
+// import {use} from '../../styles/main-use.css';
 import {useStaticQuery, graphql} from 'gatsby';
 import ArticlesGrid from '../articles-grid';
 

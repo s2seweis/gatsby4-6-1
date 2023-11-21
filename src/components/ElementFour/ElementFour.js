@@ -1,7 +1,7 @@
 import React from 'react';
 // import {Link} from 'gatsby';
 import {useStaticQuery, graphql} from 'gatsby';
-import {use} from '../../styles/main-use.css';
+import '../../styles/ElementFour.css';
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 
 const ElementFour = () => {

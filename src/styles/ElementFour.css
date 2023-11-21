@@ -1,0 +1,142 @@
+/* ---
+### ElementFour Content4
+--- */
+
+.content3 {
+height: auto;
+margin-bottom: 20px;
+}
+
+.content3-grid {
+background: antiquewhite;
+grid-template-columns: repeat(12,1fr);
+display: none;
+height: 300px;
+}
+
+@media screen and (min-width: 640px) {
+  .content3-grid{
+    display: grid;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 760px) {
+  .content3-grid{
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .content3-grid{
+    height: 450px;
+  }
+}
+
+.content3-box1 {
+grid-column: 1/span 4;
+background-color: #fafafa;
+margin: 20px 20px 20px 20px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.content3-box1:hover{
+  opacity: 0.8;
+}
+
+.content3-box2 {
+grid-column: 5/span 4;
+background-color: #fafafa;
+margin: 20px 20px 20px 20px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.content3-box2:hover{
+  opacity: 0.8;
+}
+
+.content3-box3 {
+grid-column: 9/span 4;
+background-color: #fafafa;
+margin: 20px 20px 20px 20px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.content3-box3:hover{
+  opacity: 0.8;
+}
+
+/* ### - Test: List */
+.content3-grid-2 {
+background: antiquewhite;
+grid-template-columns: repeat(12,1fr);
+display: grid;
+height: 200px;
+}
+
+.content3-box1-2 {
+grid-column: 4/span 6;
+background-color: blue;
+margin: 20px 20px 20px 20px;
+}
+
+.content3-flex {
+  display: block;
+}
+
+@media screen and (min-width: 640px) {
+  .content3-flex{
+    display: none
+  }
+}
+
+.content3-box1-flex {
+  background-color: #fafafa;
+  margin: 15px 15px 15px 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  }
+
+  .content3-box1-flex:hover{
+    opacity: 0.8;
+    color: darkolivegreen;
+  }
+
+  .content3-box2-flex {
+  background-color: #fafafa;
+  margin: 15px 15px 15px 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  }
+
+  .content3-box2-flex:hover{
+    opacity: 0.8;
+    color: darkolivegreen;
+  }
+
+  .content3-box3-flex {
+  background-color: #fafafa;
+  margin: 15px 15px 15px 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  }
+
+  .content3-box3-flex:hover{
+    opacity: 0.8;
+    color: darkolivegreen;
+  }
+
+  .content3-title:hover{
+    color: darkolivegreen;
+    }

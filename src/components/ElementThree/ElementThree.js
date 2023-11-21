@@ -1,7 +1,8 @@
 import React from 'react';
 // import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from 'gatsby';
-import { use } from '../../styles/main-use.css';
+import '../../styles/ElementThree.css';
+
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 const ElementThree = () => {

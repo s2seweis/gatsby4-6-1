@@ -1,6 +1,6 @@
 import React from 'react';
 // import {Link} from 'gatsby';
-import {use} from '../../styles/main-use.css';
+import '../../styles/HeroElementOne.css';
 
 const HeroElementOne = () => {
   return (

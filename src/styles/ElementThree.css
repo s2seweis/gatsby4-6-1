@@ -1,0 +1,55 @@
+.ui-card:hover{
+    opacity: 0.8;
+    color: darkolivegreen;
+  }
+
+  .social-link {
+    font-size: 1.75rem;
+    color: var(--clr-grey-1);
+    transition: var(--transition);
+  }
+
+  .social-links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    padding-left: 0;
+  }
+
+  .ui-card{
+    font-family: "Lobster Two";
+    margin: 0px 15px 15px 15px;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .ui-card{
+    margin: 0px 10px 0px 10px ;
+    }
+  }
+
+  .header-overview{
+    background: antiquewhite;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .header-overview:hover{
+    }
+
+    .image-overview{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+
+      .container-img{
+        position: relative;
+        width: 100%;
+      }
+      
+      .container-img:hover .image-overview {
+        opacity: 0.8;
+      }

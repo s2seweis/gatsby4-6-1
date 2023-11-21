@@ -4,7 +4,6 @@ import {HiMenuAlt2} from 'react-icons/hi';
 import pageLinks from '../../../constans/links';
 import {Link} from 'gatsby';
 import Sidebar from '../Sidebar/sidebar';
-import '../../../styles/burger.css';
 
 const Navbar1 = ({toggleSidebar}) => {
   return (

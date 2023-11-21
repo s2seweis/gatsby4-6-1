@@ -6,6 +6,7 @@ import Sidebar from './Sidebar/sidebar';
 import CookieConsent from 'react-cookie-consent';
 // import {FaFacebookSquare, FaInstagram, FaYoutube} from 'react-icons/fa';
 import SocialMedia from './SocialMedia/SocialMedia';
+import '../../styles/Layout.css';
 
 const Layout = ({children}) => {
   const scrolled = useRef (null);
