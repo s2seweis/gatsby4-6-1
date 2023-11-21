@@ -5,7 +5,7 @@ import pageLinks from '../../../constans/links';
 import {Link} from 'gatsby';
 import Sidebar from '../Sidebar/sidebar';
 
-const Navbar1 = ({toggleSidebar}) => {
+const Navbar = ({toggleSidebar}) => {
   return (
     <nav style={{position: 'sticky'}} className="navbar">
       <div className="nav-center">
@@ -45,4 +45,4 @@ const Navbar1 = ({toggleSidebar}) => {
   );
 };
 
-export default Navbar1;
+export default Navbar;
