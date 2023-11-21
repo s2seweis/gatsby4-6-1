@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 // import {Link} from 'gatsby';
 import {use} from '../styles/main-use.css';
 import {useStaticQuery, graphql} from 'gatsby';
-import ArticlesGrid from '../components/article-grid-index';
+import ArticlesGrid from '../components/ArticleGridIndex';
 import Layout from '../components/Layout/layout';
-import Seo from '../components/seo';
+import Seo from '../components/Seo';
 
 const AllRecipes = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`

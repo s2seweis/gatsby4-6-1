@@ -1,7 +1,7 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
 import Layout from '../components/Layout/layout';
-import Seo from '../components/seo';
+import Seo from '../components/Seo';
 import HeroElementOne from '../components/HeroElements/HeroElementOne';
 import HeroElementTwo from '../components/HeroElements/HeroElementTwo';
 import ElementFive from '../components/ElementFive/ElementFive';
@@ -10,7 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ElementThree from '../components/ElementThree/ElementThree';
 import ElementFour from '../components/ElementFour/ElementFour';
 import ElementTwo from '../components/ElementTwo/ElementTwo';
-
 import ScrollToTop from "react-scroll-to-top";
 
 const IndexPage = () => {

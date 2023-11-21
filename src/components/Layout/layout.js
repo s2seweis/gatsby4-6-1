@@ -1,10 +1,8 @@
 import React, {useState, useEffect, useRef} from 'react';
 import Footer from './Footer/footer';
-import Navbar from './Navbar/navbar';
-import Navbar1 from './Navbar/navbar-v2';
+import Navbar from './Navbar/Navbar';
 import Sidebar from './Sidebar/sidebar';
 import CookieConsent from 'react-cookie-consent';
-// import {FaFacebookSquare, FaInstagram, FaYoutube} from 'react-icons/fa';
 import SocialMedia from './SocialMedia/SocialMedia';
 import '../../styles/Layout.css';
 
@@ -64,7 +62,7 @@ const Layout = ({children}) => {
           </span>
         </CookieConsent>
         <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-        <Navbar1 toggleSidebar={toggleSidebar} />
+        <Navbar toggleSidebar={toggleSidebar} />
         {children}
       </div>
       <Footer />

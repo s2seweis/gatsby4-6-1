@@ -3,9 +3,9 @@ import {Link} from 'gatsby';
 import {StaticImage} from 'gatsby-plugin-image';
 import {use} from '../styles/main-use.css';
 import {useStaticQuery, graphql} from 'gatsby';
-import ArticlesGrid from '../components/articles-grid';
+import ArticlesGrid from '../components/ArticlesGrid';
 import Layout from '../components/Layout/layout';
-import Seo from '../components/seo';
+import Seo from '../components/Seo';
 
 const Spicy = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`
