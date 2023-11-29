@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import Footer from './Footer/footer';
-import Navbar from './Navbar/Navbar';
+import Navbar from './Navbar/navbar';
 import Sidebar from './Sidebar/sidebar';
 import CookieConsent from 'react-cookie-consent';
 import SocialMedia from './SocialMedia/SocialMedia';
