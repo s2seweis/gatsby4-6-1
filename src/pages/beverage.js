@@ -4,7 +4,7 @@ import {use} from '../styles/main-use.css';
 import {useStaticQuery, graphql} from 'gatsby';
 import ArticlesGrid from '../components/ArticlesGrid';
 import Layout from '../components/Layout/layout';
-import Seo from '../components/Seo';
+import Seo from '../components/seo';
 
 const Beverage = () => {
   const {allStrapiArticle, strapiGlobal} = useStaticQuery (graphql`

@@ -1,7 +1,7 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
 import Layout from '../components/Layout/layout';
-import Seo from '../components/Seo';
+import Seo from '../components/seo';
 import HeroElementOne from '../components/HeroElements/HeroElementOne';
 import HeroElementTwo from '../components/HeroElements/HeroElementTwo';
 import ElementFive from '../components/ElementFive/ElementFive';

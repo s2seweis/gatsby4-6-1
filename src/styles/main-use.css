@@ -113,3 +113,7 @@ height: -webkit-fill-available;
   .flex-social-links{
     margin-top: 20px;
   }
+
+  .flex-container {
+    /* width: 70%; */
+  }
